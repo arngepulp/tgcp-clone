@@ -1,0 +1,34 @@
+{
+  "id": "A1-001",
+  "name": "",
+  "card_type": "Pokemon", 
+  "hp": 0,
+  "types": [],
+  "stage": "Basic",
+  "evolves_from": null,
+  
+  "abilities": [
+    {
+      "name": "",
+      "effect_id": null
+    }
+  ],
+  
+  "attacks": [
+    {
+      "name": "",
+      "cost": [],
+      "damage": "0", 
+      "effect_id": null 
+    }
+  ],
+  
+  "weakness": {
+    "type": "",
+    "value": "+20"
+  },
+  "retreat_cost": 0,
+  
+  "rarity": "",
+  "image_path": ""
+}

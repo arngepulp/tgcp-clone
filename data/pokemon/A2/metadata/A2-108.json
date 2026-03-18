@@ -1,0 +1,32 @@
+{
+  "id": "A2-108",
+  "name": "Toxicroak",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Croagunk",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Group Beatdown",
+      "cost": [
+        "Darkness",
+        "Darkness"
+      ],
+      "damage": "40\u00d7",
+      "effect_id": "Flip a coin for each Pok\u00e9mon you have in play. This attack does 40 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/108/high.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "A2-094",
+  "name": "Hippowdon",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Hippopotas",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Earthen Press",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": 120,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/094/high.png"
+}

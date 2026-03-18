@@ -1,0 +1,31 @@
+{
+  "id": "A2-043",
+  "name": "Lumineon",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Finneon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Waterfall",
+      "cost": [
+        "Water"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/043/high.png"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "A2-145",
+  "name": "Armor Fossil",
+  "card_type": "Trainer",
+  "hp": null,
+  "types": null,
+  "stage": null,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [],
+  "weakness": [],
+  "retreat_cost": null,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/145/high.png"
+}

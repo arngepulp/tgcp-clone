@@ -1,0 +1,32 @@
+{
+  "id": "P-A-035",
+  "name": "Turtwig",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/035/high.png"
+}

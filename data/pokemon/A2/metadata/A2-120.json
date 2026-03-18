@@ -1,0 +1,33 @@
+{
+  "id": "A2-120",
+  "name": "Heatran",
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Steel Tackle",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Metal"
+      ],
+      "damage": 110,
+      "effect_id": "This Pok\u00e9mon also does 20 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/120/high.png"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "A2-194",
+  "name": "Dawn",
+  "card_type": "Trainer",
+  "hp": null,
+  "types": null,
+  "stage": null,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [],
+  "weakness": [],
+  "retreat_cost": null,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/194/high.png"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "P-A-051",
+  "name": "Cyclizar",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Overacceleration",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": 20,
+      "effect_id": "During your next turn, this Pok\u00e9mon's Overacceleration attack does +20 damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/051/high.png"
+}

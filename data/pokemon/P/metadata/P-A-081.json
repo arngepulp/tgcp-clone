@@ -1,0 +1,44 @@
+{
+  "id": "P-A-081",
+  "name": "Ultra Necrozma ex",
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Photon Claw",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60,
+      "effect_id": null
+    },
+    {
+      "name": "Shoegaze",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Metal",
+        "Metal"
+      ],
+      "damage": 120,
+      "effect_id": "Discard the top 5 cards of each player's deck."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Four Diamond",
+  "image_path": "None/high.png"
+}

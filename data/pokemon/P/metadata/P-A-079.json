@@ -1,0 +1,33 @@
+{
+  "id": "P-A-079",
+  "name": "Dusk Mane Necrozma",
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Black Metal",
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 100,
+      "effect_id": "Discard a {M} Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "None/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A1-194",
+  "name": "Wigglytuff",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Jigglypuff",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Hyper Voice",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "60",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/194/high.png"
+}

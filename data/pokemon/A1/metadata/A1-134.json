@@ -1,0 +1,32 @@
+{
+  "id": "A1-134",
+  "name": "Swoobat",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Woobat",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Heart Stamp",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": "60",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/134/high.png"
+}

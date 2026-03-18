@@ -1,0 +1,38 @@
+{
+  "id": "P-A-047",
+  "name": "Staraptor",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 2,
+  "evolves_from": "Staravia",
+  "abilities": [
+    {
+      "name": "Defensive Whirlwind",
+      "effect_id": "This Pok\u00e9mon takes \u221230 damage from attacks from {F} Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wing Attack",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 90,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/047/high.png"
+}

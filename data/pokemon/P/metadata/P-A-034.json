@@ -1,0 +1,31 @@
+{
+  "id": "P-A-034",
+  "name": "Piplup",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Nap",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": null,
+      "effect_id": "Heal 20 damage from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/034/high.png"
+}

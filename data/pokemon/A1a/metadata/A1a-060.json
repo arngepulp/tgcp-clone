@@ -1,0 +1,33 @@
+{
+  "id": "A1a-060",
+  "name": "Tauros",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fighting Tackle",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "40+",
+      "effect_id": "If your opponent\u2019s Active Pok\u00e9mon is a Pok\u00e9mon {ex}, this attack does 80 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/060/high.png"
+}

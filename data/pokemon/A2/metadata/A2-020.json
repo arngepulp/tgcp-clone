@@ -1,0 +1,32 @@
+{
+  "id": "A2-020",
+  "name": "Leafeon",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Leafy Cyclone",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 90,
+      "effect_id": "During your next turn, this Pok\u00e9mon can't attack."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/020/high.png"
+}

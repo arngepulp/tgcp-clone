@@ -1,0 +1,31 @@
+{
+  "id": "P-A-087",
+  "name": "Alcremie",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Milcery",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sweets Overload",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": 40,
+      "effect_id": "This attack does 40 damage for each time your Pok\u00e9mon used Sweets Relay during this game."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "None/high.png"
+}

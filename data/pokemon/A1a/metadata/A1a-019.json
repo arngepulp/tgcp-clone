@@ -1,0 +1,38 @@
+{
+  "id": "A1a-019",
+  "name": "Vaporeon",
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [
+    {
+      "name": "Wash Out",
+      "effect_id": "As often as you like during your turn, you may move a {W} Energy from 1 of your Benched {W} Pok\u00e9mon to your Active {W} Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wave Splash",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/019/high.png"
+}

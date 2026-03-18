@@ -1,0 +1,32 @@
+{
+  "id": "A2-046",
+  "name": "Glaceon",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Ice Beam",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": 60,
+      "effect_id": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/046/high.png"
+}

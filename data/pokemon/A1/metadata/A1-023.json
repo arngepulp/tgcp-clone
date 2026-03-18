@@ -1,0 +1,31 @@
+{
+  "id": "A1-023",
+  "name": "Exeggutor ex",
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Exeggcute",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Tropical Swing",
+      "cost": [
+        "Grass"
+      ],
+      "damage": "40+",
+      "effect_id": "Flip a coin. If heads, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/023/high.png"
+}

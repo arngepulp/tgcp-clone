@@ -1,0 +1,31 @@
+{
+  "id": "A2-008",
+  "name": "Roselia",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sting",
+      "cost": [
+        "Grass"
+      ],
+      "damage": 20,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/008/high.png"
+}

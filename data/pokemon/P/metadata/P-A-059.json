@@ -1,0 +1,32 @@
+{
+  "id": "P-A-059",
+  "name": "Riolu",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Punch",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/059/high.png"
+}

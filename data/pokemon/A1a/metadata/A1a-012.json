@@ -1,0 +1,32 @@
+{
+  "id": "A1a-012",
+  "name": "Magmar",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fire Blast",
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "damage": 80,
+      "effect_id": "Discard 2 {R} Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/012/high.png"
+}

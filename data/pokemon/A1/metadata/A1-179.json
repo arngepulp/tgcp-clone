@@ -1,0 +1,31 @@
+{
+  "id": "A1-179",
+  "name": "Pawniard",
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Pierce",
+      "cost": [
+        "Metal"
+      ],
+      "damage": "30",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/179/high.png"
+}

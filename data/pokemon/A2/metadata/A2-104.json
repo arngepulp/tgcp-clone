@@ -1,0 +1,31 @@
+{
+  "id": "A2-104",
+  "name": "Spiritomb",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Swirling Disaster",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 10 damage to each of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/104/high.png"
+}

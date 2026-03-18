@@ -1,0 +1,31 @@
+{
+  "id": "A1-042",
+  "name": "Ponyta",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Flare",
+      "cost": [
+        "Fire"
+      ],
+      "damage": "20",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/042/high.png"
+}

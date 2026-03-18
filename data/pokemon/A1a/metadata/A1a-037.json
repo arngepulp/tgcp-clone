@@ -1,0 +1,31 @@
+{
+  "id": "A1a-037",
+  "name": "Floette",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Flab\u00e9b\u00e9",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Leaf Drain",
+      "cost": [
+        "Psychic"
+      ],
+      "damage": 40,
+      "effect_id": "Heal 10 damage from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/037/high.png"
+}

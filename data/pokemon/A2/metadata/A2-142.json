@@ -1,0 +1,32 @@
+{
+  "id": "A2-142",
+  "name": "Fan Rotom",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Spin Storm",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": null,
+      "effect_id": "Flip a coin. If heads, put your opponent's Active Pok\u00e9mon into their hand."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/142/high.png"
+}

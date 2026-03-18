@@ -1,0 +1,31 @@
+{
+  "id": "P-A-056",
+  "name": "Ekans",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Poison Sting",
+      "cost": [
+        "Darkness"
+      ],
+      "damage": null,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/056/high.png"
+}

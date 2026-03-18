@@ -1,0 +1,33 @@
+{
+  "id": "A1-083",
+  "name": "Articuno",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Ice Beam",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "damage": "60",
+      "effect_id": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/083/high.png"
+}

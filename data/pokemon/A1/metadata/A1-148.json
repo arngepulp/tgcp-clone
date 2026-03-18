@@ -1,0 +1,33 @@
+{
+  "id": "A1-148",
+  "name": "Graveler",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Geodude",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Rollout",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "70",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/148/high.png"
+}

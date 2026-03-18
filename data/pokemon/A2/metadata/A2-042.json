@@ -1,0 +1,31 @@
+{
+  "id": "A2-042",
+  "name": "Finneon",
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Elegant Swim",
+      "cost": [
+        "Water"
+      ],
+      "damage": 10,
+      "effect_id": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from\u2014and effects of\u2014attacks done to this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/042/high.png"
+}

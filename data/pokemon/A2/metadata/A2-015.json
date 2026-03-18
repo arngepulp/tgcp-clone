@@ -1,0 +1,31 @@
+{
+  "id": "A2-015",
+  "name": "Burmy",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": 10,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/015/high.png"
+}

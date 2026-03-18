@@ -1,0 +1,33 @@
+{
+  "id": "A1-040",
+  "name": "Arcanine",
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Growlithe",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Heat Tackle",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "damage": "100",
+      "effect_id": "This Pok\u00e9mon also does 20 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/040/high.png"
+}

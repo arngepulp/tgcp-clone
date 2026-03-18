@@ -1,0 +1,32 @@
+{
+  "id": "A2-197",
+  "name": "Infernape ex",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Monferno",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Flare Blitz",
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "damage": 140,
+      "effect_id": "Discard all {R} Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/197/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A1a-050",
+  "name": "Weezing",
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Koffing",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Smokescreen",
+      "cost": [
+        "Darkness",
+        "Darkness"
+      ],
+      "damage": 50,
+      "effect_id": "During your opponent's next turn, if the Defending Pok\u00e9mon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/050/high.png"
+}

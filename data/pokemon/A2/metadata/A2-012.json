@@ -1,0 +1,34 @@
+{
+  "id": "A2-012",
+  "name": "Torterra",
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Grotle",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Frenzy Plant",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 150,
+      "effect_id": "During your next turn, this Pok\u00e9mon can't use Frenzy Plant."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/012/high.png"
+}

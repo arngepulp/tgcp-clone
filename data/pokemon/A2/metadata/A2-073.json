@@ -1,0 +1,31 @@
+{
+  "id": "A2-073",
+  "name": "Drifloon",
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Expand",
+      "cost": [
+        "Psychic"
+      ],
+      "damage": 10,
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes \u221220 damage from attacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/073/high.png"
+}

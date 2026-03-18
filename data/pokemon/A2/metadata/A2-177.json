@@ -1,0 +1,32 @@
+{
+  "id": "A2-177",
+  "name": "Bidoof",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Super Fang",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": null,
+      "effect_id": "Halve your opponent's Active Pok\u00e9mon's remaining HP, rounded down."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/177/high.png"
+}

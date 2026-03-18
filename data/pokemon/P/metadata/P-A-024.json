@@ -1,0 +1,31 @@
+{
+  "id": "P-A-024",
+  "name": "Magnemite",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Lightning Ball",
+      "cost": [
+        "Lightning"
+      ],
+      "damage": 20,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/024/high.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "A2-125",
+  "name": "Lickilicky ex",
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Lickitung",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Licking Fury",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "100+",
+      "effect_id": "Flip a coin until you get tails. This attack does 40 more damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/125/high.png"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "A1-125",
+  "name": "Hypno",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Drowzee",
+  "abilities": [
+    {
+      "name": "Sleep Pendulum",
+      "effect_id": "Once during your turn, you may flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Asleep."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Psypunch",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": "50",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/125/high.png"
+}

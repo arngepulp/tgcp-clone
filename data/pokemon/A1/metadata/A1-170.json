@@ -1,0 +1,32 @@
+{
+  "id": "A1-170",
+  "name": "Nidorino",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Nidoran\u2642",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Horn Attack",
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "damage": "40",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/170/high.png"
+}

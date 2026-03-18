@@ -1,0 +1,29 @@
+{
+  "id": "P-A-093",
+  "name": "Cleffa",
+  "card_type": "Pokemon",
+  "hp": 30,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Twinkly Call",
+      "cost": null,
+      "damage": null,
+      "effect_id": "Put a random Pok\u00e9mon from your deck into your hand."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "One Star",
+  "image_path": "None/high.png"
+}

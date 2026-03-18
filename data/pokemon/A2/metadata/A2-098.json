@@ -1,0 +1,31 @@
+{
+  "id": "A2-098",
+  "name": "Sneasel",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Double Scratch",
+      "cost": [
+        "Darkness"
+      ],
+      "damage": "20\u00d7",
+      "effect_id": "Flip 2 coins. This attack does 20 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/098/high.png"
+}

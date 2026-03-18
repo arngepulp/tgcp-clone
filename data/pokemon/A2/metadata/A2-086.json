@@ -1,0 +1,32 @@
+{
+  "id": "A2-086",
+  "name": "Nosepass",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/086/high.png"
+}

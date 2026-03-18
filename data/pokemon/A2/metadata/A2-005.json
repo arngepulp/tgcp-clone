@@ -1,0 +1,34 @@
+{
+  "id": "A2-005",
+  "name": "Tangrowth",
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Tangela",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Mega Drain",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 90,
+      "effect_id": "Heal 30 damage from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/005/high.png"
+}

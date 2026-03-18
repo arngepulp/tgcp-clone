@@ -1,0 +1,15 @@
+{
+  "id": "A1a-065",
+  "name": "Mythical Slab",
+  "card_type": "Trainer",
+  "hp": null,
+  "types": null,
+  "stage": null,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [],
+  "weakness": [],
+  "retreat_cost": null,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/065/high.png"
+}

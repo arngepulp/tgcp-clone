@@ -1,0 +1,32 @@
+{
+  "id": "A1a-021",
+  "name": "Lumineon",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Finneon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Aqua Liner",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 50 damage to 1 of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/021/high.png"
+}

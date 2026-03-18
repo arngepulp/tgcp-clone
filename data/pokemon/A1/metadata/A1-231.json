@@ -1,0 +1,31 @@
+{
+  "id": "A1-231",
+  "name": "Rapidash",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Ponyta",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fire Mane",
+      "cost": [
+        "Fire"
+      ],
+      "damage": "40",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/231/high.png"
+}

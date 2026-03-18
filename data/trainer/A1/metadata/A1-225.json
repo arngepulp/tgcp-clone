@@ -1,0 +1,15 @@
+{
+  "id": "A1-225",
+  "name": "Sabrina",
+  "card_type": "Trainer",
+  "hp": null,
+  "types": null,
+  "stage": null,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [],
+  "weakness": [],
+  "retreat_cost": null,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/225/high.png"
+}

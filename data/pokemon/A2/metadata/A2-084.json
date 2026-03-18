@@ -1,0 +1,31 @@
+{
+  "id": "A2-084",
+  "name": "Gliscor",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Gligar",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Acrobatics",
+      "cost": [
+        "Fighting"
+      ],
+      "damage": "20+",
+      "effect_id": "Flip 2 coins. This attack does 20 more damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/084/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A2-060",
+  "name": "Luxray",
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 2,
+  "evolves_from": "Luxio",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Volt Bolt",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": null,
+      "effect_id": "Discard all {L} Energy from this Pok\u00e9mon. This attack does 120 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/060/high.png"
+}

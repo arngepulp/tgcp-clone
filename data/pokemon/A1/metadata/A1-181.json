@@ -1,0 +1,31 @@
+{
+  "id": "A1-181",
+  "name": "Meltan",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Amass",
+      "cost": [
+        "Metal"
+      ],
+      "damage": null,
+      "effect_id": "Take 1 {M} Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/181/high.png"
+}

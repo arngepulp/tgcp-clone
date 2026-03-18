@@ -1,0 +1,31 @@
+{
+  "id": "A1a-025",
+  "name": "Pikachu",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Circle Circuit",
+      "cost": [
+        "Lightning"
+      ],
+      "damage": "10\u00d7",
+      "effect_id": "This attack does 10 damage for each of your Benched {L} Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/025/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A1-215",
+  "name": "Dubwool",
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Wooloo",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Rolling Tackle",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "80",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/215/high.png"
+}

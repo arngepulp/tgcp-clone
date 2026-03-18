@@ -1,0 +1,36 @@
+{
+  "id": "A1-249",
+  "name": "Porygon",
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Data Scan",
+      "effect_id": "Once during your turn, you may look at the top card of your deck."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sharpen",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": "20",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/249/high.png"
+}

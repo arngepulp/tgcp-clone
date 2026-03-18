@@ -1,0 +1,31 @@
+{
+  "id": "A1-143",
+  "name": "Machop",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Knuckle Punch",
+      "cost": [
+        "Fighting"
+      ],
+      "damage": "20",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/143/high.png"
+}

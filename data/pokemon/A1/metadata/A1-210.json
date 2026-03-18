@@ -1,0 +1,32 @@
+{
+  "id": "A1-210",
+  "name": "Aerodactyl",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Old Amber",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Primal Wingbeat",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": null,
+      "effect_id": "Flip a coin. If heads, your opponent shuffles their Active Pok\u00e9mon into their deck."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/210/high.png"
+}

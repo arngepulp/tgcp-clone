@@ -1,0 +1,32 @@
+{
+  "id": "A1-050",
+  "name": "Salazzle",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Salandit",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fire Claws",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "damage": "60",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/050/high.png"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "A1-174",
+  "name": "Grimer",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Poison Gas",
+      "cost": [
+        "Darkness"
+      ],
+      "damage": "10",
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/174/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A1a-011",
+  "name": "Rapidash",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Ponyta",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Rising Lunge",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "damage": "40+",
+      "effect_id": "Flip a coin. If heads, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/011/high.png"
+}

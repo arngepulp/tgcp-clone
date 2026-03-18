@@ -1,0 +1,31 @@
+{
+  "id": "A2-023",
+  "name": "Magmar",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Stoke",
+      "cost": [
+        "Fire"
+      ],
+      "damage": null,
+      "effect_id": "Take a {R} Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/023/high.png"
+}

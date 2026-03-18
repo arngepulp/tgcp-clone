@@ -1,0 +1,31 @@
+{
+  "id": "A2-137",
+  "name": "Buneary",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Splash",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": 10,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/137/high.png"
+}

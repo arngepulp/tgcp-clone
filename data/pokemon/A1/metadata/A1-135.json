@@ -1,0 +1,33 @@
+{
+  "id": "A1-135",
+  "name": "Golett",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Mega Punch",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "50",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/135/high.png"
+}

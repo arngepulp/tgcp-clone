@@ -1,0 +1,32 @@
+{
+  "id": "A2-184",
+  "name": "Mismagius ex",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Misdreavus",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Magical Delusion",
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "damage": 70,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Confused."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/184/high.png"
+}

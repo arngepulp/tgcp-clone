@@ -1,0 +1,32 @@
+{
+  "id": "A1-111",
+  "name": "Heliolisk",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Helioptile",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Quick Attack",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "40+",
+      "effect_id": "Flip a coin. If heads, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/111/high.png"
+}

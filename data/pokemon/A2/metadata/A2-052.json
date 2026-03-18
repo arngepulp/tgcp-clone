@@ -1,0 +1,32 @@
+{
+  "id": "A2-052",
+  "name": "Magneton",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Magnemite",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Lightning Ball",
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/052/high.png"
+}

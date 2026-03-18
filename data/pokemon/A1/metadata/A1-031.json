@@ -1,0 +1,31 @@
+{
+  "id": "A1-031",
+  "name": "Skiddo",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Surprise Attack",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": "40",
+      "effect_id": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/031/high.png"
+}

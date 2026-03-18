@@ -1,0 +1,1 @@
+PTS_TO_WIN = 3

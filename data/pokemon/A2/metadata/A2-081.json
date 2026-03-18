@@ -1,0 +1,33 @@
+{
+  "id": "A2-081",
+  "name": "Rhydon",
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Rhyhorn",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Wrack Down",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/081/high.png"
+}

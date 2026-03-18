@@ -1,0 +1,34 @@
+{
+  "id": "A2-082",
+  "name": "Rhyperior",
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Rhydon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Mountain Swing",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": 150,
+      "effect_id": "Discard the top 3 cards of your deck."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/082/high.png"
+}

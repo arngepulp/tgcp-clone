@@ -1,0 +1,33 @@
+{
+  "id": "A2-140",
+  "name": "Purugly",
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Glameow",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Interrupt",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 60,
+      "effect_id": "Your opponent reveals their hand. Choose a card you find there and shuffle it into your opponent's deck."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/140/high.png"
+}

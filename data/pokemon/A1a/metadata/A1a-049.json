@@ -1,0 +1,31 @@
+{
+  "id": "A1a-049",
+  "name": "Koffing",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Division",
+      "cost": [
+        "Darkness"
+      ],
+      "damage": null,
+      "effect_id": "Put 1 random Koffing from your deck onto your Bench."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/049/high.png"
+}

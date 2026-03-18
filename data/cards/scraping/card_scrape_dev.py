@@ -7,7 +7,7 @@ sys.path.append('../../../')
 
 from consts import STAGE_IDS
 
-
+# run with python -m data.cards.scraping.card_scrape_dev
 async def get_one_pokemon(card_id):
     sdk = TCGdex("en") # initializes in english
     

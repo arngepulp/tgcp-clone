@@ -1,0 +1,32 @@
+{
+  "id": "A2-018",
+  "name": "Vespiquen",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Combee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Pierce",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/018/high.png"
+}

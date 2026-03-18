@@ -1,0 +1,34 @@
+{
+  "id": "A1-136",
+  "name": "Golurk",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Golett",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Double Lariat",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "100\u00d7",
+      "effect_id": "Flip 2 coins. This attack does 100 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/136/high.png"
+}

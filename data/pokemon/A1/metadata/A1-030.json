@@ -1,0 +1,32 @@
+{
+  "id": "A1-030",
+  "name": "Lilligant",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Petilil",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Leaf Supply",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": "50",
+      "effect_id": "Take a {G} Energy from your Energy Zone and attach it to 1 of your Benched {G} Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/030/high.png"
+}

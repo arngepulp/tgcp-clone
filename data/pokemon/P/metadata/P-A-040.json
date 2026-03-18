@@ -1,0 +1,31 @@
+{
+  "id": "P-A-040",
+  "name": "Chimchar",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Scratch",
+      "cost": [
+        "Fire"
+      ],
+      "damage": 20,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/040/high.png"
+}

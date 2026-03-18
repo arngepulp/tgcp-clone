@@ -1,0 +1,31 @@
+{
+  "id": "A1-140",
+  "name": "Dugtrio",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Diglett",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Dig",
+      "cost": [
+        "Fighting"
+      ],
+      "damage": "40",
+      "effect_id": "Flip a coin. If heads, during your opponent\u2019s next turn, prevent all damage from\u2014and effects of\u2014attacks done to this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/140/high.png"
+}

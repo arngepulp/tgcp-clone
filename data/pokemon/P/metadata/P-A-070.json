@@ -1,0 +1,33 @@
+{
+  "id": "P-A-070",
+  "name": "Alolan Ninetales",
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Alolan Vulpix",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Blizzard",
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "damage": 60,
+      "effect_id": "This attack also does 20 damage to each of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/070/high.png"
+}

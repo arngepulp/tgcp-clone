@@ -1,0 +1,31 @@
+{
+  "id": "A1-205",
+  "name": "Ditto",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Copy Anything",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": null,
+      "effect_id": "Choose 1 of your opponent\u2019s Pok\u00e9mon\u2019s attacks and use it as this attack. If this Pok\u00e9mon doesn\u2019t have the necessary Energy to use that attack, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/205/high.png"
+}

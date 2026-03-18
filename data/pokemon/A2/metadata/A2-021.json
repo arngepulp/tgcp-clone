@@ -1,0 +1,32 @@
+{
+  "id": "A2-021",
+  "name": "Mow Rotom",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Energy Cutoff",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 30,
+      "effect_id": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/021/high.png"
+}

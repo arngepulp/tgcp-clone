@@ -1,0 +1,32 @@
+{
+  "id": "A2-103",
+  "name": "Skuntank",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Stunky",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Poison Gas",
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "damage": 50,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/103/high.png"
+}

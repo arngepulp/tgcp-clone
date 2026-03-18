@@ -1,0 +1,31 @@
+{
+  "id": "A1-114",
+  "name": "Clefable",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Clefairy",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Magical Shot",
+      "cost": [
+        "Psychic"
+      ],
+      "damage": "40",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/114/high.png"
+}

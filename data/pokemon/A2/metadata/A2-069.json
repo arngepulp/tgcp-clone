@@ -1,0 +1,31 @@
+{
+  "id": "A2-069",
+  "name": "Kirlia",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Ralts",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slap",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": 20,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/069/high.png"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "A2-022",
+  "name": "Shaymin",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Fragrant Flower Garden",
+      "effect_id": "Once during your turn, you may heal 10 damage from each of your Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Flop",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/022/high.png"
+}

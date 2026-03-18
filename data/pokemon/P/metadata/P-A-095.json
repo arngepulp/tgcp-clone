@@ -1,0 +1,31 @@
+{
+  "id": "P-A-095",
+  "name": "Chinchou",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Luring Glow",
+      "cost": [
+        "Lightning"
+      ],
+      "damage": null,
+      "effect_id": "Flip a coin. If heads, switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "None/high.png"
+}

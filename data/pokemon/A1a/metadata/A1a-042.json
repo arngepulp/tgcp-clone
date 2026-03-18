@@ -1,0 +1,31 @@
+{
+  "id": "A1a-042",
+  "name": "Primeape",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Mankey",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Punch",
+      "cost": [
+        "Fighting"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/042/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A1-026",
+  "name": "Pinsir",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Double Horn",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "damage": "50\u00d7",
+      "effect_id": "Flip 2 coins. This attack does 50 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/026/high.png"
+}

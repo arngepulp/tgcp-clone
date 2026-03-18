@@ -1,0 +1,31 @@
+{
+  "id": "A1-238",
+  "name": "Diglett",
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Mud-Slap",
+      "cost": [
+        "Fighting"
+      ],
+      "damage": "20",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/238/high.png"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "A1-098",
+  "name": "Magneton",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Magnemite",
+  "abilities": [
+    {
+      "name": "Volt Charge",
+      "effect_id": "Once during your turn, you may take a {L} Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Spinning Attack",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "60",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/098/high.png"
+}

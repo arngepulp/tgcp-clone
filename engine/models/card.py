@@ -12,6 +12,21 @@ class Card:
         with open(filepath) as f:
             data = json.load(f)
         return cls(data)
+    
+def load_card(card_id):
+    parts = card_id.split("-")
+    set_id = parts[0]
+    filepath = f"data/cards/pokemon/{set_id}/metadata/{card_id}.json"
+    
+    with open(filepath) as f:
+        data = json.load(f)
+    
+    if data["card_type"] == "Pokemon":
+        return PokemonCard(data)
+    elif data["card_type"] == "Trainer":
+        return TrainerCard(data)
+    else:
+        return Card(data)    
 
 
 class PokemonCard(Card):

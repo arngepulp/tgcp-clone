@@ -1,0 +1,32 @@
+{
+  "id": "A1-064",
+  "name": "Seel",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Headbutt",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "30",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/064/high.png"
+}

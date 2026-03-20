@@ -1,0 +1,31 @@
+{
+  "id": "P-A-033",
+  "name": "Squirtle",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Water Gun",
+      "cost": [
+        "Water"
+      ],
+      "damage": 20,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/033/high.png"
+}

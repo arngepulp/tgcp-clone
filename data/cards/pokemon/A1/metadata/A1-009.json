@@ -1,0 +1,31 @@
+{
+  "id": "A1-009",
+  "name": "Kakuna",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Weedle",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Bug Bite",
+      "cost": [
+        "Grass"
+      ],
+      "damage": "30",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/009/high.png"
+}

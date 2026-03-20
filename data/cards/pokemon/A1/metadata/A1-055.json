@@ -1,0 +1,32 @@
+{
+  "id": "A1-055",
+  "name": "Blastoise",
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Water"
+  ],
+  "stage": 2,
+  "evolves_from": "Wartortle",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Hydro Pump",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": "80+",
+      "effect_id": "If this Pok\u00e9mon has at least 2 extra {W} Energy attached, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/055/high.png"
+}

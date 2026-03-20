@@ -1,0 +1,31 @@
+{
+  "id": "A1-025",
+  "name": "Scyther",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sharp Scythe",
+      "cost": [
+        "Grass"
+      ],
+      "damage": "30",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/025/high.png"
+}

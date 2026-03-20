@@ -1,3 +1,4 @@
+# card_scrape.py
 import asyncio
 import json
 import os
@@ -5,7 +6,7 @@ import sys
 from tcgdexsdk import TCGdex
 
 # run with python -m data.cards.scraping.card_scrape
-sys.path.append('../../../')  
+#sys.path.append('../../../')  
 from consts import STAGE_IDS
 
 async def fetch_and_save_all_tcgp():
@@ -33,7 +34,7 @@ async def fetch_and_save_all_tcgp():
                 card_data, collection_id, card_type = await get_one_pokemon_details(sdk, card_id)
                 
                 
-                folder = f"data/{card_type}/{collection_id}/metadata"
+                folder = f"data/cards/{card_type}/{collection_id}/metadata"
                 os.makedirs(folder, exist_ok=True)
                 
                 fname = f"{folder}/{card_id}.json"

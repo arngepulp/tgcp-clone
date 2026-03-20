@@ -1,0 +1,37 @@
+{
+  "id": "P-A-044",
+  "name": "Raichu",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Pikachu",
+  "abilities": [
+    {
+      "name": "Resilience Link",
+      "effect_id": "If you have Arceus or Arceus ex in play, this Pok\u00e9mon takes \u221230 damage from attacks."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Spark",
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": 40,
+      "effect_id": "This attack also does 20 damage to 1 of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/044/high.png"
+}

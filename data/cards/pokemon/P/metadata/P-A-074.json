@@ -1,0 +1,37 @@
+{
+  "id": "P-A-074",
+  "name": "Zeraora",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Thunderclap Flash",
+      "effect_id": "At the end of your first turn, take a {L} Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Lightning Claw",
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "None/high.png"
+}

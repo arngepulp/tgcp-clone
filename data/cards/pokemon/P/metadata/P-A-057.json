@@ -1,0 +1,32 @@
+{
+  "id": "P-A-057",
+  "name": "Bidoof",
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Headbutt",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/057/high.png"
+}

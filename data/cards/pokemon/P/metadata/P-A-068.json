@@ -1,0 +1,33 @@
+{
+  "id": "P-A-068",
+  "name": "Lycanroc",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Rockruff",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Crunch",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "damage": 80,
+      "effect_id": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/068/high.png"
+}

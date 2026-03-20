@@ -1,0 +1,33 @@
+{
+  "id": "A1-046",
+  "name": "Moltres",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sky Attack",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "130",
+      "effect_id": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/046/high.png"
+}

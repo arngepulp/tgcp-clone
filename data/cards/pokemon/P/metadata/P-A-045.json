@@ -1,0 +1,32 @@
+{
+  "id": "P-A-045",
+  "name": "Nosepass",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Iron Defense",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": null,
+      "effect_id": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/045/high.png"
+}

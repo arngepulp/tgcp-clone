@@ -1,0 +1,32 @@
+{
+  "id": "P-A-089",
+  "name": "Audino",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Drain Slap",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": 40,
+      "effect_id": "Heal 10 damage from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "None/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "P-A-076",
+  "name": "Blacephalon",
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Beat Punk",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "damage": 130,
+      "effect_id": "This Pok\u00e9mon also does 70 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "None",
+  "image_path": "None/high.png"
+}

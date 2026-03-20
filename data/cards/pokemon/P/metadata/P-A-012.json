@@ -1,0 +1,31 @@
+{
+  "id": "P-A-012",
+  "name": "Meowth",
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Pay Day",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": 10,
+      "effect_id": "Draw a card."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "None",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/P-A/012/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A1-063",
+  "name": "Tentacruel",
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Tentacool",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Poison Tentacles",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": "50",
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/063/high.png"
+}

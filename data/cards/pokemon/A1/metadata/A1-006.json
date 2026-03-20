@@ -1,0 +1,32 @@
+{
+  "id": "A1-006",
+  "name": "Metapod",
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Caterpie",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Bug Bite",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "30",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/006/high.png"
+}

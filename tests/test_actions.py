@@ -1,7 +1,7 @@
 # tests/test_actions.py
 from engine.models.player import Player
 from engine.game.board_state import Gamestate
-from engine.game.actions import play_pokemon, attach_energy, attack, end_turn
+from engine.game.actions import play_pokemon, attach_energy, attack, end_turn, retreat
 from engine.models.card import load_card
 from engine.models.pokemon import PokemonInstance
 
@@ -52,3 +52,25 @@ def test_end_turn_swaps_player():
     p1 = game.current_player
     end_turn(game)
     assert game.current_player != p1
+    
+def test_retreat():
+    game = setup_game()
+    
+    # manually place pokemon
+    active = PokemonInstance(load_card("A1-001"))    # bulbasaur
+    benched = PokemonInstance(load_card("A1-042"))   # ponyta
+    
+    game.current_player.active = active
+    game.current_player.bench[0] = benched
+    
+    # give enough energy to retreat (bulbasaur retreat cost is 1)
+    active.attached_energy = ["{C}"]
+    
+    retreat(game, 1)
+    
+    # ponyta should now be active
+    assert game.current_player.active.name == "Ponyta"
+    # bulbasaur should now be on bench
+    assert game.current_player.bench[0].name == "Bulbasaur"
+    # energy should be discarded
+    assert len(game.current_player.active.attached_energy) == 0

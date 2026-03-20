@@ -93,8 +93,23 @@ def use_trainer():
 def use_tool():
     pass
 
-def retreat():
-    pass
+def retreat(state, replacement_index):
+    active = state.current_player.active
+    replacement = state.current_player.bench[replacement_index - 1]
+    
+    if replacement is None:
+        print("No pokemon in that bench spot!")
+        return
+    
+    if len(active.attached_energy) < active.retreat_cost:
+        print(f"Not enough energy to retreat! Need {active.retreat_cost}, have {len(active.attached_energy)}")
+        return
+    
+    for _ in range(active.retreat_cost):
+        active.attached_energy.pop()
+    
+    state.current_player.active = replacement
+    state.current_player.bench[replacement_index - 1] = active
 
 
 

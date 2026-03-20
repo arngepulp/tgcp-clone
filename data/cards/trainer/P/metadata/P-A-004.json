@@ -1,6 +1,7 @@
 {
   "id": "P-A-004",
   "name": "Pok\u00e9dex",
+  "suffix": null,
   "card_type": "Trainer",
   "hp": null,
   "types": null,

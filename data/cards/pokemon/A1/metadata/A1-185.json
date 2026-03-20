@@ -1,0 +1,30 @@
+{
+  "id": "A1-185",
+  "name": "Dragonite",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 2,
+  "evolves_from": "Dragonair",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Draco Meteor",
+      "cost": [
+        "Water",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": null,
+      "effect_id": "1 of your opponent's Pok\u00e9mon is chosen at random 4 times. For each time a Pok\u00e9mon was chosen, do 50 damage to it."
+    }
+  ],
+  "weakness": [],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/185/high.png"
+}

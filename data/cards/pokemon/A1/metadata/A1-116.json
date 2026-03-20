@@ -1,0 +1,34 @@
+{
+  "id": "A1-116",
+  "name": "Kadabra",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Abra",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Super Psy Bolt",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "60",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/116/high.png"
+}

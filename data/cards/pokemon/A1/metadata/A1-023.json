@@ -1,6 +1,7 @@
 {
   "id": "A1-023",
   "name": "Exeggutor ex",
+  "suffix": "EX",
   "card_type": "Pokemon",
   "hp": 160,
   "types": [

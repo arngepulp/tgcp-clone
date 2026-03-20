@@ -1,6 +1,7 @@
 {
   "id": "P-A-043",
   "name": "Cherrim",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 80,
   "types": [

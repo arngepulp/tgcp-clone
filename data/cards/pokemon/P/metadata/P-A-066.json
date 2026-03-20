@@ -1,6 +1,7 @@
 {
   "id": "P-A-066",
   "name": "Mimikyu",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 70,
   "types": [

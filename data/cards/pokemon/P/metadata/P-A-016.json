@@ -1,6 +1,7 @@
 {
   "id": "P-A-016",
   "name": "Clefairy",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 60,
   "types": [

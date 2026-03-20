@@ -1,0 +1,32 @@
+{
+  "id": "A1-242",
+  "name": "Golbat",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Zubat",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Wing Attack",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": "40",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/242/high.png"
+}

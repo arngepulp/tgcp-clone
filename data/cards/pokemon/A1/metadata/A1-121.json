@@ -1,0 +1,32 @@
+{
+  "id": "A1-121",
+  "name": "Haunter",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Gastly",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Will-O-Wisp",
+      "cost": [
+        "Psychic"
+      ],
+      "damage": "30",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/121/high.png"
+}

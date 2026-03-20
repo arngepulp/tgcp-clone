@@ -1,6 +1,7 @@
 {
   "id": "A1-018",
   "name": "Bellsprout",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 60,
   "types": [

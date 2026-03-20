@@ -1,6 +1,7 @@
 {
   "id": "A1-001",
   "name": "Bulbasaur",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 70,
   "types": [

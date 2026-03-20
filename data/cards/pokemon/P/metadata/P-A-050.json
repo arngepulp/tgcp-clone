@@ -1,6 +1,7 @@
 {
   "id": "P-A-050",
   "name": "Mewtwo ex",
+  "suffix": "EX",
   "card_type": "Pokemon",
   "hp": 150,
   "types": [

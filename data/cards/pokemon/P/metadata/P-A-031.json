@@ -1,6 +1,7 @@
 {
   "id": "P-A-031",
   "name": "Cinccino",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 90,
   "types": [

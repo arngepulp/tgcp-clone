@@ -1,0 +1,34 @@
+{
+  "id": "A1-109",
+  "name": "Eelektross",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 2,
+  "evolves_from": "Eelektrik",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Thunder Fang",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": "80",
+      "effect_id": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/109/high.png"
+}

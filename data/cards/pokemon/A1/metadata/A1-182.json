@@ -1,0 +1,40 @@
+{
+  "id": "A1-182",
+  "name": "Melmetal",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Meltan",
+  "abilities": [
+    {
+      "name": "Hard Coat",
+      "effect_id": "This Pok\u00e9mon takes -20 damage from attacks."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Heavy Impact",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "damage": "120",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/182/high.png"
+}

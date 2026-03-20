@@ -1,0 +1,34 @@
+{
+  "id": "A1-145",
+  "name": "Machamp",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Machoke",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Seismic Toss",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "damage": "100",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/145/high.png"
+}

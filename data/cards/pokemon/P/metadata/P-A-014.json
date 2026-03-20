@@ -1,6 +1,7 @@
 {
   "id": "P-A-014",
   "name": "Lapras ex",
+  "suffix": "EX",
   "card_type": "Pokemon",
   "hp": 140,
   "types": [

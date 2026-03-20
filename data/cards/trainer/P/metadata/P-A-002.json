@@ -1,6 +1,7 @@
 {
   "id": "P-A-002",
   "name": "X Speed",
+  "suffix": null,
   "card_type": "Trainer",
   "hp": null,
   "types": null,

@@ -1,6 +1,7 @@
 {
   "id": "P-A-017",
   "name": "Mankey",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 50,
   "types": [

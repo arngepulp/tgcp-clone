@@ -1,6 +1,7 @@
 {
   "id": "P-A-001",
   "name": "Potion",
+  "suffix": null,
   "card_type": "Trainer",
   "hp": null,
   "types": null,

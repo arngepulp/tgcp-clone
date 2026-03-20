@@ -1,6 +1,7 @@
 {
   "id": "P-A-082",
   "name": "Poipole",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 60,
   "types": [

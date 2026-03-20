@@ -1,0 +1,38 @@
+{
+  "id": "A1-089",
+  "name": "Greninja",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Water"
+  ],
+  "stage": 2,
+  "evolves_from": "Frogadier",
+  "abilities": [
+    {
+      "name": "Water Shuriken",
+      "effect_id": "Once during your turn, you may do 20 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mist Slash",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": "60",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/089/high.png"
+}

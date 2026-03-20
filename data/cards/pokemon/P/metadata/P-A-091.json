@@ -1,6 +1,7 @@
 {
   "id": "P-A-091",
   "name": "Greedent",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 120,
   "types": [

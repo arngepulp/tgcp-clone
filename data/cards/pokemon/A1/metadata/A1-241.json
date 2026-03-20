@@ -1,0 +1,34 @@
+{
+  "id": "A1-241",
+  "name": "Nidoking",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 2,
+  "evolves_from": "Nidorino",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Poison Horn",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "damage": "90",
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/241/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A1-106",
+  "name": "Zebstrika",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Blitzle",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Thunder Spear",
+      "cost": [
+        "Lightning"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/106/high.png"
+}

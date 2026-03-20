@@ -1,0 +1,29 @@
+{
+  "id": "A1-184",
+  "name": "Dragonair",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 1,
+  "evolves_from": "Dratini",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Tail Smack",
+      "cost": [
+        "Water",
+        "Lightning",
+        "Colorless"
+      ],
+      "damage": "80",
+      "effect_id": null
+    }
+  ],
+  "weakness": [],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/184/high.png"
+}

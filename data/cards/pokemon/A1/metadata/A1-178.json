@@ -1,0 +1,32 @@
+{
+  "id": "A1-178",
+  "name": "Mawile",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Crunch",
+      "cost": [
+        "Metal"
+      ],
+      "damage": "20",
+      "effect_id": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/178/high.png"
+}

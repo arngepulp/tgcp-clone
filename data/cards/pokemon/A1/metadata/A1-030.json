@@ -1,6 +1,7 @@
 {
   "id": "A1-030",
   "name": "Lilligant",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 100,
   "types": [

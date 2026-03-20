@@ -1,0 +1,32 @@
+{
+  "id": "A1-159",
+  "name": "Kabutops",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Kabuto",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Leech Life",
+      "cost": [
+        "Fighting"
+      ],
+      "damage": "50",
+      "effect_id": "Heal from this Pok\u00e9mon the same amount of damage you did to your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/159/high.png"
+}

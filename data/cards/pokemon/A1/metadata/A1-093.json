@@ -1,0 +1,33 @@
+{
+  "id": "A1-093",
+  "name": "Frosmoth",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Snom",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Powder Snow",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "damage": "40",
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Asleep."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/093/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A1-085",
+  "name": "Ducklett",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Flap",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "30",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/085/high.png"
+}

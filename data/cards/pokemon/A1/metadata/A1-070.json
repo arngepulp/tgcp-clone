@@ -1,6 +1,7 @@
 {
   "id": "A1-070",
   "name": "Horsea",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 60,
   "types": [

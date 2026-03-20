@@ -1,6 +1,7 @@
 {
   "id": "A1-009",
   "name": "Kakuna",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 80,
   "types": [

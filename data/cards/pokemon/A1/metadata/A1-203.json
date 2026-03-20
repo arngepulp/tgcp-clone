@@ -1,0 +1,32 @@
+{
+  "id": "A1-203",
+  "name": "Kangaskhan",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Dizzy Punch",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": "30\u00d7",
+      "effect_id": "Flip 2 coins. This attack does 30 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/203/high.png"
+}

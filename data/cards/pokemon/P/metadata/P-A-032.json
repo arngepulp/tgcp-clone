@@ -1,6 +1,7 @@
 {
   "id": "P-A-032",
   "name": "Charmander",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 60,
   "types": [

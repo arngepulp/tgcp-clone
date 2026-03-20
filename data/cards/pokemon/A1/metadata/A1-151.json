@@ -1,0 +1,32 @@
+{
+  "id": "A1-151",
+  "name": "Cubone",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Growl",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": null,
+      "effect_id": "During your opponent\u2019s next turn, attacks used by the Defending Pok\u00e9mon do \u221220 damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/151/high.png"
+}

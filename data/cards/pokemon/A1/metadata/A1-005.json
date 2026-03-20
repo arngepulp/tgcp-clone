@@ -1,6 +1,7 @@
 {
   "id": "A1-005",
   "name": "Caterpie",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 50,
   "types": [

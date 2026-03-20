@@ -1,6 +1,7 @@
 {
   "id": "A1-044",
   "name": "Magmar",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 80,
   "types": [

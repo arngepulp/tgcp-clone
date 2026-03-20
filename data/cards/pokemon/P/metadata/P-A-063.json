@@ -1,6 +1,7 @@
 {
   "id": "P-A-063",
   "name": "Rayquaza",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 100,
   "types": [

@@ -1,6 +1,7 @@
 {
   "id": "A1-074",
   "name": "Staryu",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 50,
   "types": [

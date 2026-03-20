@@ -1,0 +1,32 @@
+{
+  "id": "A1-108",
+  "name": "Eelektrik",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Tynamo",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Head Bolt",
+      "cost": [
+        "Lightning"
+      ],
+      "damage": "40",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/108/high.png"
+}

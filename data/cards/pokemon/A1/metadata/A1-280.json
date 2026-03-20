@@ -1,0 +1,45 @@
+{
+  "id": "A1-280",
+  "name": "Charizard ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 180,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Charmeleon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "60",
+      "effect_id": null
+    },
+    {
+      "name": "Crimson Storm",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "200",
+      "effect_id": "Discard 2 {R} Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/280/high.png"
+}

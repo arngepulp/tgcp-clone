@@ -1,6 +1,7 @@
 {
   "id": "A1-004",
   "name": "Venusaur ex",
+  "suffix": "EX",
   "card_type": "Pokemon",
   "hp": 190,
   "types": [

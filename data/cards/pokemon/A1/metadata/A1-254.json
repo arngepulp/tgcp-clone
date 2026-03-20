@@ -1,0 +1,34 @@
+{
+  "id": "A1-254",
+  "name": "Arcanine ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Growlithe",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Inferno Onrush",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "damage": "120",
+      "effect_id": "This Pok\u00e9mon also does 20 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/254/high.png"
+}

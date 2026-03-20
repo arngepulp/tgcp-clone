@@ -1,6 +1,7 @@
 {
   "id": "P-A-045",
   "name": "Nosepass",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 60,
   "types": [

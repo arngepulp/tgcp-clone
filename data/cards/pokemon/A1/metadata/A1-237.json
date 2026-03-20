@@ -1,0 +1,33 @@
+{
+  "id": "A1-237",
+  "name": "Slowpoke",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Tail Whap",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": "30",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/237/high.png"
+}

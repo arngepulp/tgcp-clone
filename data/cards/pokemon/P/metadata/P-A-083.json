@@ -1,6 +1,7 @@
 {
   "id": "P-A-083",
   "name": "Stufful",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 70,
   "types": [

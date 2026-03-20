@@ -1,6 +1,7 @@
 {
   "id": "P-A-089",
   "name": "Audino",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 100,
   "types": [

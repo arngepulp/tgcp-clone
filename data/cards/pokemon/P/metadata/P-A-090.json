@@ -1,6 +1,7 @@
 {
   "id": "P-A-090",
   "name": "Togedemaru",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 80,
   "types": [

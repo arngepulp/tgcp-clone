@@ -1,6 +1,7 @@
 {
   "id": "A1-057",
   "name": "Psyduck",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 60,
   "types": [

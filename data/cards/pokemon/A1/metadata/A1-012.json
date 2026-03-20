@@ -1,6 +1,7 @@
 {
   "id": "A1-012",
   "name": "Gloom",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 80,
   "types": [

@@ -1,0 +1,33 @@
+{
+  "id": "A1a-004",
+  "name": "Snivy",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Vine Whip",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/004/high.png"
+}

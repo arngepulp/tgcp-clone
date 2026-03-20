@@ -1,0 +1,28 @@
+{
+  "id": "A1-183",
+  "name": "Dratini",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [
+        "Water",
+        "Lightning"
+      ],
+      "damage": "40",
+      "effect_id": null
+    }
+  ],
+  "weakness": [],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/183/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A1-200",
+  "name": "Dodrio",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Doduo",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Drill Peck",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": "40",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/200/high.png"
+}

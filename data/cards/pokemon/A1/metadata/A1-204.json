@@ -1,0 +1,33 @@
+{
+  "id": "A1-204",
+  "name": "Tauros",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Horn Attack",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "50",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/204/high.png"
+}

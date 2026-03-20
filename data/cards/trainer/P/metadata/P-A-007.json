@@ -1,6 +1,7 @@
 {
   "id": "P-A-007",
   "name": "Professor's Research",
+  "suffix": null,
   "card_type": "Trainer",
   "hp": null,
   "types": null,

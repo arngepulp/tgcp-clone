@@ -1,0 +1,33 @@
+{
+  "id": "A1-126",
+  "name": "Mr. Mime",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Barrier Attack",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "damage": "30",
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes -20 damage from attacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/126/high.png"
+}

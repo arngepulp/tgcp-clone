@@ -1,0 +1,33 @@
+{
+  "id": "A1-197",
+  "name": "Persian",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Meowth",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Shadow Claw",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "40",
+      "effect_id": "Flip a coin. If heads, discard a random card from your opponent's hand."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/197/high.png"
+}

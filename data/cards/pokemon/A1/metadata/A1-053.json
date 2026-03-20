@@ -1,6 +1,7 @@
 {
   "id": "A1-053",
   "name": "Squirtle",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 60,
   "types": [

@@ -1,6 +1,7 @@
 {
   "id": "A1-025",
   "name": "Scyther",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 70,
   "types": [

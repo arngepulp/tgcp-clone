@@ -74,6 +74,7 @@ async def get_one_pokemon_details(sdk, card_id):
     data = {
         "id": card.id, 
         "name": card.name,
+        "suffix": getattr(card, 'suffix', None),
         "card_type": getattr(card, 'category', 'Pokemon'), 
         "hp": getattr(card, 'hp', 0),
         "types": getattr(card, 'types', []),

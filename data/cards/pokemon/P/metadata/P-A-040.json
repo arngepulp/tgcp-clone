@@ -1,6 +1,7 @@
 {
   "id": "P-A-040",
   "name": "Chimchar",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 60,
   "types": [

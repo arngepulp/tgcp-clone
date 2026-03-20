@@ -1,6 +1,7 @@
 {
   "id": "A1-078",
   "name": "Gyarados",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 150,
   "types": [

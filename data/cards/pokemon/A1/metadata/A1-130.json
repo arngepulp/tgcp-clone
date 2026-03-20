@@ -1,0 +1,32 @@
+{
+  "id": "A1-130",
+  "name": "Ralts",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [
+        "Colorless"
+      ],
+      "damage": "10",
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/130/high.png"
+}

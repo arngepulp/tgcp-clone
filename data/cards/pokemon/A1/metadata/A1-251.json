@@ -1,0 +1,45 @@
+{
+  "id": "A1-251",
+  "name": "Venusaur ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 190,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Ivysaur",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Razor Leaf",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "60",
+      "effect_id": null
+    },
+    {
+      "name": "Giant Bloom",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "damage": "100",
+      "effect_id": "Heal 30 damage from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/251/high.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "A1-168",
+  "name": "Nidoqueen",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 2,
+  "evolves_from": "Nidorina",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Lovestrike",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "damage": "80+",
+      "effect_id": "This attack does 50 more damage for each of your Benched Nidoking."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1/168/high.png"
+}

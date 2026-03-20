@@ -40,6 +40,7 @@ class PokemonCard(Card):
         self.attacks = data.get("attacks", [])
         self.weaknesses = data.get("weaknesses", None)
         self.retreat_cost = data.get("retreat_cost", 0)
+        self.prefix = data.get("prefix",None)
 
 
 class TrainerCard(Card):

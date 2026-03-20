@@ -1,6 +1,7 @@
 {
   "id": "A1-036",
   "name": "Charizard ex",
+  "suffix": "EX",
   "card_type": "Pokemon",
   "hp": 180,
   "types": [

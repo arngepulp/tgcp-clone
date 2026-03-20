@@ -1,6 +1,7 @@
 {
   "id": "A1-077",
   "name": "Magikarp",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 30,
   "types": [

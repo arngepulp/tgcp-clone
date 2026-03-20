@@ -1,6 +1,7 @@
 {
   "id": "P-A-021",
   "name": "Onix",
+  "suffix": null,
   "card_type": "Pokemon",
   "hp": 110,
   "types": [

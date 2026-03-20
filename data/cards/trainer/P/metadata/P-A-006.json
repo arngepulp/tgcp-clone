@@ -1,6 +1,7 @@
 {
   "id": "P-A-006",
   "name": "Red Card",
+  "suffix": null,
   "card_type": "Trainer",
   "hp": null,
   "types": null,

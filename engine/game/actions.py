@@ -32,12 +32,6 @@ def play_pokemon(state, card_id, location):
     if card_id in state.current_player.hand:
         state.current_player.hand.remove(card_id)
    
-    
-    pokemon = PokemonInstance(card)
-    if location == 0:
-       state.current_player.active = pokemon
-    else:
-       state.current_player.bench[location - 1] = pokemon
 
     
 def attach_energy(state, energy_type, location=0):

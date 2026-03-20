@@ -32,5 +32,3 @@ class PokemonInstance(PokemonCard):
     def advance_turn(self):
         self.turns_in_play += 1
         
-    def list_name(self):
-        return self.name

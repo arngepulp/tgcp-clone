@@ -2,6 +2,7 @@ import sys
 import os
 import json
 import random
+from engine.models.card import load_card
 # from engine.rules.game_rules import PTS_TO_WIN
 
 def load_deck(path):
@@ -13,6 +14,21 @@ def load_deck(path):
             for _ in range(card["count"]):
                 deck.append(card["id"])
         return deck
+    
+def draw_opening_hand(self):
+    
+    
+    # find first basic pokemon
+    for i, card_id in enumerate(self.deck):
+        card = load_card(card_id)
+        if card.evolves_from is None:
+            self.hand.append(card_id)
+            self.deck.pop(i)
+            break
+    
+    # draw remaining 4
+    for _ in range(4):
+        self.draw_card()
     
     
 class Player:

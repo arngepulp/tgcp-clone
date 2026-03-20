@@ -1,11 +1,12 @@
 # game/battle.py
 from engine.game.actions import play_pokemon, attach_energy, attack, retreat
+from interfaces.cli import choose_action
 
 def run_loop(state):
     while True:
-        if state.opponent.active is None:  # guard before attacking
+        if state.opponent.active is None:
             break
-        attack(state)
+        choose_action(state)
         check_knockout(state)
         if check_win(state):
             break

@@ -1,7 +1,7 @@
 {
     "name": "Bulbusar",
     "cards": [
-        {"id": "A1-001", "count": 2},
-        {"id": "A1-002", "count": 2}
+        {"id": "A1-001", "count": 5},
+        {"id": "A1-002", "count": 5}
     ]
 }

@@ -5,7 +5,7 @@ from engine.models.pokemon import PokemonInstance
 def test_take_damage():
     card = load_card("A1-001")
     pokemon = PokemonInstance(card)
-    pokemon.take_damage(20, "Fire")
+    pokemon.take_damage(20, "Grass")
     assert pokemon.current_hp == 50
 
 def test_attach_energy():

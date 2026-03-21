@@ -15,11 +15,11 @@ class PokemonInstance(PokemonCard):
         return f"{self.name} | HP: {self.current_hp}/{self.hp} | Energy: {self.attached_energy} | Status: {self.status} "
         
     def take_damage(self, damage, damage_type):
-        if self.weaknesses:
-            for w in self.weaknesses:
+        if self.weakness:
+            for w in self.weakness:
                 if w["type"] == damage_type:
                     damage += int(w["value"].replace("+", ""))
-                    
+        print(f"DEBUG: damage_type={damage_type}, weakness={self.weakness}")
         self.current_hp -= damage
             
         if self.current_hp <= 0:

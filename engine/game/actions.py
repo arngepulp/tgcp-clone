@@ -163,6 +163,16 @@ def end_turn(state):
     
 # game loop stuff, here to prevent circualr imports because checking here stops errors
 # TODO think about if this is the right choice
+def check_win(state):
+    if state.current_player.pts >= 3:
+        print(f"{state.current_player.deck_name} wins!")
+        return True
+    if state.opponent.pts >= 3:
+        print(f"{state.opponent.deck_name} wins!")  # was current_player
+        return True
+    return False
+
+
 def check_knockout(state):
     if state.opponent.active is None:
         return
@@ -172,15 +182,7 @@ def check_knockout(state):
         state.current_player.add_pts(pts)
         print(f"{state.opponent.active.name} was knocked out! +{pts} point(s)")
         state.opponent.active = None
-        
-        if not available_bench:
-            return
-        for i, p in enumerate(state.opponent.bench):
-            if p is not None:
-                state.opponent.active = p
-                state.opponent.bench[i] = None
-                print(f"{state.opponent.deck_name} sends out {state.opponent.active.name}!")
-                break
+        # removed auto send 
             
 def points_on_knockout(pokemon, has_bench):
     name = pokemon.name.lower()

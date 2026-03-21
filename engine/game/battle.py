@@ -54,11 +54,3 @@ def run_loop(state):
             
 
     
-def check_win(state):
-    if state.current_player.pts >= 3:
-        print(f"{state.current_player.deck_name} wins!")
-        return True
-    if state.opponent.pts >= 3:
-        print(f"{state.opponent.deck_name} wins!")  # was current_player
-        return True
-    return False

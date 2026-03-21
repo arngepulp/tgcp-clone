@@ -38,7 +38,7 @@ class PokemonCard(Card):
         self.evolves_from = data.get("evolves_from", None)
         self.abilities = data.get("abilities", None)
         self.attacks = data.get("attacks", [])
-        self.weaknesses = data.get("weaknesses", None)
+        self.weakness = data.get("weakness", None)
         self.retreat_cost = data.get("retreat_cost", 0)
         self.prefix = data.get("prefix",None)
 

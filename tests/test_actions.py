@@ -44,6 +44,22 @@ def test_attack_deals_damage():
     hp_before = target.current_hp
     attack(game)
     assert target.current_hp < hp_before
+    
+def test_weakness_damage():
+    bulbasaur = PokemonInstance(load_card("A1-001"))  # grass, weak to fire
+    ponyta = PokemonInstance(load_card("A1-042"))     # fire type
+    
+    game = setup_game()
+    game.current_player.active = ponyta
+    game.opponent.active = bulbasaur
+    ponyta.attached_energy = ["{R}"]
+    
+    target = game.opponent.active
+    hp_before = target.current_hp
+    attack(game)
+    
+    # ponyta does 20 damage, bulbasaur weak to fire +20, so should be 40
+    assert target.current_hp == hp_before - 40
 
 def test_end_turn_swaps_player():
     game = setup_game()

@@ -3,9 +3,11 @@
     <title>TGCP</title>
     <style>
         body {
-            background-color: #d2d2fc;
+            background-color: #1a1a2e;
             margin: 0;
             padding: 10px;
+            color: white;
+            font-family: sans-serif;
         }
         .page {
             display: flex;
@@ -22,7 +24,7 @@
             justify-content: center;
         }
         .card {
-            background-color: rgb(91, 95, 99);
+            background-color: rgb(40, 42, 54);
             padding: 0;
             border-radius: 5px;
             font-size: 11px;
@@ -40,12 +42,12 @@
             position: absolute;
             bottom: 5px;
             left: 5px;
-            background: rgba(0,0,0,0.6);
+            background: rgba(0,0,0,0.7);
             padding: 3px 5px;
             border-radius: 4px;
         }
         .hp { color: white; margin: 0; }
-        .energy { color: white; margin: 0; }
+        .energy { color: #a29bfe; margin: 0; }
         .bench1opp { grid-column: 1; grid-row: 1; }
         .bench2opp { grid-column: 2; grid-row: 1; }
         .bench3opp { grid-column: 3; grid-row: 1; }
@@ -59,10 +61,9 @@
             flex-direction: row;
             gap: 5px;
             justify-content: center;
-            grid-column: 1 / span 3;
-            grid-row: 3;
             align-items: center;
             flex-wrap: wrap;
+            margin-top: 15px;
         }
         .hand-card {
             width: 80px;
@@ -74,10 +75,11 @@
             flex-direction: column;
             gap: 12px;
             padding: 15px;
-            background: rgb(70, 73, 76);
+            background: #16213e;
             border-radius: 10px;
             min-width: 160px;
             margin-top: 40px;
+            border: 1px solid #0f3460;
         }
         .actions form {
             display: flex;
@@ -88,6 +90,9 @@
             width: 100%;
             padding: 3px;
             border-radius: 4px;
+            background: #0f3460;
+            color: white;
+            border: none;
         }
         .actions button {
             width: 100%;
@@ -107,12 +112,33 @@
             font-size: 20px;
             font-weight: bold;
             margin-bottom: 10px;
+            color: #a29bfe;
         }
         .deck-info {
             display: flex;
             justify-content: center;
             gap: 40px;
             margin-bottom: 10px;
+            color: #b2b2c8;
+        }
+        .pts-info {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .message-box {
+            background: #e74c3c;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-align: center;
+            margin-bottom: 10px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
@@ -125,10 +151,19 @@
         {% endif %}
     </div>
 
+    <div class="pts-info">
+        <p>Opponent PTS: {{ opponent.pts }}</p>
+        <p>Your PTS: {{ player.pts }}</p>
+    </div>
+
     <div class="deck-info">
         <p>Opponent deck: {{ opponent.deck | length }} | Hand: {{ opponent.hand | length }}</p>
         <p>Your deck: {{ player.deck | length }} | Hand: {{ player.hand | length }}</p>
     </div>
+
+    {% for message in get_flashed_messages() %}
+        <div class="message-box">{{ message }}</div>
+    {% endfor %}
 
     <div class="page">
         <div class="actions">
@@ -289,5 +324,17 @@
         </div>
     </div>
 
+
+<script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+<script>
+    var socket = io();
+    socket.emit('register', {player: {{ player_num }}});
+    socket.on('refresh', function() {
+        location.reload();
+    });
+    socket.on('send_out', function() {
+        window.location.href = '/send_out';
+    });
+</script>
 </body>
 </html>

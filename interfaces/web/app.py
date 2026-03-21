@@ -26,23 +26,36 @@ def handle_register(data):
     print(f"DEBUG: player {data['player']} registered with socket {request.sid}")
 
 def redirect_or_win(player_num):
+    # Just check for a winner, then tell BOTH browsers to refresh and stay on the game page.
     if check_win(game):
         socketio.emit('refresh', {})
         return redirect(url_for('winner'))
     
-    if game.player1.active is None and any(p for p in game.player1.bench if p):
-        # send only player 1's tab to send_out
-        if 1 in player_sockets:
-            socketio.emit('send_out', {}, to=player_sockets[1])
-        return redirect(url_for('send_out'))
-    
-    if game.player2.active is None and any(p for p in game.player2.bench if p):
-        if 2 in player_sockets:
-            socketio.emit('send_out', {}, to=player_sockets[2])
-        return redirect(url_for('send_out'))
-    
     socketio.emit('refresh', {})
     return redirect(url_for(f'player{player_num}'))
+
+# Add this new route to handle promoting a benched pokemon
+@app.route('/promote', methods=['POST'])
+def promote_route():
+    player_num = request.form['player']
+    
+    # Ensure it's the correct player's turn
+    if (player_num == '1' and game.current_player != game.player1) or \
+       (player_num == '2' and game.current_player != game.player2):
+        flash("It's not your turn!")
+        return redirect(url_for(f'player{player_num}'))
+    
+    bench_index = int(request.form['bench_index'])
+    current_p = game.player1 if player_num == '1' else game.player2
+    
+    # Move the chosen pokemon to active and clear that bench spot
+    if current_p.active is None and current_p.bench[bench_index] is not None:
+        current_p.active = current_p.bench[bench_index]
+        current_p.bench[bench_index] = None
+    else:
+        flash("Cannot promote this Pokémon.")
+        
+    return redirect_or_win(player_num)
 
 @app.route('/')
 def index():

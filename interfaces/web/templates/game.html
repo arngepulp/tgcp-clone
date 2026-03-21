@@ -167,6 +167,21 @@
 
     <div class="page">
         <div class="actions">
+        {% if player.active is none and (player.bench[0] or player.bench[1] or player.bench[2]) %}
+            <div style="color: #e74c3c; text-align: center; font-weight: bold; margin-bottom: 10px;">
+                Your Active Pokémon fainted!
+            </div>
+            <form action="/promote" method="POST">
+                <input type="hidden" name="player" value="{{ player_num }}">
+                <select name="bench_index">
+                    {% if player.bench[0] %}<option value="0">Bench 1: {{ player.bench[0].name }}</option>{% endif %}
+                    {% if player.bench[1] %}<option value="1">Bench 2: {{ player.bench[1].name }}</option>{% endif %}
+                    {% if player.bench[2] %}<option value="2">Bench 3: {{ player.bench[2].name }}</option>{% endif %}
+                </select>
+                <button type="submit">Send Out</button>
+            </form>
+
+        {% else %}
             <form action="/attack" method="POST">
                 <input type="hidden" name="player" value="{{ player_num }}">
                 <select name="attack_index">
@@ -220,8 +235,8 @@
                 <input type="hidden" name="player" value="{{ player_num }}">
                 <button type="submit">End Turn</button>
             </form>
-        </div>
-
+        {% endif %}
+    </div>
         <div>
             <div class="board">
                 <div class="card bench1opp">
@@ -331,9 +346,6 @@
     socket.emit('register', {player: {{ player_num }}});
     socket.on('refresh', function() {
         location.reload();
-    });
-    socket.on('send_out', function() {
-        window.location.href = '/send_out';
     });
 </script>
 </body>

@@ -1,6 +1,7 @@
 from engine.models.card import load_card, PokemonCard
 from engine.models.pokemon import PokemonInstance
 from collections import Counter
+from engine.game.effects import resolve_effects
 
 def check_requirements(target, check, wildcard='{C}'):
     # count frequency of items in each list
@@ -125,7 +126,33 @@ def attack(state,index=0):
     check_knockout(state)
     state.pass_turn()
 
+def ability(state, location):
+    pokemon = get_location(state, location)
+    
+    if not pokemon:
+        print("No Pokemon at this location!")
+        return False
+        
+    if not pokemon.abilities:
+        print("This Pokemon has no abilities!")
+        return False
 
+    # --- 1. NEW: Check if already used ---
+    if getattr(pokemon, 'ability_used', False): 
+        print(f"{pokemon.name} has already used its ability this turn!")
+        return False
+        
+    ability_data = pokemon.abilities[0]
+    
+    if "effect_id" in ability_data and ability_data["effect_id"]:
+        resolve_effects(state, ability_data["effect_id"], source=pokemon)
+        
+        # --- 2. NEW: Mark as used ---
+        pokemon.ability_used = True  
+        
+        return True
+        
+    return False
 
 def use_ability():
     pass
@@ -158,6 +185,12 @@ def retreat(state, replacement_index):
 
 
 def end_turn(state):
+    for player in [state.player1, state.player2]:
+        if player.active:
+            player.active.ability_used = False
+        for bench_poke in player.bench:
+            if bench_poke:
+                bench_poke.ability_used = False
     state.pass_turn()
     
     

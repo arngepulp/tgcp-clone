@@ -12,7 +12,13 @@
   "abilities": [
     {
       "name": "Powder Heal",
-      "effect_id": "Once during your turn, you may heal 20 damage from each of your Pok\u00e9mon."
+      "effect_id": {
+        "type": "HEAL",
+        "amount": 20,
+        "target": "SELF_ALL"
+
+
+      }
     }
   ],
   "attacks": [

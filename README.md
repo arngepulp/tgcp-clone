@@ -7,6 +7,9 @@ https://tcgdex.dev/sdks/python
 
 pip install tcgdex-sdk
 pip install pytest
+pip install aiohttp
+flask_socketio
+flask
 
 trainers and supports are saved badly, not a current issue tho
 basic engine first
@@ -34,3 +37,6 @@ add effects speacial test parsing to cards
 add trains abilities tools
 gui
 status conditions
+
+implement game setup
+cant evolve same pokemon twice ina  turn

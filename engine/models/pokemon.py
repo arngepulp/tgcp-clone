@@ -10,6 +10,7 @@ class PokemonInstance(PokemonCard):
         self.status = None
         self.turns_in_play = 0
         self.item = None
+        self.ability_used = False
         
     def __repr__(self):
         return f"{self.name} | HP: {self.current_hp}/{self.hp} | Energy: {self.attached_energy} | Status: {self.status} "

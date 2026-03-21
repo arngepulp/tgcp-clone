@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Send Out Pokemon</title>
+    <style>
+        body { background-color: #1a1a2e; color: white; font-family: sans-serif; text-align: center; padding: 20px; }
+        button { background: #5b6eff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin: 5px; }
+    </style>
+</head>
+<body>
+    <h2>Your pokemon was knocked out! Choose a replacement:</h2>
+    <form action="/send_out/choose" method="POST">
+        <input type="hidden" name="player" value="{{ player_num }}">
+        {% for i in range(3) %}
+            {% if player.bench[i] %}
+                <button type="submit" name="bench_index" value="{{ i }}">
+                    {{ player.bench[i].name }} | HP: {{ player.bench[i].current_hp }}/{{ player.bench[i].hp }}
+                </button>
+            {% endif %}
+        {% endfor %}
+    </form>
+</body>
+</html>

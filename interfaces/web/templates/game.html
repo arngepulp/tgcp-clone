@@ -192,6 +192,17 @@
                     {% endif %}
                 </select>
                 <button type="submit">Attack</button>
+                
+            </form>
+            <form action="/use_ability" method="POST">
+                <input type="hidden" name="player" value="{{ player_num }}">
+                <select name="location">
+                    <option value="0">Active</option>
+                    <option value="1">Bench 1</option>
+                    <option value="2">Bench 2</option>
+                    <option value="3">Bench 3</option>
+                </select>
+                <button type="submit">Use Ability</button>
             </form>
 
             <form action="/play_or_evolve" method="POST">

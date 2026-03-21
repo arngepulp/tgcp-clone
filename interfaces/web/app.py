@@ -1,7 +1,7 @@
 # app.py
 from flask import Flask, render_template, request, redirect, url_for, send_file, flash
 from flask_socketio import SocketIO
-from engine.game.actions import play_pokemon, attach_energy, attack, retreat, evolve_pokemon, end_turn, check_win
+from engine.game.actions import play_pokemon, attach_energy, attack, retreat, evolve_pokemon, end_turn, check_win, ability
 from engine.models.card import load_card, PokemonCard
 from engine.models.player import Player
 from engine.game.board_state import Gamestate
@@ -11,8 +11,7 @@ import os
 p1 = Player("bulb")
 p2 = Player("ponyta")
 game = Gamestate(p1, p2)
-game.player1.active = PokemonInstance(load_card("A1-001"))
-game.player2.active = PokemonInstance(load_card("A1-042"))
+
 
 app = Flask(__name__)
 app.secret_key = 'tgcp-secret'
@@ -85,6 +84,27 @@ def attack_route():
     if result == False:
         flash("Not enough energy to attack!")
         return redirect(url_for(f'player{player_num}'))
+    return redirect_or_win(player_num)
+
+@app.route('/use_ability', methods=['POST'])
+def use_ability_route():
+    player_num = request.form['player']
+    
+    # 1. Check if it's the correct player's turn
+    if (player_num == '1' and game.current_player != game.player1) or \
+       (player_num == '2' and game.current_player != game.player2):
+        flash("It's not your turn!")
+        return redirect(url_for(f'player{player_num}'))
+    
+    # 2. Grab the location and trigger the engine function
+    location = int(request.form['location'])
+    result = ability(game, location)
+    
+    # 3. Handle failures or refresh the page
+    if result == False:
+        flash("Cannot use ability! (No Pokémon there, or no ability available)")
+        return redirect(url_for(f'player{player_num}'))
+        
     return redirect_or_win(player_num)
 
 @app.route('/play_or_evolve', methods=['POST'])

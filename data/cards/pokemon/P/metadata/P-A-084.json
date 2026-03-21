@@ -14,7 +14,7 @@
     {
       "name": "Plasma Hurricane",
       "cost": [
-        "Lightning"
+        "{L}"
       ],
       "damage": 20,
       "effect_id": "Take a {L} Energy from your Energy Zone and attach it to this Pok\u00e9mon."
@@ -22,9 +22,9 @@
     {
       "name": "Mach Bolt",
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "{L}",
+        "{L}",
+        "{C}"
       ],
       "damage": 90,
       "effect_id": null

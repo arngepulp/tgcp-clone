@@ -14,7 +14,7 @@
     {
       "name": "Wave Splash",
       "cost": [
-        "Water"
+        "{W}"
       ],
       "damage": "40",
       "effect_id": null

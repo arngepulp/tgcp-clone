@@ -14,7 +14,7 @@
     {
       "name": "Surprise Attack",
       "cost": [
-        "Psychic"
+        "{P}"
       ],
       "damage": 50,
       "effect_id": "Flip a coin. If tails, this attack does nothing."

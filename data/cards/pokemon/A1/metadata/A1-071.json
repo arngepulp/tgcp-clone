@@ -14,9 +14,9 @@
     {
       "name": "Water Arrow",
       "cost": [
-        "Water",
-        "Water",
-        "Colorless"
+        "{W}",
+        "{W}",
+        "{C}"
       ],
       "damage": null,
       "effect_id": "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon."

@@ -19,8 +19,8 @@
     {
       "name": "Vine Whip",
       "cost": [
-        "Grass",
-        "Colorless"
+        "{G}",
+        "{C}"
       ],
       "damage": "60",
       "effect_id": null

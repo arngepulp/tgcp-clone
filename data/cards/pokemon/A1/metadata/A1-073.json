@@ -14,7 +14,7 @@
     {
       "name": "Horn Hazard",
       "cost": [
-        "Water"
+        "{W}"
       ],
       "damage": "80",
       "effect_id": "Flip a coin. If tails, this attack does nothing."

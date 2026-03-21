@@ -14,7 +14,7 @@
     {
       "name": "Cross-Cut",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": 20,
       "effect_id": "If your opponent's Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 40 more damage."

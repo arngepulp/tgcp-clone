@@ -14,8 +14,8 @@
     {
       "name": "Bonemerang",
       "cost": [
-        "Fighting",
-        "Fighting"
+        "{F}",
+        "{F}"
       ],
       "damage": "80\u00d7",
       "effect_id": "Flip 2 coins. This attack does 80 damage for each heads."

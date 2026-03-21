@@ -19,9 +19,9 @@
     {
       "name": "Dark Prism",
       "cost": [
-        "Darkness",
-        "Darkness",
-        "Colorless"
+        "{D}",
+        "{D}",
+        "{C}"
       ],
       "damage": 80,
       "effect_id": null

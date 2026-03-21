@@ -14,9 +14,9 @@
     {
       "name": "Razor Leaf",
       "cost": [
-        "Grass",
-        "Colorless",
-        "Colorless"
+        "{G}",
+        "{C}",
+        "{C}"
       ],
       "damage": "60",
       "effect_id": null

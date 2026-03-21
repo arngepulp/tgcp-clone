@@ -14,9 +14,9 @@
     {
       "name": "Slash",
       "cost": [
-        "Fire",
-        "Colorless",
-        "Colorless"
+        "{R}",
+        "{C}",
+        "{C}"
       ],
       "damage": "60",
       "effect_id": null
@@ -24,10 +24,10 @@
     {
       "name": "Crimson Storm",
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless",
-        "Colorless"
+        "{R}",
+        "{R}",
+        "{C}",
+        "{C}"
       ],
       "damage": "200",
       "effect_id": "Discard 2 {R} Energy from this Pok\u00e9mon."

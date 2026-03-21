@@ -14,7 +14,7 @@
     {
       "name": "Tropical Swing",
       "cost": [
-        "Grass"
+        "{G}"
       ],
       "damage": "40+",
       "effect_id": "Flip a coin. If heads, this attack does 40 more damage."

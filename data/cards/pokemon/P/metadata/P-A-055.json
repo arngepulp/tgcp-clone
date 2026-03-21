@@ -14,8 +14,8 @@
     {
       "name": "Power Press",
       "cost": [
-        "Fighting",
-        "Fighting"
+        "{F}",
+        "{F}"
       ],
       "damage": "70+",
       "effect_id": "If this Pok\u00e9mon has at least 2 extra {F} Energy attached, this attack does 50 more damage."

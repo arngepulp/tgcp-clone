@@ -14,8 +14,8 @@
     {
       "name": "Horn Attack",
       "cost": [
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}"
       ],
       "damage": "50",
       "effect_id": null

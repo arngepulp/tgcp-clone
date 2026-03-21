@@ -14,7 +14,7 @@
     {
       "name": "Pay Day",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": 10,
       "effect_id": "Draw a card."

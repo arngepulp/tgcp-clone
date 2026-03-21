@@ -2,45 +2,57 @@
 from engine.game.actions import play_pokemon, attach_energy, attack, retreat
 from interfaces.cli import choose_action
 
+def setup_phase(state):
+    from engine.models.card import load_card
+    
+    for player in [state.player1, state.player2]:
+        state.current_player = player
+        state.opponent = state.player2 if player == state.player1 else state.player1
+        
+        print(f"\n{player.deck_name} - place your starting active pokemon")
+        
+        # show hand with names
+        print("Your hand:")
+        for i, card_id in enumerate(player.hand):
+            card = load_card(card_id)
+            print(f"  [{i}] {card.name} ({card_id})")
+        
+        # must place an active first
+        while state.current_player.active is None:
+            choice = int(input("Choose active (must be basic): "))
+            card_id = player.hand[choice]
+            play_pokemon(state, card_id, 0)
+        
+        # optionally fill bench
+        while True:
+            print("\nBench:", player.bench)
+            print("Your hand:")
+            for i, card_id in enumerate(player.hand):
+                card = load_card(card_id)
+                print(f"  [{i}] {card.name} ({card_id})")
+            
+            choice = input("Place to bench? (index or 's' to skip): ")
+            if choice == "s":
+                break
+            
+            card_id = player.hand[int(choice)]
+            bench_slot = int(input("Bench slot (1-3): "))
+            play_pokemon(state, card_id, bench_slot)
+    
+    state.current_player = state.player1
+    state.opponent = state.player2
+
 def run_loop(state):
     while True:
-        if state.opponent.active is None:
+        if state.opponent.active is None and not any(state.opponent.bench):
             break
         choose_action(state)
-        check_knockout(state)
         if check_win(state):
             break
 
-def check_knockout(state):
-    if state.opponent.active is None:
-        return
 
-    if state.opponent.active.current_hp <= 0:
-        pts = points_on_knockout(state.opponent.active)
-        state.current_player.add_pts(pts)
-        print(f"{state.opponent.active.name} was knocked out! +{pts} point(s)")
-        state.opponent.active = None
-
-        available_bench = [p for p in state.opponent.bench if p is not None]
-
-        if not available_bench:
-            return  # let check_win handle it
-
-        for i, p in enumerate(state.opponent.bench):
-            if p is not None:
-                state.opponent.active = p
-                state.opponent.bench[i] = None
-                print(f"{state.opponent.deck_name} sends out {state.opponent.active.name}!")
-                break
             
-def points_on_knockout(pokemon):
-    name = pokemon.name.lower()
-    if "ex" in name:
-        return 2
-    elif "mega" in name:
-        return 3
-    else:
-        return 1
+
     
 def check_win(state):
     if state.current_player.pts >= 3:

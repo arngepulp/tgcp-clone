@@ -19,9 +19,9 @@
     {
       "name": "Spooky Shot",
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Psychic"
+        "{P}",
+        "{P}",
+        "{P}"
       ],
       "damage": "100",
       "effect_id": null

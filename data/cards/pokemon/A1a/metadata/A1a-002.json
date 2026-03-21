@@ -14,10 +14,10 @@
     {
       "name": "Psychic",
       "cost": [
-        "Grass",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{G}",
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": "80+",
       "effect_id": "This attack does 20 more damage for each Energy attached to your opponent's Active Pok\u00e9mon."

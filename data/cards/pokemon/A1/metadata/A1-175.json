@@ -14,9 +14,9 @@
     {
       "name": "Venoshock",
       "cost": [
-        "Darkness",
-        "Darkness",
-        "Colorless"
+        "{D}",
+        "{D}",
+        "{C}"
       ],
       "damage": "70+",
       "effect_id": "If your opponent's Active Pok\u00e9mon is Poisoned, this attack does 50 more damage."

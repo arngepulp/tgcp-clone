@@ -14,7 +14,7 @@
     {
       "name": "Call for Family",
       "cost": [
-        "Darkness"
+        "{D}"
       ],
       "damage": null,
       "effect_id": "Put 1 random Nidoran\u2642 from your deck onto your Bench."

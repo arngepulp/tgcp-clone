@@ -14,7 +14,7 @@
     {
       "name": "Drill Peck",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": "40",
       "effect_id": null

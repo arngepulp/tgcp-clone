@@ -14,8 +14,8 @@
     {
       "name": "Thunder Punch",
       "cost": [
-        "Lightning",
-        "Lightning"
+        "{L}",
+        "{L}"
       ],
       "damage": "40+",
       "effect_id": "Flip a coin. If heads, this attack does 40 more damage. If tails, this Pok\u00e9mon also does 20 damage to itself."

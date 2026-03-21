@@ -14,8 +14,8 @@
     {
       "name": "Beak Blast",
       "cost": [
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}"
       ],
       "damage": 80,
       "effect_id": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Burned."

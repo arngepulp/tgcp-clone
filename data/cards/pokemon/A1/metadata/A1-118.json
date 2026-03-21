@@ -14,8 +14,8 @@
     {
       "name": "Tail Whap",
       "cost": [
-        "Psychic",
-        "Colorless"
+        "{P}",
+        "{C}"
       ],
       "damage": "30",
       "effect_id": null

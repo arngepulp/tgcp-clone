@@ -14,7 +14,7 @@
     {
       "name": "Zap Kick",
       "cost": [
-        "Lightning"
+        "{L}"
       ],
       "damage": "20",
       "effect_id": null

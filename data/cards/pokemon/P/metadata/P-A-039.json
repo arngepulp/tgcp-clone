@@ -14,7 +14,7 @@
     {
       "name": "Metal Arms",
       "cost": [
-        "Metal"
+        "{M}"
       ],
       "damage": "20+",
       "effect_id": "If this Pok\u00e9mon has a Pok\u00e9mon Tool attached, this attack does 30 more damage."

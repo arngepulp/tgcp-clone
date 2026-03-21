@@ -14,8 +14,8 @@
     {
       "name": "Aqua Edge",
       "cost": [
-        "Water",
-        "Water"
+        "{W}",
+        "{W}"
       ],
       "damage": "70",
       "effect_id": null

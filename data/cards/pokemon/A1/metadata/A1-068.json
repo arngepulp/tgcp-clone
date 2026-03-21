@@ -14,8 +14,8 @@
     {
       "name": "Vise Grip",
       "cost": [
-        "Water",
-        "Colorless"
+        "{W}",
+        "{C}"
       ],
       "damage": "40",
       "effect_id": null

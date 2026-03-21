@@ -14,9 +14,9 @@
     {
       "name": "Volcanic Ash",
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless"
+        "{R}",
+        "{R}",
+        "{C}"
       ],
       "damage": null,
       "effect_id": "Discard 2 {R} Energy from this Pok\u00e9mon. This attack does 80 damage to 1 of your opponent's Pok\u00e9mon."

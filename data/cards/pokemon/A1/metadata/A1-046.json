@@ -14,9 +14,9 @@
     {
       "name": "Sky Attack",
       "cost": [
-        "Fire",
-        "Colorless",
-        "Colorless"
+        "{R}",
+        "{C}",
+        "{C}"
       ],
       "damage": "130",
       "effect_id": "Flip a coin. If tails, this attack does nothing."

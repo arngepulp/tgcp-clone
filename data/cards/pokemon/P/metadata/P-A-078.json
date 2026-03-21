@@ -14,9 +14,9 @@
     {
       "name": "Psychobilly",
       "cost": [
-        "Psychic",
-        "Colorless",
-        "Colorless"
+        "{P}",
+        "{C}",
+        "{C}"
       ],
       "damage": 100,
       "effect_id": "This Pok\u00e9mon also does 30 damage to itself."

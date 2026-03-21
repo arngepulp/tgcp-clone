@@ -6,10 +6,8 @@ class Gamestate():
         self.turn = 1
         self.current_player = player1
         self.opponent = player2
+        self.first_turn = True
         
-        # and proper hand drawing behavior later
-        self.player1.draw_card()
-        self.player2.draw_card()
         
     def __repr__(self):
         return (
@@ -27,6 +25,13 @@ class Gamestate():
         
         
     def pass_turn(self):
+        self.first_turn = False
         self.turn += 1
+        if self.current_player.active:
+            self.current_player.active.advance_turn()
+        for p in self.current_player.bench:
+            if p:
+                p.advance_turn()
         self.current_player, self.opponent = self.opponent, self.current_player
+        self.current_player.energy_attached_this_turn = False
         self.current_player.draw_card()

@@ -14,8 +14,8 @@
     {
       "name": "Ram",
       "cost": [
-        "Water",
-        "Lightning"
+        "{W}",
+        "{L}"
       ],
       "damage": "40",
       "effect_id": null

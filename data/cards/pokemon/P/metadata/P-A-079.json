@@ -14,9 +14,9 @@
     {
       "name": "Black Metal",
       "cost": [
-        "Metal",
-        "Colorless",
-        "Colorless"
+        "{M}",
+        "{C}",
+        "{C}"
       ],
       "damage": 100,
       "effect_id": "Discard a {M} Energy from this Pok\u00e9mon."

@@ -14,7 +14,7 @@
     {
       "name": "Bite",
       "cost": [
-        "Darkness"
+        "{D}"
       ],
       "damage": "20",
       "effect_id": null

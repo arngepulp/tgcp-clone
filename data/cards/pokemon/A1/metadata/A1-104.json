@@ -14,7 +14,7 @@
     {
       "name": "Peck",
       "cost": [
-        "Lightning"
+        "{L}"
       ],
       "damage": "20",
       "effect_id": null
@@ -22,9 +22,9 @@
     {
       "name": "Thundering Hurricane",
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "{L}",
+        "{L}",
+        "{L}"
       ],
       "damage": "50\u00d7",
       "effect_id": "Flip 4 coins. This attack does 50 damage for each heads."

@@ -14,9 +14,9 @@
     {
       "name": "Inferno Onrush",
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless"
+        "{R}",
+        "{R}",
+        "{C}"
       ],
       "damage": "120",
       "effect_id": "This Pok\u00e9mon also does 20 damage to itself."

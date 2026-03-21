@@ -1,5 +1,6 @@
 {
     "name": "Ponyta",
+    "energy": ["{F}"],
     "cards": [
         {"id": "A1-042", "count": 5},
         {"id": "A1-043", "count": 5}

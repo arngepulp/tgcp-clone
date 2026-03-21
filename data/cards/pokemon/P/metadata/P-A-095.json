@@ -14,7 +14,7 @@
     {
       "name": "Luring Glow",
       "cost": [
-        "Lightning"
+        "{L}"
       ],
       "damage": null,
       "effect_id": "Flip a coin. If heads, switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot."

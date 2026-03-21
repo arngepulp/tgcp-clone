@@ -14,8 +14,8 @@
     {
       "name": "Hyper Voice",
       "cost": [
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}"
       ],
       "damage": "60",
       "effect_id": null

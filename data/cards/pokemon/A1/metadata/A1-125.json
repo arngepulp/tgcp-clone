@@ -19,9 +19,9 @@
     {
       "name": "Psypunch",
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Colorless"
+        "{P}",
+        "{P}",
+        "{C}"
       ],
       "damage": "50",
       "effect_id": null

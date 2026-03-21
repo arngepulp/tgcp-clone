@@ -14,7 +14,7 @@
     {
       "name": "Slap",
       "cost": [
-        "Psychic"
+        "{P}"
       ],
       "damage": "20",
       "effect_id": null

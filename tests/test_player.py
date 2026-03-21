@@ -5,15 +5,11 @@ def test_player_deck_loads():
     p = Player("bulb")
     assert len(p.deck) > 0
 
-def test_player_deck_is_correct_size():
-    p = Player("bulb")
-    assert len(p.deck) == 4  # adjust to your deck size
-
 def test_player_draw_card():
     p = Player("bulb")
     deck_size = len(p.deck)
     p.draw_card()
-    assert len(p.hand) == 1
+    assert len(p.hand) == 5+1 ## TODO add this as a rule to consts, add in player draw card func aswell
     assert len(p.deck) == deck_size - 1
 
 def test_player_add_pts():

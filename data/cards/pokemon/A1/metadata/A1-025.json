@@ -14,7 +14,7 @@
     {
       "name": "Sharp Scythe",
       "cost": [
-        "Grass"
+        "{G}"
       ],
       "damage": "30",
       "effect_id": null

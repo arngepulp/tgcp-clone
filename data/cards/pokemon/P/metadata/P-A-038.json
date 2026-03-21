@@ -14,7 +14,7 @@
     {
       "name": "Confuse Ray",
       "cost": [
-        "Psychic"
+        "{P}"
       ],
       "damage": null,
       "effect_id": "Your opponent's Active Pok\u00e9mon is now Confused."

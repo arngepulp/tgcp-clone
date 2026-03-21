@@ -14,10 +14,10 @@
     {
       "name": "Mega Drain",
       "cost": [
-        "Grass",
-        "Grass",
-        "Colorless",
-        "Colorless"
+        "{G}",
+        "{G}",
+        "{C}",
+        "{C}"
       ],
       "damage": "80",
       "effect_id": "Heal 30 damage from this Pok\u00e9mon."

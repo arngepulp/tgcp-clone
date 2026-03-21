@@ -14,10 +14,10 @@
     {
       "name": "Fire Blast",
       "cost": [
-        "Fire",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{R}",
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": "130",
       "effect_id": "Discard a {R} Energy from this Pok\u00e9mon."

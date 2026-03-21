@@ -14,9 +14,9 @@
     {
       "name": "Diving Swipe",
       "cost": [
-        "Darkness",
-        "Darkness",
-        "Darkness"
+        "{D}",
+        "{D}",
+        "{D}"
       ],
       "damage": 70,
       "effect_id": "Discard a random card from your opponent's hand."

@@ -14,9 +14,9 @@
     {
       "name": "Super Psy Bolt",
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Colorless"
+        "{P}",
+        "{P}",
+        "{C}"
       ],
       "damage": "80",
       "effect_id": null

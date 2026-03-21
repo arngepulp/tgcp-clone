@@ -14,8 +14,8 @@
     {
       "name": "Strength",
       "cost": [
-        "Fighting",
-        "Fighting"
+        "{F}",
+        "{F}"
       ],
       "damage": "50",
       "effect_id": null

@@ -14,9 +14,9 @@
     {
       "name": "Continuous Lick",
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": "60\u00d7",
       "effect_id": "Flip a coin until you get tails. This attack does 60 damage for each heads."

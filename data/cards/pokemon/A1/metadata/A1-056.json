@@ -14,8 +14,8 @@
     {
       "name": "Surf",
       "cost": [
-        "Water",
-        "Colorless"
+        "{W}",
+        "{C}"
       ],
       "damage": "40",
       "effect_id": null
@@ -23,9 +23,9 @@
     {
       "name": "Hydro Bazooka",
       "cost": [
-        "Water",
-        "Water",
-        "Colorless"
+        "{W}",
+        "{W}",
+        "{C}"
       ],
       "damage": "100+",
       "effect_id": "If this Pok\u00e9mon has at least 2 extra {W} Energy attached, this attack does 60 more damage."

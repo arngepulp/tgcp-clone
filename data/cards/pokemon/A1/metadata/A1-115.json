@@ -14,7 +14,7 @@
     {
       "name": "Teleport",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": null,
       "effect_id": "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."

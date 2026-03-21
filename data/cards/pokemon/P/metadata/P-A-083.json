@@ -14,8 +14,8 @@
     {
       "name": "Ram",
       "cost": [
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}"
       ],
       "damage": 40,
       "effect_id": null

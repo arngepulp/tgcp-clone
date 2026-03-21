@@ -14,7 +14,7 @@
     {
       "name": "Water Gun",
       "cost": [
-        "Water"
+        "{W}"
       ],
       "damage": "20",
       "effect_id": null

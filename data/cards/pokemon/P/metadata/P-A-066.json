@@ -14,8 +14,8 @@
     {
       "name": "Shadow Hit",
       "cost": [
-        "Psychic",
-        "Colorless"
+        "{P}",
+        "{C}"
       ],
       "damage": 60,
       "effect_id": "This attack also does 20 damage to 1 of your Pok\u00e9mon."

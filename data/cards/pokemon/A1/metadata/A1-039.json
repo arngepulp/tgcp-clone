@@ -14,8 +14,8 @@
     {
       "name": "Bite",
       "cost": [
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}"
       ],
       "damage": "20",
       "effect_id": null

@@ -19,9 +19,9 @@
     {
       "name": "Mega Punch",
       "cost": [
-        "Water",
-        "Colorless",
-        "Colorless"
+        "{W}",
+        "{C}",
+        "{C}"
       ],
       "damage": "80",
       "effect_id": null

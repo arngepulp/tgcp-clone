@@ -14,7 +14,7 @@
     {
       "name": "Crunch",
       "cost": [
-        "Metal"
+        "{M}"
       ],
       "damage": "20",
       "effect_id": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pok\u00e9mon."

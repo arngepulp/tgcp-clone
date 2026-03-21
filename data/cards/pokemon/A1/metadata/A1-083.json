@@ -14,9 +14,9 @@
     {
       "name": "Ice Beam",
       "cost": [
-        "Water",
-        "Water",
-        "Colorless"
+        "{W}",
+        "{W}",
+        "{C}"
       ],
       "damage": "60",
       "effect_id": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."

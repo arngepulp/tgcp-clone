@@ -14,9 +14,9 @@
     {
       "name": "Blizzard",
       "cost": [
-        "Water",
-        "Water",
-        "Water"
+        "{W}",
+        "{W}",
+        "{W}"
       ],
       "damage": 60,
       "effect_id": "This attack also does 20 damage to each of your opponent's Benched Pok\u00e9mon."

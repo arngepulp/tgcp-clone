@@ -14,7 +14,7 @@
     {
       "name": "Plasma",
       "cost": [
-        "Lightning"
+        "{L}"
       ],
       "damage": 10,
       "effect_id": "Take a {L} Energy from your Energy Zone and attach it to 1 of your Benched {L} Pok\u00e9mon."

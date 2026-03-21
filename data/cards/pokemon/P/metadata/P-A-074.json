@@ -19,8 +19,8 @@
     {
       "name": "Lightning Claw",
       "cost": [
-        "Lightning",
-        "Lightning"
+        "{L}",
+        "{L}"
       ],
       "damage": 50,
       "effect_id": null

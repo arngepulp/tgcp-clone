@@ -14,8 +14,8 @@
     {
       "name": "Shadow Claw",
       "cost": [
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}"
       ],
       "damage": "40",
       "effect_id": "Flip a coin. If heads, discard a random card from your opponent's hand."

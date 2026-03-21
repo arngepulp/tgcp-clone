@@ -14,8 +14,8 @@
     {
       "name": "Powerful Bloom",
       "cost": [
-        "Grass",
-        "Colorless"
+        "{G}",
+        "{C}"
       ],
       "damage": "50\u00d7",
       "effect_id": "Flip a coin for each Energy attached to this Pok\u00e9mon. This attack does 50 damage for each heads."

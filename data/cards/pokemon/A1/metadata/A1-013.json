@@ -14,9 +14,9 @@
     {
       "name": "Soothing Scent",
       "cost": [
-        "Grass",
-        "Grass",
-        "Colorless"
+        "{G}",
+        "{G}",
+        "{C}"
       ],
       "damage": "80",
       "effect_id": "Your opponent's Active Pok\u00e9mon is now Asleep."

@@ -14,10 +14,10 @@
     {
       "name": "Power Blast",
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Colorless",
-        "Colorless"
+        "{P}",
+        "{P}",
+        "{C}",
+        "{C}"
       ],
       "damage": 120,
       "effect_id": "Discard 2 {P} Energy from this Pok\u00e9mon."

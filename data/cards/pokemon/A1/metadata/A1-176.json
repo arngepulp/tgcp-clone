@@ -14,7 +14,7 @@
     {
       "name": "Suffocating Gas",
       "cost": [
-        "Darkness"
+        "{D}"
       ],
       "damage": "20",
       "effect_id": null

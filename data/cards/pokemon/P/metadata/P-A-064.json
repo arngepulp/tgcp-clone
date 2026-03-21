@@ -14,10 +14,10 @@
     {
       "name": "Draco Meteor",
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": null,
       "effect_id": "1 of your opponent's Pok\u00e9mon is chosen at random 4 times. For each time a Pok\u00e9mon was chosen, do 40 damage to it."

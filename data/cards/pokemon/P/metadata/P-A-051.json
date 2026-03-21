@@ -14,7 +14,7 @@
     {
       "name": "Overacceleration",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": 20,
       "effect_id": "During your next turn, this Pok\u00e9mon's Overacceleration attack does +20 damage."

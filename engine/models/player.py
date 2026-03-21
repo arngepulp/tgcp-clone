@@ -39,16 +39,21 @@ class Player:
         self.active = None
         self.bench = [None, None, None]
         self.path = f"decks/{deck_name}.json"
-        self.deck, self.energy_types = load_deck(self.path)  # energy_types not energy
+        self.deck, self.energy_types = load_deck(self.path)  
         random.shuffle(self.deck)
         self.hand = []          # must exist before draw_opening_hand
         self.discard = []
         self.energy_pool = [random.choice(self.energy_types) for _ in range(2)]
+        self.energy_attached_this_turn = False
     
-        draw_opening_hand(self)  # not self.hand = draw_opening_hand()
+        draw_opening_hand(self)  
+        
+        
     def energy_drawn(self):
         self.energy_pool.pop(0)
         self.energy_pool.append(random.choice(self.energy_types))
+        
+        
         
     def __repr__(self):
         return f"{self.deck_name} | PTS: {self.pts} | Active: {self.active} | Bench: {self.bench} | Energy: {self.energy_pool}"
@@ -64,6 +69,8 @@ class Player:
             '''
         
     def draw_card(self):
+        if len(self.deck) == 0:
+            print(f"{self.deck_name} has no cards left!")
+            return
         new_card = self.deck.pop(0)
         self.hand.append(new_card)
-        

@@ -14,8 +14,8 @@
     {
       "name": "Heart Stamp",
       "cost": [
-        "Psychic",
-        "Colorless"
+        "{P}",
+        "{C}"
       ],
       "damage": "60",
       "effect_id": null

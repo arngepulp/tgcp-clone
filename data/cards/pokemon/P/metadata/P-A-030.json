@@ -14,7 +14,7 @@
     {
       "name": "Growl",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": null,
       "effect_id": "During your opponent's next turn, attacks used by the Defending Pok\u00e9mon do \u221220 damage."

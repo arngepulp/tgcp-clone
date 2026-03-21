@@ -14,7 +14,7 @@
     {
       "name": "Tackle",
       "cost": [
-        "Fighting"
+        "{F}"
       ],
       "damage": "20",
       "effect_id": null

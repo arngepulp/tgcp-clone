@@ -14,8 +14,8 @@
     {
       "name": "Second Strike",
       "cost": [
-        "Water",
-        "Colorless"
+        "{W}",
+        "{C}"
       ],
       "damage": "10+",
       "effect_id": "If your opponent's Active Pok\u00e9mon has damage on it, this attack does 60 more damage."

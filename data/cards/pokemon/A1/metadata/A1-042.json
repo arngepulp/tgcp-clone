@@ -14,7 +14,7 @@
     {
       "name": "Flare",
       "cost": [
-        "Fire"
+        "{R}"
       ],
       "damage": "20",
       "effect_id": null

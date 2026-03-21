@@ -19,10 +19,10 @@
     {
       "name": "Spinning Attack",
       "cost": [
-        "Lightning",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{L}",
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": "60",
       "effect_id": null

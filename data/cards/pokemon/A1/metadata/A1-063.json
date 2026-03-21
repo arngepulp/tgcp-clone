@@ -14,8 +14,8 @@
     {
       "name": "Poison Tentacles",
       "cost": [
-        "Water",
-        "Colorless"
+        "{W}",
+        "{C}"
       ],
       "damage": "50",
       "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."

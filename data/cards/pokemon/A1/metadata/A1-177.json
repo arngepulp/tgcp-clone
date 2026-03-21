@@ -19,7 +19,7 @@
     {
       "name": "Tackle",
       "cost": [
-        "Darkness"
+        "{D}"
       ],
       "damage": "30",
       "effect_id": null

@@ -14,7 +14,7 @@
     {
       "name": "Stretch Kick",
       "cost": [
-        "Fighting"
+        "{F}"
       ],
       "damage": null,
       "effect_id": "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon."

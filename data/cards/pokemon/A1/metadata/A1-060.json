@@ -14,8 +14,8 @@
     {
       "name": "Knuckle Punch",
       "cost": [
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}"
       ],
       "damage": "40",
       "effect_id": null

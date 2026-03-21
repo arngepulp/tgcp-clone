@@ -14,7 +14,7 @@
     {
       "name": "Rain Splash",
       "cost": [
-        "Water"
+        "{W}"
       ],
       "damage": "30",
       "effect_id": null

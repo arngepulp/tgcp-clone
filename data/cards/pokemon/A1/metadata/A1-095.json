@@ -14,9 +14,9 @@
     {
       "name": "Thunderbolt",
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Lightning"
+        "{L}",
+        "{L}",
+        "{L}"
       ],
       "damage": "140",
       "effect_id": "Discard all Energy from this Pok\u00e9mon."

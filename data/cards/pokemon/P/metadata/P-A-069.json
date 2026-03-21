@@ -14,9 +14,9 @@
     {
       "name": "Tropical Hammer",
       "cost": [
-        "Grass",
-        "Colorless",
-        "Colorless"
+        "{G}",
+        "{C}",
+        "{C}"
       ],
       "damage": 150,
       "effect_id": "Flip a coin. If tails, this attack does nothing."

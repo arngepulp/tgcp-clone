@@ -14,9 +14,9 @@
     {
       "name": "Beat Punk",
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless"
+        "{R}",
+        "{R}",
+        "{C}"
       ],
       "damage": 130,
       "effect_id": "This Pok\u00e9mon also does 70 damage to itself."

@@ -14,8 +14,8 @@
     {
       "name": "Double Horn",
       "cost": [
-        "Grass",
-        "Grass"
+        "{G}",
+        "{G}"
       ],
       "damage": "50\u00d7",
       "effect_id": "Flip 2 coins. This attack does 50 damage for each heads."

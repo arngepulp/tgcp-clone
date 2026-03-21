@@ -14,7 +14,7 @@
     {
       "name": "Dizzy Punch",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": "30\u00d7",
       "effect_id": "Flip 2 coins. This attack does 30 damage for each heads."

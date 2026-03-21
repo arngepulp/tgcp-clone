@@ -14,7 +14,7 @@
     {
       "name": "Oceanic Gift",
       "cost": [
-        "Water"
+        "{W}"
       ],
       "damage": null,
       "effect_id": "Choose 2 of your Benched Pok\u00e9mon. For each of those Pok\u00e9mon, take a {W} Energy from your Energy Zone and attach it to that Pok\u00e9mon."

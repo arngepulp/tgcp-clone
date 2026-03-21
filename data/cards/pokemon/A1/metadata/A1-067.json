@@ -19,9 +19,9 @@
     {
       "name": "Surf",
       "cost": [
-        "Water",
-        "Water",
-        "Colorless"
+        "{W}",
+        "{W}",
+        "{C}"
       ],
       "damage": "70",
       "effect_id": null

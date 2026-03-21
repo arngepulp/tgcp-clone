@@ -14,10 +14,10 @@
     {
       "name": "Double-Edge",
       "cost": [
-        "Fighting",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{F}",
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": "150",
       "effect_id": "This Pok\u00e9mon also does 50 damage to itself."

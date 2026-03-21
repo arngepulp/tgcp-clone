@@ -14,8 +14,8 @@
     {
       "name": "Electro Ball",
       "cost": [
-        "Lightning",
-        "Lightning"
+        "{L}",
+        "{L}"
       ],
       "damage": "70",
       "effect_id": null

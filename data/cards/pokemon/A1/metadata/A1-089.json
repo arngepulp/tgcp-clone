@@ -19,8 +19,8 @@
     {
       "name": "Mist Slash",
       "cost": [
-        "Water",
-        "Colorless"
+        "{W}",
+        "{C}"
       ],
       "damage": "60",
       "effect_id": null

@@ -14,7 +14,7 @@
     {
       "name": "Tongue Slap",
       "cost": [
-        "Water"
+        "{W}"
       ],
       "damage": "20",
       "effect_id": null

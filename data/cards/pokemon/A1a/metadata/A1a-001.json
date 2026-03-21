@@ -14,7 +14,7 @@
     {
       "name": "Growth Spurt",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": null,
       "effect_id": "Take a {G} Energy from your Energy Zone and attach it to this Pok\u00e9mon."

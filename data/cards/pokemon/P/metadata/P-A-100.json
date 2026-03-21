@@ -14,7 +14,7 @@
     {
       "name": "Slash",
       "cost": [
-        "Darkness"
+        "{D}"
       ],
       "damage": 50,
       "effect_id": null

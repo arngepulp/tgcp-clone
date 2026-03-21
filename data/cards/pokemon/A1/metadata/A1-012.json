@@ -14,8 +14,8 @@
     {
       "name": "Drool",
       "cost": [
-        "Grass",
-        "Colorless"
+        "{G}",
+        "{C}"
       ],
       "damage": "40",
       "effect_id": null

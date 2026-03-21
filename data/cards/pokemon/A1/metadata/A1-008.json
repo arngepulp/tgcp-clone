@@ -14,7 +14,7 @@
     {
       "name": "Sting",
       "cost": [
-        "Grass"
+        "{G}"
       ],
       "damage": "20",
       "effect_id": null

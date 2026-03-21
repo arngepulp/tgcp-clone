@@ -14,7 +14,7 @@
     {
       "name": "Thrash Metal",
       "cost": [
-        "Grass"
+        "{G}"
       ],
       "damage": 40,
       "effect_id": null

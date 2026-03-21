@@ -14,10 +14,10 @@
     {
       "name": "Happy Punch",
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": 100,
       "effect_id": "Flip a coin. If heads, heal 60 damage from this Pok\u00e9mon."

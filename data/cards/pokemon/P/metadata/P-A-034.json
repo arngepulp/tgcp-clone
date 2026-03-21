@@ -14,7 +14,7 @@
     {
       "name": "Nap",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": null,
       "effect_id": "Heal 20 damage from this Pok\u00e9mon."

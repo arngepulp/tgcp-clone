@@ -14,9 +14,9 @@
     {
       "name": "Photon Claw",
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": 60,
       "effect_id": null
@@ -24,10 +24,10 @@
     {
       "name": "Shoegaze",
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Metal",
-        "Metal"
+        "{P}",
+        "{P}",
+        "{M}",
+        "{M}"
       ],
       "damage": 120,
       "effect_id": "Discard the top 5 cards of each player's deck."

@@ -14,7 +14,7 @@
     {
       "name": "Shell Attack",
       "cost": [
-        "Fighting"
+        "{F}"
       ],
       "damage": "40",
       "effect_id": null

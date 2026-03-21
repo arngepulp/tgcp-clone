@@ -14,7 +14,7 @@
     {
       "name": "Magical Shot",
       "cost": [
-        "Psychic"
+        "{P}"
       ],
       "damage": "40",
       "effect_id": null

@@ -14,8 +14,8 @@
     {
       "name": "Bristling Spikes",
       "cost": [
-        "Metal",
-        "Metal"
+        "{M}",
+        "{M}"
       ],
       "damage": 30,
       "effect_id": "During your opponent's next turn, if this Pok\u00e9mon is damaged by an attack, do 30 damage to the Attacking Pok\u00e9mon."

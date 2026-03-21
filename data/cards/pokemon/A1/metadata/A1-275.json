@@ -14,8 +14,8 @@
     {
       "name": "Ice Wing",
       "cost": [
-        "Water",
-        "Colorless"
+        "{W}",
+        "{C}"
       ],
       "damage": "40",
       "effect_id": null
@@ -23,9 +23,9 @@
     {
       "name": "Blizzard",
       "cost": [
-        "Water",
-        "Water",
-        "Water"
+        "{W}",
+        "{W}",
+        "{W}"
       ],
       "damage": "80",
       "effect_id": "This attack also does 10 damage to each of your opponent's Benched Pok\u00e9mon."

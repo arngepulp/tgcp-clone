@@ -14,7 +14,7 @@
     {
       "name": "Head Bolt",
       "cost": [
-        "Lightning"
+        "{L}"
       ],
       "damage": "40",
       "effect_id": null

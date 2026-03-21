@@ -14,9 +14,9 @@
     {
       "name": "Slash",
       "cost": [
-        "Grass",
-        "Grass",
-        "Colorless"
+        "{G}",
+        "{G}",
+        "{C}"
       ],
       "damage": "80",
       "effect_id": null

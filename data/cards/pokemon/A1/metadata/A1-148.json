@@ -14,9 +14,9 @@
     {
       "name": "Rollout",
       "cost": [
-        "Fighting",
-        "Colorless",
-        "Colorless"
+        "{F}",
+        "{C}",
+        "{C}"
       ],
       "damage": "70",
       "effect_id": null

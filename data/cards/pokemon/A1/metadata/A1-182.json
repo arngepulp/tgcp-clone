@@ -19,10 +19,10 @@
     {
       "name": "Heavy Impact",
       "cost": [
-        "Metal",
-        "Metal",
-        "Metal",
-        "Colorless"
+        "{M}",
+        "{M}",
+        "{M}",
+        "{C}"
       ],
       "damage": "120",
       "effect_id": null

@@ -14,10 +14,10 @@
     {
       "name": "Collapse",
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": 100,
       "effect_id": "This Pok\u00e9mon is now Asleep."

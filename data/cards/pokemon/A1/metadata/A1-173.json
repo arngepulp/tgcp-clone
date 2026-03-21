@@ -14,7 +14,7 @@
     {
       "name": "Wing Attack",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": "40",
       "effect_id": null

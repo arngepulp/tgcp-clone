@@ -14,7 +14,7 @@
     {
       "name": "Beginning Bolt",
       "cost": [
-        "Lightning"
+        "{L}"
       ],
       "damage": 40,
       "effect_id": "If this Pok\u00e9mon evolved during this turn, this attack does 20 more damage."

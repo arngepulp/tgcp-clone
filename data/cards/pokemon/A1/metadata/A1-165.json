@@ -14,8 +14,8 @@
     {
       "name": "Corner",
       "cost": [
-        "Darkness",
-        "Colorless"
+        "{D}",
+        "{C}"
       ],
       "damage": "60",
       "effect_id": "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat."

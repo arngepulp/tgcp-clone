@@ -14,9 +14,9 @@
     {
       "name": "Mega Punch",
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "{F}",
+        "{F}",
+        "{F}"
       ],
       "damage": "120",
       "effect_id": null

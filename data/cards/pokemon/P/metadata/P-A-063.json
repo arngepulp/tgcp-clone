@@ -14,10 +14,10 @@
     {
       "name": "Spiral Rush",
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": 70,
       "effect_id": "Flip a coin until you get tails. This attack does 30 more damage for each heads."

@@ -14,7 +14,7 @@
     {
       "name": "Ram",
       "cost": [
-        "Grass"
+        "{G}"
       ],
       "damage": "20",
       "effect_id": null

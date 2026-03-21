@@ -14,8 +14,8 @@
     {
       "name": "Primal Wingbeat",
       "cost": [
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}"
       ],
       "damage": null,
       "effect_id": "Flip a coin. If heads, your opponent shuffles their Active Pok\u00e9mon into their deck."

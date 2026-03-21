@@ -14,8 +14,8 @@
     {
       "name": "Leaf Supply",
       "cost": [
-        "Grass",
-        "Grass"
+        "{G}",
+        "{G}"
       ],
       "damage": "50",
       "effect_id": "Take a {G} Energy from your Energy Zone and attach it to 1 of your Benched {G} Pok\u00e9mon."

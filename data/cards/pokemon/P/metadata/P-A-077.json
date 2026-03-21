@@ -14,9 +14,9 @@
     {
       "name": "Electronica",
       "cost": [
-        "Lightning",
-        "Colorless",
-        "Colorless"
+        "{L}",
+        "{C}",
+        "{C}"
       ],
       "damage": 60,
       "effect_id": "Your opponent's Active Pok\u00e9mon is now Confused."

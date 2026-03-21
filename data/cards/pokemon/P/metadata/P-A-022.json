@@ -14,7 +14,7 @@
     {
       "name": "Sing",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": null,
       "effect_id": "Your opponent's Active Pok\u00e9mon is now Asleep."

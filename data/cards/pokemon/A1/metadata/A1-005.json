@@ -14,7 +14,7 @@
     {
       "name": "Find a Friend",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": null,
       "effect_id": "Put 1 random {G} Pok\u00e9mon from your deck into your hand."

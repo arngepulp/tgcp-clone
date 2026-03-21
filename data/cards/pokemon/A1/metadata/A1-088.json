@@ -14,7 +14,7 @@
     {
       "name": "Water Drip",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": "30",
       "effect_id": null

@@ -14,9 +14,9 @@
     {
       "name": "Land Crush",
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting"
+        "{F}",
+        "{F}",
+        "{F}"
       ],
       "damage": "70",
       "effect_id": null

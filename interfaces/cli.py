@@ -52,15 +52,21 @@ def choose_action(state):
     choice = input("\nChoose action: ")
     ## TODO add reprompts on failure, works with adding return TRUE for actions to see if they succeeded or not
     if choice == "1":
-        # print players attacks and list indexes for each
         atk_options = state.current_player.active.attacks
-        for i in atk_options:
-            print(f"{i}). {atk_options[i]}")
-        index = int(input("\n What attack?"))
-        attack(state,index)
-        
+        print("\nAttacks:")
+        for i, atk in enumerate(atk_options):
+            print(f"  [{i}] {atk['name']} | Cost: {atk['cost']} | Damage: {atk['damage']}")
+        index = int(input("Choose attack: "))
+        attack(state, index)
+            
     elif choice == "2":
-        card_id = input("Card ID to play: ")
+        print("\nYour hand:")
+        for i, card_id in enumerate(state.current_player.hand):
+            card = load_card(card_id)
+            print(f"  [{i}] {card.name} ({card_id})")
+        
+        index = int(input("Choose card: "))
+        card_id = state.current_player.hand[index]
         location = int(input("Location (0=active, 1-3=bench): "))
         play_pokemon(state, card_id, location)
         
@@ -91,7 +97,8 @@ def choose_action(state):
             else:
                 print("\nEvolve with:")
                 for i, card_id in enumerate(valid_evolvers):
-                    print(f"  [{i}] {card_id}")
+                    card = load_card(card_id)
+                    print(f"  [{i}] {card.name} ({card_id})")
                 evolver_id = valid_evolvers[int(input("Choose: "))]
                 
                 evolver_card = load_card(evolver_id)
@@ -116,14 +123,16 @@ def choose_action(state):
         index = int(input("Bench index to send out (1-3): "))
         retreat(state, index)
     elif choice == "6":
+    
         print("\nYour hand:")
         for i, card_id in enumerate(state.current_player.hand):
-            print(f"  [{i}] {card_id}")
+            card = load_card(card_id)
+            print(f"  [{i}] {card.name} ({card_id})")
         input("\nPress enter to continue...")
-        
+    
     elif choice == "7":
-        location = int(input("Location (0=active, 1-3=bench): "))
         who = input("Inspect yours or opponent? (y/o): ")
+        location = int(input("Location (0=active, 1-3=bench): "))
         inspect_pokemon(state, location, opponent=(who == "o"))
     elif choice == "8":
         end_turn(state)

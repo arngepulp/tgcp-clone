@@ -14,7 +14,7 @@
     {
       "name": "Bone Beatdown",
       "cost": [
-        "Fighting"
+        "{F}"
       ],
       "damage": "40",
       "effect_id": null

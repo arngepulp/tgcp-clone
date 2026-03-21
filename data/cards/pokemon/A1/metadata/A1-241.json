@@ -14,9 +14,9 @@
     {
       "name": "Poison Horn",
       "cost": [
-        "Darkness",
-        "Darkness",
-        "Colorless"
+        "{D}",
+        "{D}",
+        "{C}"
       ],
       "damage": "90",
       "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."

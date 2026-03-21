@@ -1,5 +1,26 @@
 from engine.models.card import load_card, PokemonCard
 from engine.models.pokemon import PokemonInstance
+from collections import Counter
+
+def check_requirements(target, check, wildcard='{C}'):
+    # count frequency of items in each list
+    target_counts = Counter(target)
+    check_counts = Counter(check)
+    
+    # find amount of wildcards
+    wildcards_needed = target_counts.pop(wildcard, 0)
+    
+    # check for all matching
+    for item, required_amount in target_counts.items():
+        if check_counts[item] < required_amount:
+            return False 
+        
+        
+        check_counts[item] -= required_amount
+        
+    leftover_items = sum(check_counts.values())
+    
+    return leftover_items >= wildcards_needed
 
 def get_location(state,location):
     # checks if a pokemon is in a location, if it is returns the pokemon instnace
@@ -35,12 +56,21 @@ def play_pokemon(state, card_id, location):
 
     
 def attach_energy(state,location=0):
+    if state.first_turn:
+        print("Can't attach energy on the first turn!")
+        return False
+    
+    if state.current_player.energy_attached_this_turn:
+        print("Already attached energy this turn!")
+        return False
     instance = get_location(state, location)
     if instance is None:
         print("No pokemon in that spot!")
         return
     instance.attach_energy(state.current_player.energy_pool[0])
-    state.current_player.energy_draw()
+    state.current_player.energy_attached_this_turn = True
+    print(f"the value {state.current_player.energy_attached_this_turn}")
+    state.current_player.energy_drawn()
     
 def evolve_pokemon(state,location,evolver_id):
     # check if pokemon has been out for at least 1 turn
@@ -78,9 +108,21 @@ def evolve_pokemon(state,location,evolver_id):
         state.current_player.bench[location - 1] = new_instance
 
 def attack(state,index=0):
+    ## TODO check pokemon energy before attacking
+    ## TODO change pokemon saving to save as energy code instead of energy name
+    atk = state.current_player.active.attacks[index]
+    cost = atk['cost']
+    # cost should look like htis ['{G}', '{C}']
+    energy = state.current_player.active.attached_energy
+    if not check_requirements(cost,energy):
+        print("Lacking energy to attack!")
+        return False
+    
+    
     damage = int(state.current_player.active.attacks[index]['damage'])
     damage_type = state.current_player.active.types[0]
     state.opponent.active.take_damage(damage, damage_type)
+    check_knockout(state)
     state.pass_turn()
 
 
@@ -118,4 +160,35 @@ def retreat(state, replacement_index):
 def end_turn(state):
     state.pass_turn()
     
-
+    
+# game loop stuff, here to prevent circualr imports because checking here stops errors
+# TODO think about if this is the right choice
+def check_knockout(state):
+    if state.opponent.active is None:
+        return
+    if state.opponent.active.current_hp <= 0:
+        available_bench = [p for p in state.opponent.bench if p is not None]
+        pts = points_on_knockout(state.opponent.active, bool(available_bench))
+        state.current_player.add_pts(pts)
+        print(f"{state.opponent.active.name} was knocked out! +{pts} point(s)")
+        state.opponent.active = None
+        
+        if not available_bench:
+            return
+        for i, p in enumerate(state.opponent.bench):
+            if p is not None:
+                state.opponent.active = p
+                state.opponent.bench[i] = None
+                print(f"{state.opponent.deck_name} sends out {state.opponent.active.name}!")
+                break
+            
+def points_on_knockout(pokemon, has_bench):
+    name = pokemon.name.lower()
+    if not has_bench:
+        return 3  # instant win bonus
+    if "ex" in name:
+        return 2
+    elif "mega" in name:
+        return 3
+    else:
+        return 1

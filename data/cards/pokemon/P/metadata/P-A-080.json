@@ -14,8 +14,8 @@
     {
       "name": "Brass Rock",
       "cost": [
-        "Metal",
-        "Colorless"
+        "{M}",
+        "{C}"
       ],
       "damage": 40,
       "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes \u221220 damage from attacks."

@@ -49,6 +49,8 @@ ENERGY_SYMBOLS = {
     "{C}": "Colorless",
 }
 
+ENERGY_NAMES_TO_SYMBOLS = {v: k for k, v in ENERGY_SYMBOLS.items()}
+
 # --- Rarities ---
 RARITIES = [
     "One Diamond",

@@ -14,10 +14,10 @@
     {
       "name": "Double Lariat",
       "cost": [
-        "Psychic",
-        "Psychic",
-        "Colorless",
-        "Colorless"
+        "{P}",
+        "{P}",
+        "{C}",
+        "{C}"
       ],
       "damage": "100\u00d7",
       "effect_id": "Flip 2 coins. This attack does 100 damage for each heads."

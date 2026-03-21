@@ -14,8 +14,8 @@
     {
       "name": "Headbutt",
       "cost": [
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}"
       ],
       "damage": 30,
       "effect_id": null

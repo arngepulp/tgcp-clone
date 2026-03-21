@@ -14,7 +14,7 @@
     {
       "name": "Stomp",
       "cost": [
-        "Grass"
+        "{G}"
       ],
       "damage": "30+",
       "effect_id": "Flip a coin. If heads, this attack does 30 more damage."

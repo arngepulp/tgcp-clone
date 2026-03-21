@@ -14,9 +14,9 @@
     {
       "name": "Tail Smack",
       "cost": [
-        "Water",
-        "Lightning",
-        "Colorless"
+        "{W}",
+        "{L}",
+        "{C}"
       ],
       "damage": "80",
       "effect_id": null

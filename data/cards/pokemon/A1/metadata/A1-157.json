@@ -14,10 +14,10 @@
     {
       "name": "Horn Drill",
       "cost": [
-        "Fighting",
-        "Fighting",
-        "Fighting",
-        "Colorless"
+        "{F}",
+        "{F}",
+        "{F}",
+        "{C}"
       ],
       "damage": "100",
       "effect_id": null

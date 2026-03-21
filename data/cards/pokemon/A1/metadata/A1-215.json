@@ -14,9 +14,9 @@
     {
       "name": "Rolling Tackle",
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": "80",
       "effect_id": null

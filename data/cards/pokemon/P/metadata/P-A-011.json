@@ -14,9 +14,9 @@
     {
       "name": "Gentle Slap",
       "cost": [
-        "Colorless",
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}",
+        "{C}"
       ],
       "damage": 60,
       "effect_id": null

@@ -14,7 +14,7 @@
     {
       "name": "Sweets Overload",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": 40,
       "effect_id": "This attack does 40 damage for each time your Pok\u00e9mon used Sweets Relay during this game."

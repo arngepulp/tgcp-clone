@@ -19,8 +19,8 @@
     {
       "name": "Spark",
       "cost": [
-        "Lightning",
-        "Lightning"
+        "{L}",
+        "{L}"
       ],
       "damage": 40,
       "effect_id": "This attack also does 20 damage to 1 of your opponent's Benched Pok\u00e9mon."

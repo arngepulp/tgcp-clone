@@ -14,8 +14,8 @@
     {
       "name": "Pin Missile",
       "cost": [
-        "Lightning",
-        "Colorless"
+        "{L}",
+        "{C}"
       ],
       "damage": "40\u00d7",
       "effect_id": "Flip 4 coins. This attack does 40 damage for each heads."

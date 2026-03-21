@@ -14,9 +14,9 @@
     {
       "name": "KO Crab",
       "cost": [
-        "Water",
-        "Water",
-        "Colorless"
+        "{W}",
+        "{W}",
+        "{C}"
       ],
       "damage": "80+",
       "effect_id": "Flip 2 coins. If both of them are heads, this attack does 80 more damage."

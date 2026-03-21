@@ -14,7 +14,7 @@
     {
       "name": "Reckless Charge",
       "cost": [
-        "Fighting"
+        "{F}"
       ],
       "damage": 30,
       "effect_id": "This Pok\u00e9mon also does 10 damage to itself."

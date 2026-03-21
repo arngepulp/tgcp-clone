@@ -14,7 +14,7 @@
     {
       "name": "Tiny Charge",
       "cost": [
-        "Lightning"
+        "{L}"
       ],
       "damage": "30",
       "effect_id": null

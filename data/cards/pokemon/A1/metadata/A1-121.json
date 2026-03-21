@@ -14,7 +14,7 @@
     {
       "name": "Will-O-Wisp",
       "cost": [
-        "Psychic"
+        "{P}"
       ],
       "damage": "30",
       "effect_id": null

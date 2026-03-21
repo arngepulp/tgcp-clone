@@ -14,7 +14,7 @@
     {
       "name": "Thunder Spear",
       "cost": [
-        "Lightning"
+        "{L}"
       ],
       "damage": null,
       "effect_id": "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon."

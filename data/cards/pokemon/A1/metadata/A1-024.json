@@ -14,8 +14,8 @@
     {
       "name": "Absorb",
       "cost": [
-        "Grass",
-        "Colorless"
+        "{G}",
+        "{C}"
       ],
       "damage": "40",
       "effect_id": "Heal 10 damage from this Pok\u00e9mon."

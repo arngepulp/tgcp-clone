@@ -14,9 +14,9 @@
     {
       "name": "Ancient Whirlpool",
       "cost": [
-        "Water",
-        "Colorless",
-        "Colorless"
+        "{W}",
+        "{C}",
+        "{C}"
       ],
       "damage": "70",
       "effect_id": "During your opponent's next turn, the Defending Pok\u00e9mon can't attack."

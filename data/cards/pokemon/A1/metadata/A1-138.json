@@ -14,8 +14,8 @@
     {
       "name": "Slash",
       "cost": [
-        "Fighting",
-        "Fighting"
+        "{F}",
+        "{F}"
       ],
       "damage": "70",
       "effect_id": null

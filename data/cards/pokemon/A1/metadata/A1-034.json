@@ -14,9 +14,9 @@
     {
       "name": "Fire Claws",
       "cost": [
-        "Fire",
-        "Colorless",
-        "Colorless"
+        "{R}",
+        "{C}",
+        "{C}"
       ],
       "damage": "60",
       "effect_id": null

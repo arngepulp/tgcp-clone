@@ -14,8 +14,8 @@
     {
       "name": "Hydro Splash",
       "cost": [
-        "Water",
-        "Water"
+        "{W}",
+        "{W}"
       ],
       "damage": "90",
       "effect_id": null

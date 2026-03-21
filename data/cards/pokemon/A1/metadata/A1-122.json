@@ -14,7 +14,7 @@
     {
       "name": "Bother",
       "cost": [
-        "Psychic"
+        "{P}"
       ],
       "damage": "50",
       "effect_id": "Your opponent can't use any Supporter cards from their hand during their next turn."

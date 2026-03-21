@@ -1,7 +1,7 @@
 # tests/test_actions.py
 from engine.models.player import Player
 from engine.game.board_state import Gamestate
-from engine.game.actions import play_pokemon, attach_energy, attack, end_turn, retreat
+from engine.game.actions import play_pokemon, attach_energy, attack, end_turn, retreat, check_requirements
 from engine.models.card import load_card
 from engine.models.pokemon import PokemonInstance
 
@@ -28,21 +28,19 @@ def test_play_pokemon_removes_from_hand():
 
 def test_attach_energy():
     game = setup_game()
+    game.first_turn = False  # bypass first turn rule
     play_pokemon(game, game.current_player.hand[0], 0)
-    attach_energy(game, "{G}", location=0)
+    attach_energy(game, location=0)
     assert "{G}" in game.current_player.active.attached_energy
 
 def test_attack_deals_damage():
     game = setup_game()
-    
-    bulbasaur = PokemonInstance(load_card("A1-001"))
     ponyta = PokemonInstance(load_card("A1-042"))
-    
-    # ponyta attacks bulbasaur
+    bulbasaur = PokemonInstance(load_card("A1-001"))
     game.current_player.active = ponyta
     game.opponent.active = bulbasaur
-    
-    target = game.opponent.active 
+    ponyta.attached_energy = ["{R}"]  # give enough energy to attack
+    target = game.opponent.active
     hp_before = target.current_hp
     attack(game)
     assert target.current_hp < hp_before
@@ -74,3 +72,10 @@ def test_retreat():
     assert game.current_player.bench[0].name == "Bulbasaur"
     # energy should be discarded
     assert len(game.current_player.active.attached_energy) == 0
+    
+    
+    def test_check_requirements():
+        assert check_requirements(['{G}', '{C}'], ['{G}', '{G}']) == True  # extra G covers colorless
+        assert check_requirements(['{G}', '{C}'], ['{G}']) == False  # not enough
+        assert check_requirements(['{G}', '{G}'], ['{G}', '{R}']) == False  # wrong type
+        assert check_requirements(['{C}', '{C}'], ['{G}', '{R}']) == True  # any 2 covers colorless

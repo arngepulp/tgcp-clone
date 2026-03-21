@@ -14,10 +14,10 @@
     {
       "name": "Hyper Beam",
       "cost": [
-        "Water",
-        "Water",
-        "Water",
-        "Water"
+        "{W}",
+        "{W}",
+        "{W}",
+        "{W}"
       ],
       "damage": "100",
       "effect_id": "Discard a random Energy from your opponent's Active Pok\u00e9mon."

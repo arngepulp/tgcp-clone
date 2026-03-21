@@ -14,7 +14,7 @@
     {
       "name": "Amass",
       "cost": [
-        "Metal"
+        "{M}"
       ],
       "damage": null,
       "effect_id": "Take 1 {M} Energy from your Energy Zone and attach it to this Pok\u00e9mon."

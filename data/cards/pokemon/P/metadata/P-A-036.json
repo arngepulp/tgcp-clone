@@ -14,8 +14,8 @@
     {
       "name": "Exciting Voltage",
       "cost": [
-        "Lightning",
-        "Lightning"
+        "{L}",
+        "{L}"
       ],
       "damage": "40+",
       "effect_id": "If this Pok\u00e9mon has at least 2 extra {L} Energy attached, this attack does 80 more damage."

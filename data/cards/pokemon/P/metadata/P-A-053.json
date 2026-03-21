@@ -14,7 +14,7 @@
     {
       "name": "Attack the Wound",
       "cost": [
-        "Water"
+        "{W}"
       ],
       "damage": "10+",
       "effect_id": "If your opponent's Active Pok\u00e9mon has damage on it, this attack does 60 more damage."

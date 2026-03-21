@@ -14,7 +14,7 @@
     {
       "name": "Tackle",
       "cost": [
-        "Lightning"
+        "{L}"
       ],
       "damage": "20",
       "effect_id": null

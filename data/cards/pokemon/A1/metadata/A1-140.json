@@ -14,7 +14,7 @@
     {
       "name": "Dig",
       "cost": [
-        "Fighting"
+        "{F}"
       ],
       "damage": "40",
       "effect_id": "Flip a coin. If heads, during your opponent\u2019s next turn, prevent all damage from\u2014and effects of\u2014attacks done to this Pok\u00e9mon."

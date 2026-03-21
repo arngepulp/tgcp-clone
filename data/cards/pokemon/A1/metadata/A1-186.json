@@ -14,7 +14,7 @@
     {
       "name": "Gust",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": "10",
       "effect_id": null

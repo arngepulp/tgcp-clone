@@ -14,7 +14,7 @@
     {
       "name": "Inferno Dance",
       "cost": [
-        "Fire"
+        "{R}"
       ],
       "damage": null,
       "effect_id": "Flip 3 coins. Take an amount of {R} Energy from your Energy Zone equal to the number of heads and attach it to your Benched {R} Pok\u00e9mon in any way you like."
@@ -22,9 +22,9 @@
     {
       "name": "Heat Blast",
       "cost": [
-        "Fire",
-        "Colorless",
-        "Colorless"
+        "{R}",
+        "{C}",
+        "{C}"
       ],
       "damage": 70,
       "effect_id": null

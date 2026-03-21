@@ -14,7 +14,7 @@
     {
       "name": "Copy Anything",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": null,
       "effect_id": "Choose 1 of your opponent\u2019s Pok\u00e9mon\u2019s attacks and use it as this attack. If this Pok\u00e9mon doesn\u2019t have the necessary Energy to use that attack, this attack does nothing."

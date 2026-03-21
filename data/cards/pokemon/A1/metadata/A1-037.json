@@ -14,7 +14,7 @@
     {
       "name": "Tail Whip",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": null,
       "effect_id": "Flip a coin. If heads, the Defending Pok\u00e9mon can't attack during your opponent's next turn."

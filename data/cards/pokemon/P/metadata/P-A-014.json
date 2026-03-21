@@ -14,9 +14,9 @@
     {
       "name": "Bubble Drain",
       "cost": [
-        "Water",
-        "Water",
-        "Colorless"
+        "{W}",
+        "{W}",
+        "{C}"
       ],
       "damage": 80,
       "effect_id": "Heal 20 damage from this Pok\u00e9mon."

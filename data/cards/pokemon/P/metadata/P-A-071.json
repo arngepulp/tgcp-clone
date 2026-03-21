@@ -14,7 +14,7 @@
     {
       "name": "Punch",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": 20,
       "effect_id": null

@@ -14,8 +14,8 @@
     {
       "name": "Magma Punch",
       "cost": [
-        "Fire",
-        "Fire"
+        "{R}",
+        "{R}"
       ],
       "damage": "50",
       "effect_id": null

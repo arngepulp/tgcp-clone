@@ -14,7 +14,7 @@
     {
       "name": "Pierce",
       "cost": [
-        "Metal"
+        "{M}"
       ],
       "damage": "30",
       "effect_id": null

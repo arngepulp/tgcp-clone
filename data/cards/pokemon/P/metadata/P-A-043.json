@@ -14,8 +14,8 @@
     {
       "name": "Leech Seed",
       "cost": [
-        "Grass",
-        "Grass"
+        "{G}",
+        "{G}"
       ],
       "damage": 60,
       "effect_id": "Heal 20 damage from this Pok\u00e9mon."

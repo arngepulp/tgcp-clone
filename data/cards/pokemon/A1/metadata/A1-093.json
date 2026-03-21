@@ -14,8 +14,8 @@
     {
       "name": "Powder Snow",
       "cost": [
-        "Water",
-        "Colorless"
+        "{W}",
+        "{C}"
       ],
       "damage": "40",
       "effect_id": "Your opponent's Active Pok\u00e9mon is now Asleep."

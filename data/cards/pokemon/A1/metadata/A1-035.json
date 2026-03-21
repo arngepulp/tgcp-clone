@@ -14,10 +14,10 @@
     {
       "name": "Fire Spin",
       "cost": [
-        "Fire",
-        "Fire",
-        "Colorless",
-        "Colorless"
+        "{R}",
+        "{R}",
+        "{C}",
+        "{C}"
       ],
       "damage": "150",
       "effect_id": "Discard 2 {R} Energy from this Pok\u00e9mon."

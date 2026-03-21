@@ -13,7 +13,7 @@
   "attacks": [
     {
       "name": "Twinkly Call",
-      "cost": null,
+      "cost": [],
       "damage": null,
       "effect_id": "Put a random Pok\u00e9mon from your deck into your hand."
     }

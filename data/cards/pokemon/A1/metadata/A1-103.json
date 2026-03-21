@@ -14,9 +14,9 @@
     {
       "name": "Raging Thunder",
       "cost": [
-        "Lightning",
-        "Lightning",
-        "Colorless"
+        "{L}",
+        "{L}",
+        "{C}"
       ],
       "damage": "100",
       "effect_id": "This attack also does 30 damage to 1 of your Benched Pok\u00e9mon."

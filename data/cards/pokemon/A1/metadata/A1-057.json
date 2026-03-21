@@ -14,7 +14,7 @@
     {
       "name": "Headache",
       "cost": [
-        "Colorless"
+        "{C}"
       ],
       "damage": "10",
       "effect_id": "Your opponent can't use any Supporter cards from their hand during their next turn."

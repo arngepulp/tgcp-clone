@@ -14,8 +14,8 @@
     {
       "name": "Iron Defense",
       "cost": [
-        "Colorless",
-        "Colorless"
+        "{C}",
+        "{C}"
       ],
       "damage": null,
       "effect_id": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks."

@@ -14,7 +14,7 @@
     {
       "name": "2-Step",
       "cost": [
-        "Darkness"
+        "{D}"
       ],
       "damage": 20,
       "effect_id": "Flip 2 coins. This attack does 20 damage for each heads."

@@ -14,8 +14,8 @@
     {
       "name": "Hydro Pump",
       "cost": [
-        "Water",
-        "Colorless"
+        "{W}",
+        "{C}"
       ],
       "damage": "80+",
       "effect_id": "If this Pok\u00e9mon has at least 2 extra {W} Energy attached, this attack does 60 more damage."

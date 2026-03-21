@@ -7,7 +7,12 @@ from tcgdexsdk import TCGdex
 
 # run with python -m data.cards.scraping.card_scrape
 #sys.path.append('../../../')  
-from consts import STAGE_IDS
+from consts import STAGE_IDS, ENERGY_SYMBOLS, ENERGY_NAMES_TO_SYMBOLS
+
+def convert_energy_cost(cost_list):
+    if not cost_list:
+        return []
+    return [ENERGY_NAMES_TO_SYMBOLS.get(energy, energy) for energy in cost_list]
 
 async def fetch_and_save_all_tcgp():
     sdk = TCGdex("en")
@@ -90,7 +95,7 @@ async def get_one_pokemon_details(sdk, card_id):
         "attacks": [
             {
                 "name": at.name,
-                "cost": getattr(at, 'cost', []),
+                "cost": convert_energy_cost(getattr(at, 'cost', [])),
                 "damage": getattr(at, 'damage', "0"), 
                 "effect_id": getattr(at, 'effect', None) 
             } for at in getattr(card, 'attacks', []) or []

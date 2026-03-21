@@ -13,7 +13,8 @@ def load_deck(path):
         for card in data["cards"]:
             for _ in range(card["count"]):
                 deck.append(card["id"])
-        return deck
+        energy = data.get("energy", [])
+        return deck, energy
     
 def draw_opening_hand(self):
     
@@ -32,24 +33,25 @@ def draw_opening_hand(self):
     
     
 class Player:
-    def __init__(self,deck_name):
+    def __init__(self, deck_name):
         self.pts = 0
-        
-        #board
         self.deck_name = deck_name
         self.active = None
         self.bench = [None, None, None]
         self.path = f"decks/{deck_name}.json"
-        self.deck = load_deck(self.path)
+        self.deck, self.energy_types = load_deck(self.path)  # energy_types not energy
         random.shuffle(self.deck)
-        self.hand = [] ## TODO once implementing longer decks cards should be drawn automatically for first turn.
+        self.hand = []          # must exist before draw_opening_hand
         self.discard = []
-        
-        self.attached_energy = False
-        self.has_attacked = False
+        self.energy_pool = [random.choice(self.energy_types) for _ in range(2)]
     
+        draw_opening_hand(self)  # not self.hand = draw_opening_hand()
+    def energy_drawn(self):
+        self.energy_pool.pop(0)
+        self.energy_pool.append(random.choice(self.energy_types))
+        
     def __repr__(self):
-        return f"{self.deck_name} | PTS: {self.pts} | Active: {self.active} | Bench: {self.bench}"
+        return f"{self.deck_name} | PTS: {self.pts} | Active: {self.active} | Bench: {self.bench} | Energy: {self.energy_pool}"
         
         
         

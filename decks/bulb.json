@@ -1,5 +1,6 @@
 {
-    "name": "Bulbusar",
+    "name": "Bulbasaur",
+    "energy": ["{G}"],
     "cards": [
         {"id": "A1-001", "count": 5},
         {"id": "A1-002", "count": 5}

@@ -34,12 +34,13 @@ def play_pokemon(state, card_id, location):
    
 
     
-def attach_energy(state, energy_type, location=0):
+def attach_energy(state,location=0):
     instance = get_location(state, location)
     if instance is None:
         print("No pokemon in that spot!")
         return
-    instance.attach_energy(energy_type)
+    instance.attach_energy(state.current_player.energy_pool[0])
+    state.current_player.energy_draw()
     
 def evolve_pokemon(state,location,evolver_id):
     # check if pokemon has been out for at least 1 turn
@@ -111,6 +112,7 @@ def retreat(state, replacement_index):
     state.current_player.active = replacement
     state.current_player.bench[replacement_index - 1] = active
 
+    return True ## TODO do this for other actions
 
 
 def end_turn(state):

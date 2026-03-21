@@ -30,6 +30,7 @@
             font-size: 11px;
             position: relative;
             overflow: hidden;
+            cursor: pointer; /* Makes it feel clickable */
         }
         .card img {
             width: 100%;
@@ -48,6 +49,42 @@
         }
         .hp { color: white; margin: 0; }
         .energy { color: #a29bfe; margin: 0; }
+        
+        /* THE NEW CLICK MENU STYLES */
+        .action-menu {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(15, 52, 96, 0.95);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 6px;
+            padding: 10px;
+            z-index: 10;
+        }
+        .action-menu form { margin: 0; }
+        .action-menu select {
+            width: 100%;
+            padding: 4px;
+            margin-bottom: 4px;
+            background: #0f3460;
+            color: white;
+            border: 1px solid #5b6eff;
+            border-radius: 4px;
+        }
+        .action-menu button {
+            width: 100%;
+            padding: 8px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .action-menu button:hover { background: #c0392b; }
+
         .bench1opp { grid-column: 1; grid-row: 1; }
         .bench2opp { grid-column: 2; grid-row: 1; }
         .bench3opp { grid-column: 3; grid-row: 1; }
@@ -56,6 +93,7 @@
         .bench1    { grid-column: 1; grid-row: 4; }
         .bench2    { grid-column: 2; grid-row: 4; }
         .bench3    { grid-column: 3; grid-row: 4; }
+        
         .hand {
             display: flex;
             flex-direction: row;
@@ -69,7 +107,10 @@
             width: 80px;
             border-radius: 5px;
             overflow: hidden;
+            cursor: grab;
         }
+        .hand-card:active { cursor: grabbing; }
+        
         .actions {
             display: flex;
             flex-direction: column;
@@ -81,65 +122,18 @@
             margin-top: 40px;
             border: 1px solid #0f3460;
         }
-        .actions form {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
+        .actions form { display: flex; flex-direction: column; gap: 4px; margin: 0; }
         .actions select {
-            width: 100%;
-            padding: 3px;
-            border-radius: 4px;
-            background: #0f3460;
-            color: white;
-            border: none;
+            width: 100%; padding: 3px; border-radius: 4px; background: #0f3460; color: white; border: none;
         }
         .actions button {
-            width: 100%;
-            padding: 6px;
-            border-radius: 4px;
-            border: none;
-            background: #5b6eff;
-            color: white;
-            cursor: pointer;
-            font-weight: bold;
+            width: 100%; padding: 6px; border-radius: 4px; border: none; background: #5b6eff; color: white; cursor: pointer; font-weight: bold;
         }
-        .actions button:hover {
-            background: #3a4fcc;
-        }
-        .turn-indicator {
-            text-align: center;
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            color: #a29bfe;
-        }
-        .deck-info {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            margin-bottom: 10px;
-            color: #b2b2c8;
-        }
-        .pts-info {
-            display: flex;
-            justify-content: center;
-            gap: 60px;
-            margin-bottom: 10px;
-            font-size: 16px;
-            font-weight: bold;
-        }
-        .message-box {
-            background: #e74c3c;
-            color: white;
-            padding: 8px 16px;
-            border-radius: 6px;
-            text-align: center;
-            margin-bottom: 10px;
-            max-width: 400px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+        .actions button:hover { background: #3a4fcc; }
+        .turn-indicator { text-align: center; font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #a29bfe; }
+        .deck-info { display: flex; justify-content: center; gap: 40px; margin-bottom: 10px; color: #b2b2c8; }
+        .pts-info { display: flex; justify-content: center; gap: 60px; margin-bottom: 10px; font-size: 16px; font-weight: bold; }
+        .message-box { background: #e74c3c; color: white; padding: 8px 16px; border-radius: 6px; text-align: center; margin-bottom: 10px; max-width: 400px; margin-left: auto; margin-right: auto; }
     </style>
 </head>
 <body>
@@ -182,45 +176,6 @@
             </form>
 
         {% else %}
-            <form action="/attack" method="POST">
-                <input type="hidden" name="player" value="{{ player_num }}">
-                <select name="attack_index">
-                    {% if player.active %}
-                        {% for atk in player.active.attacks %}
-                            <option value="{{ loop.index0 }}">{{ atk.name }} - {{ atk.damage }}</option>
-                        {% endfor %}
-                    {% endif %}
-                </select>
-                <button type="submit">Attack</button>
-
-            </form>
-            <form action="/use_ability" method="POST">
-                <input type="hidden" name="player" value="{{ player_num }}">
-                <select name="location">
-                    <option value="0">Active</option>
-                    <option value="1">Bench 1</option>
-                    <option value="2">Bench 2</option>
-                    <option value="3">Bench 3</option>
-                </select>
-                <button type="submit">Use Ability</button>
-            </form>
-
-            <form action="/play_or_evolve" method="POST">
-                <input type="hidden" name="player" value="{{ player_num }}">
-                <select name="card_index">
-                    {% for i in range(player.hand | length) %}
-                        <option value="{{ i }}">{{ player.hand[i] }}</option>
-                    {% endfor %}
-                </select>
-                <select name="location">
-                    <option value="0">Active</option>
-                    <option value="1">Bench 1</option>
-                    <option value="2">Bench 2</option>
-                    <option value="3">Bench 3</option>
-                </select>
-                <button type="submit">Play / Evolve</button>
-            </form>
-
             <form action="/attach_energy" method="POST">
                 <input type="hidden" name="player" value="{{ player_num }}">
                 <select name="location">
@@ -232,22 +187,13 @@
                 <button type="submit">Attach Energy</button>
             </form>
 
-            <form action="/retreat" method="POST">
-                <input type="hidden" name="player" value="{{ player_num }}">
-                <select name="bench_index">
-                    <option value="1">Bench 1</option>
-                    <option value="2">Bench 2</option>
-                    <option value="3">Bench 3</option>
-                </select>
-                <button type="submit">Retreat</button>
-            </form>
-
             <form action="/end_turn" method="POST">
                 <input type="hidden" name="player" value="{{ player_num }}">
-                <button type="submit">End Turn</button>
+                <button type="submit" style="background: #e67e22;">End Turn</button>
             </form>
         {% endif %}
-    </div>
+        </div>
+
         <div>
             <div class="board">
                 <div class="card bench1opp">
@@ -258,7 +204,7 @@
                             <p class="energy">{{ opponent.bench[0].attached_energy | join(', ') }}</p>
                         </div>
                     {% else %}
-                        <p>Empty</p>
+                        <p style="text-align:center; margin-top:130px;">Empty</p>
                     {% endif %}
                 </div>
                 <div class="card bench2opp">
@@ -269,7 +215,7 @@
                             <p class="energy">{{ opponent.bench[1].attached_energy | join(', ') }}</p>
                         </div>
                     {% else %}
-                        <p>Empty</p>
+                        <p style="text-align:center; margin-top:130px;">Empty</p>
                     {% endif %}
                 </div>
                 <div class="card bench3opp">
@@ -280,7 +226,7 @@
                             <p class="energy">{{ opponent.bench[2].attached_energy | join(', ') }}</p>
                         </div>
                     {% else %}
-                        <p>Empty</p>
+                        <p style="text-align:center; margin-top:130px;">Empty</p>
                     {% endif %}
                 </div>
                 <div class="card activeopp">
@@ -291,18 +237,51 @@
                             <p class="energy">{{ opponent.active.attached_energy | join(', ') }}</p>
                         </div>
                     {% else %}
-                        <p>Empty</p>
+                        <p style="text-align:center; margin-top:130px;">Empty</p>
                     {% endif %}
                 </div>
-                <div class="card active" ondragover="allowDrop(event)" ondrop="dropPlayPokemon(event, 0)">
+
+                <div class="card active" ondragover="allowDrop(event)" ondrop="dropPlayPokemon(event, 0)" onclick="toggleMenu('active-menu', event)">
                     {% if player.active %}
                         <img src="/card_image/pokemon/{{ player.active.id.split('-')[0] }}/{{ player.active.id }}">
                         <div class="card-info">
                             <p class="hp">HP: {{ player.active.current_hp }}/{{ player.active.hp }}</p>
                             <p class="energy">{{ player.active.attached_energy | join(', ') }}</p>
                         </div>
+
+                        <div id="active-menu" class="action-menu" style="display: none;" onclick="event.stopPropagation();">
+                            
+                            {% for atk in player.active.attacks %}
+                                <form action="/attack" method="POST">
+                                    <input type="hidden" name="player" value="{{ player_num }}">
+                                    <input type="hidden" name="attack_index" value="{{ loop.index0 }}">
+                                    <button type="submit">⚔️ {{ atk.name }} ({{ atk.damage }})</button>
+                                </form>
+                            {% endfor %}
+
+                            <form action="/use_ability" method="POST">
+                                <input type="hidden" name="player" value="{{ player_num }}">
+                                <input type="hidden" name="location" value="0">
+                                <button type="submit" style="background: #9b59b6;">✨ Use Ability</button>
+                            </form>
+                            
+                            <form action="/retreat" method="POST">
+                                <input type="hidden" name="player" value="{{ player_num }}">
+                                <div style="display: flex; gap: 4px;">
+                                    <select name="bench_index">
+                                        {% if player.bench[0] %}<option value="1">Bench 1</option>{% endif %}
+                                        {% if player.bench[1] %}<option value="2">Bench 2</option>{% endif %}
+                                        {% if player.bench[2] %}<option value="3">Bench 3</option>{% endif %}
+                                    </select>
+                                    <button type="submit" style="background: #f1c40f; color: #333; flex-shrink: 0; width: auto;">🏃 Retreat</button>
+                                </div>
+                            </form>
+
+                            <button onclick="toggleMenu('active-menu', event)" style="background: #7f8c8d;">Cancel</button>
+                        </div>
+
                     {% else %}
-                        <p>Empty</p>
+                        <p style="text-align:center; margin-top:130px;">Empty</p>
                     {% endif %}
                 </div>
 
@@ -314,7 +293,7 @@
                             <p class="energy">{{ player.bench[0].attached_energy | join(', ') }}</p>
                         </div>
                     {% else %}
-                        <p>Empty</p>
+                        <p style="text-align:center; margin-top:130px;">Empty</p>
                     {% endif %}
                 </div>
 
@@ -326,7 +305,7 @@
                             <p class="energy">{{ player.bench[1].attached_energy | join(', ') }}</p>
                         </div>
                     {% else %}
-                        <p>Empty</p>
+                        <p style="text-align:center; margin-top:130px;">Empty</p>
                     {% endif %}
                 </div>
 
@@ -338,11 +317,12 @@
                             <p class="energy">{{ player.bench[2].attached_energy | join(', ') }}</p>
                         </div>
                     {% else %}
-                        <p>Empty</p>
+                        <p style="text-align:center; margin-top:130px;">Empty</p>
                     {% endif %}
                 </div>
+            </div>
 
-          <div class="hand">
+            <div class="hand">
                 {% for card_id in player.hand %}
                     <div class="hand-card" draggable="true" ondragstart="dragStart(event, {{ loop.index0 }})">
                         <img src="/card_image/pokemon/{{ card_id.split('-')[0] }}/{{ card_id }}" style="width:100%; height:auto;">
@@ -351,7 +331,6 @@
             </div>
         </div>
     </div>
-
 
 <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
 <script>
@@ -363,17 +342,17 @@
 </script>
 
 <script>
-    // 1. Pick up the card
+    // 1. Pick up the card from Hand
     function dragStart(event, cardIndex) {
         event.dataTransfer.setData("cardIndex", cardIndex);
     }
 
-    // 2. Allow dropping on the board
+    // 2. Allow dropping on the board slots
     function allowDrop(event) {
-        event.preventDefault(); // Required by browsers to allow a drop
+        event.preventDefault(); 
     }
 
-    // 3. Handle the drop and send to Flask
+    // 3. Drop to Play/Evolve
     function dropPlayPokemon(event, locationIndex) {
         event.preventDefault();
         let cardIndex = event.dataTransfer.getData("cardIndex");
@@ -384,14 +363,21 @@
         formData.append('card_index', cardIndex);
         formData.append('location', locationIndex);
 
-        // Send a silent POST request to your existing route
         fetch('/play_or_evolve', {
             method: 'POST',
             body: formData
         });
-        // We don't even need to handle the response, because your 
-        // redirect_or_win() in Flask triggers a SocketIO 'refresh' 
-        // which will automatically reload the page for us!
+    }
+
+    // 4. Toggle the click menu
+    function toggleMenu(menuId, event) {
+        if (event) event.stopPropagation(); 
+        let menu = document.getElementById(menuId);
+        if (menu.style.display === "none" || menu.style.display === "") {
+            menu.style.display = "flex";
+        } else {
+            menu.style.display = "none";
+        }
     }
 </script>
 </body>

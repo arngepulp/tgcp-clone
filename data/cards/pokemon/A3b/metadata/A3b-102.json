@@ -1,0 +1,32 @@
+{
+  "id": "A3b-102",
+  "name": "Farfetch'd",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Leek Slap",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/102/high.png"
+}

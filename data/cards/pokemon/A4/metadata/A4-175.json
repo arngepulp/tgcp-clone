@@ -1,0 +1,33 @@
+{
+  "id": "A4-175",
+  "name": "Wobbuffet",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Reply Strongly",
+      "cost": [
+        "{P}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": "If this Pok\u00e9mon was damaged by an attack during your opponent's last turn while it was in the Active Spot, this attack does 50 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/175/high.png"
+}

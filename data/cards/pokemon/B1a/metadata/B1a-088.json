@@ -1,0 +1,32 @@
+{
+  "id": "B1a-088",
+  "name": "Oddish",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Poison Powder",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 10,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "None/high.png"
+}

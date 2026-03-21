@@ -1,0 +1,35 @@
+{
+  "id": "B1-032",
+  "name": "Ho-Oh",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Blessed Burn",
+      "cost": [
+        "{R}",
+        "{R}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 100,
+      "effect_id": "Heal 30 damage from each of your Benched Basic Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/032/high.png"
+}

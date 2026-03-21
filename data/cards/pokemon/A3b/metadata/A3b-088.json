@@ -1,0 +1,42 @@
+{
+  "id": "A3b-088",
+  "name": "Primarina ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 180,
+  "types": [
+    "Water"
+  ],
+  "stage": 2,
+  "evolves_from": "Brionne",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Hydro Pump",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 40,
+      "effect_id": "If this Pok\u00e9mon has at least 1 extra {W} Energy attached, this attack does 40 more damage."
+    },
+    {
+      "name": "Sparkling Aria",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{W}"
+      ],
+      "damage": 100,
+      "effect_id": "Heal 20 damage from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/088/high.png"
+}

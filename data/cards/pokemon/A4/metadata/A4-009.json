@@ -1,0 +1,33 @@
+{
+  "id": "A4-009",
+  "name": "Bayleef",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Chikorita",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Vine Whip",
+      "cost": [
+        "{G}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/009/high.png"
+}

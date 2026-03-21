@@ -1,0 +1,42 @@
+{
+  "id": "B2-023",
+  "name": "Blacephalon ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Singe",
+      "cost": [
+        "{R}"
+      ],
+      "damage": null,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Burned."
+    },
+    {
+      "name": "Pop-Punk",
+      "cost": [
+        "{R}",
+        "{R}",
+        "{R}"
+      ],
+      "damage": 140,
+      "effect_id": "Discard 3 {R} Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/023/high.png"
+}

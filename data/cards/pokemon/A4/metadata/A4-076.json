@@ -1,0 +1,33 @@
+{
+  "id": "A4-076",
+  "name": "Jynx",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Attract Smack",
+      "cost": [
+        "{P}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/076/high.png"
+}

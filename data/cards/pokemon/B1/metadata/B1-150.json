@@ -1,0 +1,33 @@
+{
+  "id": "B1-150",
+  "name": "Absol",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Ominous Claw",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": 50,
+      "effect_id": "Flip a coin. If heads, your opponent reveals their hand. Choose a Supporter card you find there and discard it."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/150/high.png"
+}

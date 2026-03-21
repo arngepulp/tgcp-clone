@@ -1,0 +1,33 @@
+{
+  "id": "B2-026",
+  "name": "Cinderace",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Raboot",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fireball Shot",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 120,
+      "effect_id": "During your next turn, this Pok\u00e9mon can't attack."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/026/high.png"
+}

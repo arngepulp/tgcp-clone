@@ -1,0 +1,33 @@
+{
+  "id": "A4-091",
+  "name": "Musharna",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Munna",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Dream Dance",
+      "cost": [
+        "{P}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": "Both Active Pok\u00e9mon are now Asleep."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/091/high.png"
+}

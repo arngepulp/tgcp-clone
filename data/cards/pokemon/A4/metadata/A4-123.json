@@ -1,0 +1,33 @@
+{
+  "id": "A4-123",
+  "name": "Scizor",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Scyther",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Gale Thrust",
+      "cost": [
+        "{M}",
+        "{M}"
+      ],
+      "damage": 50,
+      "effect_id": "If this Pok\u00e9mon moved from your Bench to the Active Spot this turn, this attack does 50 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/123/high.png"
+}

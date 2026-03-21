@@ -1,0 +1,32 @@
+{
+  "id": "B1-166",
+  "name": "Ferroseed",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Rolling Tackle",
+      "cost": [
+        "{M}"
+      ],
+      "damage": 20,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/166/high.png"
+}

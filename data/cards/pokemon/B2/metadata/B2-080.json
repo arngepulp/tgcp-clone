@@ -1,0 +1,32 @@
+{
+  "id": "B2-080",
+  "name": "Machoke",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Machop",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Chop",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/080/high.png"
+}

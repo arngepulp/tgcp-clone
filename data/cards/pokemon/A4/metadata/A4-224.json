@@ -1,0 +1,32 @@
+{
+  "id": "A4-224",
+  "name": "Nidorina",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Nidoran\u2640",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "{D}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/224/high.png"
+}

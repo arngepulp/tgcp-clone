@@ -1,0 +1,37 @@
+{
+  "id": "A4-021",
+  "name": "Shuckle ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Solid Shell",
+      "effect_id": "This Pok\u00e9mon takes \u221220 damage from attacks."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Triple Slap",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 20,
+      "effect_id": "Flip 3 coins. This attack does 20 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/021/high.png"
+}

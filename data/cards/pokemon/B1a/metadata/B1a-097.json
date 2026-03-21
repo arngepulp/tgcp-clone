@@ -1,0 +1,33 @@
+{
+  "id": "B1a-097",
+  "name": "Silvally",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Type: Null",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Brave Buddies",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": "If you played a Supporter card from your hand during this turn, this attack does 50 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/097/high.png"
+}

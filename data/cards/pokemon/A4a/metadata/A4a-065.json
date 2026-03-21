@@ -1,0 +1,38 @@
+{
+  "id": "A4a-065",
+  "name": "Zangoose",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Counterattack",
+      "effect_id": "If this Pok\u00e9mon is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon, do 20 damage to the Attacking Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/065/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A3b-017",
+  "name": "Glaceon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Ice Blade",
+      "cost": [
+        "{W}",
+        "{W}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/017/high.png"
+}

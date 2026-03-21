@@ -1,0 +1,32 @@
+{
+  "id": "A3b-063",
+  "name": "Cinccino",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Minccino",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slap",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/063/high.png"
+}

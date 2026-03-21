@@ -1,0 +1,33 @@
+{
+  "id": "A3-105",
+  "name": "Minior",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Star Drop",
+      "cost": [
+        "{F}",
+        "{F}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 40 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/105/high.png"
+}

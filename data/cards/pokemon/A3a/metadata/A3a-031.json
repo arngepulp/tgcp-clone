@@ -1,0 +1,39 @@
+{
+  "id": "A3a-031",
+  "name": "Claydol",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Baltoy",
+  "abilities": [
+    {
+      "name": "Heal Block",
+      "effect_id": "Pok\u00e9mon (both yours and your opponent's) can't be healed."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Power Beam",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/031/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "B1-201",
+  "name": "Lillipup",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Collect",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Draw a card."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/201/high.png"
+}

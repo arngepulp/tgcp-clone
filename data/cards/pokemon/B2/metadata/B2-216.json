@@ -1,0 +1,32 @@
+{
+  "id": "B2-216",
+  "name": "Latias",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Crossing Flights",
+      "cost": [
+        "{P}"
+      ],
+      "damage": 20,
+      "effect_id": "If Latios is on your Bench, this attack does 20 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/216/high.png"
+}

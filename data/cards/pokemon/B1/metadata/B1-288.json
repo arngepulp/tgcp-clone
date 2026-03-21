@@ -1,0 +1,33 @@
+{
+  "id": "B1-288",
+  "name": "Weepinbell",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Bellsprout",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Razor Leaf",
+      "cost": [
+        "{G}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/288/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "B1-006",
+  "name": "Cascoon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Wurmple",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Harden",
+      "cost": [
+        "{G}"
+      ],
+      "damage": null,
+      "effect_id": "During your opponent's next turn, prevent all damage done to this Pok\u00e9mon by attacks if that damage is 40 or less."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/006/high.png"
+}

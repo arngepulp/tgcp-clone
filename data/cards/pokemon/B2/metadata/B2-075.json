@@ -1,0 +1,37 @@
+{
+  "id": "B2-075",
+  "name": "Polteageist",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Sinistea",
+  "abilities": [
+    {
+      "name": "Refreshing Tea",
+      "effect_id": "Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may have your opponent shuffle their hand into their deck. For each remaining point that your opponent needs to win, they draw a card."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Spooky Shot",
+      "cost": [
+        "{P}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/075/high.png"
+}

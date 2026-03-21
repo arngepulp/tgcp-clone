@@ -1,0 +1,32 @@
+{
+  "id": "A3a-071",
+  "name": "Pheromosa",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Jump Blues",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 20,
+      "effect_id": "This attack also does 20 damage to 1 of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/071/high.png"
+}

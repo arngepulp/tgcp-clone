@@ -1,0 +1,16 @@
+{
+  "id": "A2a-089",
+  "name": "Barry",
+  "suffix": null,
+  "card_type": "Trainer",
+  "hp": null,
+  "types": [],
+  "stage": null,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [],
+  "weakness": [],
+  "retreat_cost": null,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/089/high.png"
+}

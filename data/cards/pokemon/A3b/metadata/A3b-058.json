@@ -1,0 +1,32 @@
+{
+  "id": "A3b-058",
+  "name": "Aipom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Double Hit",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "Flip 2 coins. This attack does 20 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/058/high.png"
+}

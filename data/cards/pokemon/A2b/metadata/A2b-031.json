@@ -1,0 +1,33 @@
+{
+  "id": "A2b-031",
+  "name": "Alakazam",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 2,
+  "evolves_from": "Kadabra",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Psychic Suppression",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 80,
+      "effect_id": "This attack also does 20 damage to each of your opponent's Benched Pok\u00e9mon that has any Energy attached."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/031/high.png"
+}

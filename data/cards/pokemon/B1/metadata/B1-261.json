@@ -1,0 +1,32 @@
+{
+  "id": "B1-261",
+  "name": "Hitmonchan ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Quick Straight",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 50,
+      "effect_id": "This attack's damage isn't affected by Weakness."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/261/high.png"
+}

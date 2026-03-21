@@ -1,0 +1,33 @@
+{
+  "id": "B1-283",
+  "name": "Tauros ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Wild Tackle",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": "Flip a coin. If tails, this Pok\u00e9mon also does 30 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/283/high.png"
+}

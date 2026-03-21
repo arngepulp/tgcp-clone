@@ -1,0 +1,34 @@
+{
+  "id": "A2b-041",
+  "name": "Hitmonchan",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Magnum Punch",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{F}"
+      ],
+      "damage": 90,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/041/high.png"
+}

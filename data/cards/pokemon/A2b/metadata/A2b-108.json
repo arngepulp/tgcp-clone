@@ -1,0 +1,44 @@
+{
+  "id": "A2b-108",
+  "name": "Charizard ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 180,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Charmeleon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Stoke",
+      "cost": [
+        "{R}"
+      ],
+      "damage": null,
+      "effect_id": "Take 3 {R} Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+    },
+    {
+      "name": "Steam Artillery",
+      "cost": [
+        "{R}",
+        "{R}",
+        "{R}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 150,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/108/high.png"
+}

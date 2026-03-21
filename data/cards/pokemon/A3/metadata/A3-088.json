@@ -1,0 +1,35 @@
+{
+  "id": "A3-088",
+  "name": "Necrozma",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Prismatic Laser",
+      "cost": [
+        "{P}",
+        "{P}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 120,
+      "effect_id": "During your next turn, this Pok\u00e9mon can't attack."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/088/high.png"
+}

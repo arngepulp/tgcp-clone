@@ -1,0 +1,35 @@
+{
+  "id": "A3b-039",
+  "name": "Whiscash",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Barboach",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Earthquake",
+      "cost": [
+        "{F}",
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 130,
+      "effect_id": "This attack also does 10 damage to each of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/039/high.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "A3-159",
+  "name": "Tapu Bulu",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Stuck-In Tackle",
+      "cost": [
+        "{G}",
+        "{G}",
+        "{C}"
+      ],
+      "damage": 100,
+      "effect_id": "Flip a coin. If tails, this Pok\u00e9mon also does 20 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/159/high.png"
+}

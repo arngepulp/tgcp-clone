@@ -1,0 +1,34 @@
+{
+  "id": "A2-166",
+  "name": "Mesprit",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Supreme Blast",
+      "cost": [
+        "{P}",
+        "{P}",
+        "{P}"
+      ],
+      "damage": 160,
+      "effect_id": "You can use this attack only if you have Uxie and Azelf on your Bench. Discard all Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/166/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B1-088",
+  "name": "Luxray",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 2,
+  "evolves_from": "Luxio",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Flash Impact",
+      "cost": [
+        "{L}",
+        "{C}"
+      ],
+      "damage": 110,
+      "effect_id": "This attack also does 20 damage to 1 of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/088/high.png"
+}

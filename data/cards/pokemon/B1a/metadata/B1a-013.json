@@ -1,0 +1,35 @@
+{
+  "id": "B1a-013",
+  "name": "Charizard",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Charmeleon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Inferno Onrush",
+      "cost": [
+        "{R}",
+        "{R}",
+        "{R}",
+        "{C}"
+      ],
+      "damage": 150,
+      "effect_id": "This Pok\u00e9mon also does 30 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/013/high.png"
+}

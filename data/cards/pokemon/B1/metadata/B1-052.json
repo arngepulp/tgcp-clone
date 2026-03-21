@@ -1,0 +1,35 @@
+{
+  "id": "B1-052",
+  "name": "Mega Gyarados ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 210,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Magikarp",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Mega Blaster",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{W}",
+        "{C}"
+      ],
+      "damage": 140,
+      "effect_id": "Discard the top 3 cards of your opponent's deck."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/052/high.png"
+}

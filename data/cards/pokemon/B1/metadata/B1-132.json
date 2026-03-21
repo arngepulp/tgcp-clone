@@ -1,0 +1,34 @@
+{
+  "id": "B1-132",
+  "name": "Krookodile",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Krokorok",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Chomp Chomp Bite",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/132/high.png"
+}

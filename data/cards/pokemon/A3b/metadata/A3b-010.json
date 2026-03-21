@@ -1,0 +1,33 @@
+{
+  "id": "A3b-010",
+  "name": "Torkoal",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Flamethrower",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 70,
+      "effect_id": "Discard a {R} Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/010/high.png"
+}

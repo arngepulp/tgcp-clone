@@ -1,0 +1,33 @@
+{
+  "id": "B2-039",
+  "name": "Vanilluxe",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Water"
+  ],
+  "stage": 2,
+  "evolves_from": "Vanillish",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sweets Relay",
+      "cost": [
+        "{W}",
+        "{W}"
+      ],
+      "damage": 60,
+      "effect_id": "If 1 of your Pok\u00e9mon used Sweets Relay during your last turn, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/039/high.png"
+}

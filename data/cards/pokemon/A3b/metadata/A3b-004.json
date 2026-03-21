@@ -1,0 +1,32 @@
+{
+  "id": "A3b-004",
+  "name": "Steenee",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Bounsweet",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Leaf Step",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/004/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A1a-027",
+  "name": "Electabuzz",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Thunder Spear",
+      "cost": [
+        "{L}",
+        "{L}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 40 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/027/high.png"
+}

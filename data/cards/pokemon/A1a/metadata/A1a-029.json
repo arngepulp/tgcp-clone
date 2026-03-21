@@ -1,0 +1,33 @@
+{
+  "id": "A1a-029",
+  "name": "Galvantula",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Joltik",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Electroweb",
+      "cost": [
+        "{L}",
+        "{L}"
+      ],
+      "damage": 70,
+      "effect_id": "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/029/high.png"
+}

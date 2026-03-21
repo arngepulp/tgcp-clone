@@ -1,0 +1,40 @@
+{
+  "id": "A2b-083",
+  "name": "Giratina ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Broken-Space Bellow",
+      "effect_id": "Once during your turn, you may take a {P} Energy from your Energy Zone and attach it to this Pok\u00e9mon. If you use this Ability, your turn ends."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Chaotic Impact",
+      "cost": [
+        "{P}",
+        "{P}",
+        "{P}",
+        "{C}"
+      ],
+      "damage": 130,
+      "effect_id": "This Pok\u00e9mon also does 20 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/083/high.png"
+}

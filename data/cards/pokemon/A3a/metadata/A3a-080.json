@@ -1,0 +1,33 @@
+{
+  "id": "A3a-080",
+  "name": "Alolan Dugtrio ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Alolan Diglett",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Triplet Headbutt",
+      "cost": [
+        "{M}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": "Flip 3 coins. This attack does 60 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/080/high.png"
+}

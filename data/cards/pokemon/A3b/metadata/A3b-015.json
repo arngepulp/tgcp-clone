@@ -1,0 +1,32 @@
+{
+  "id": "A3b-015",
+  "name": "Salazzle",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Salandit",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Combustion",
+      "cost": [
+        "{R}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/015/high.png"
+}

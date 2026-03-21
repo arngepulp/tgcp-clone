@@ -1,0 +1,33 @@
+{
+  "id": "B1a-060",
+  "name": "Staravia",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Starly",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Quick Attack",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/060/high.png"
+}

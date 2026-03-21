@@ -1,0 +1,32 @@
+{
+  "id": "B2-004",
+  "name": "Roselia",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Trip Over",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 10,
+      "effect_id": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/004/high.png"
+}

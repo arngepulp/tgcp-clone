@@ -1,0 +1,34 @@
+{
+  "id": "B1-272",
+  "name": "Mega Pinsir ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Critical Scissors",
+      "cost": [
+        "{G}",
+        "{G}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "Flip a coin. If heads, this attack does 70 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/272/high.png"
+}

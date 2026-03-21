@@ -1,0 +1,39 @@
+{
+  "id": "A4-050",
+  "name": "Azumarill",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Marill",
+  "abilities": [
+    {
+      "name": "Thick Fat",
+      "effect_id": "This Pok\u00e9mon takes \u221230 damage from attacks from {R} or {W} Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Tail Smack",
+      "cost": [
+        "{W}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/050/high.png"
+}

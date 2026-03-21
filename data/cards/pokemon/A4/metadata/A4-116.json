@@ -1,0 +1,32 @@
+{
+  "id": "A4-116",
+  "name": "Weavile",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Sneasel",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "{D}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/116/high.png"
+}

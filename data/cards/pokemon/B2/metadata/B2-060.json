@@ -1,0 +1,34 @@
+{
+  "id": "B2-060",
+  "name": "Wobbuffet",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Flip Over",
+      "cost": [
+        "{P}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "This Pok\u00e9mon also does 10 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/060/high.png"
+}

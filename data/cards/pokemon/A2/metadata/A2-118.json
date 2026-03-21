@@ -1,0 +1,35 @@
+{
+  "id": "A2-118",
+  "name": "Probopass",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Nosepass",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Triple Nose",
+      "cost": [
+        "{M}",
+        "{M}",
+        "{M}",
+        "{C}"
+      ],
+      "damage": "30+",
+      "effect_id": "Flip 3 coins. This attack does 50 more damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/118/high.png"
+}

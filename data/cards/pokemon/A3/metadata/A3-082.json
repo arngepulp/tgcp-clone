@@ -1,0 +1,34 @@
+{
+  "id": "A3-082",
+  "name": "Palossand",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Sandygast",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Spooky Shot",
+      "cost": [
+        "{P}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/082/high.png"
+}

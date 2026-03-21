@@ -1,0 +1,32 @@
+{
+  "id": "B1-295",
+  "name": "Poliwag",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Put 1 random Poliwag from your deck onto your Bench."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/295/high.png"
+}

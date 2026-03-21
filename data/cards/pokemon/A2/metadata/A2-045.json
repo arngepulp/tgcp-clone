@@ -1,0 +1,35 @@
+{
+  "id": "A2-045",
+  "name": "Abomasnow",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Snover",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Frost Breath",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{W}",
+        "{C}"
+      ],
+      "damage": 120,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/045/high.png"
+}

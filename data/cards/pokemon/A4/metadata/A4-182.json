@@ -1,0 +1,38 @@
+{
+  "id": "A4-182",
+  "name": "Hoothoot",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Insomnia",
+      "effect_id": "This Pok\u00e9mon can't be Asleep."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wing Attack",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/182/high.png"
+}

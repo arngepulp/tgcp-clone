@@ -1,0 +1,35 @@
+{
+  "id": "A3a-050",
+  "name": "Aggron",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Metal"
+  ],
+  "stage": 2,
+  "evolves_from": "Lairon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Giga Impact",
+      "cost": [
+        "{M}",
+        "{M}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 150,
+      "effect_id": "During your next turn, this Pok\u00e9mon can't attack."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/050/high.png"
+}

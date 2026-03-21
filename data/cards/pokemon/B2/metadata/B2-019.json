@@ -1,0 +1,34 @@
+{
+  "id": "B2-019",
+  "name": "Reshiram",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Blue Flare",
+      "cost": [
+        "{R}",
+        "{R}",
+        "{R}"
+      ],
+      "damage": 110,
+      "effect_id": "Discard 2 {R} Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/019/high.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "A3-191",
+  "name": "Ilima",
+  "suffix": null,
+  "card_type": "Trainer",
+  "hp": null,
+  "types": [],
+  "stage": null,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [],
+  "weakness": [],
+  "retreat_cost": null,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/191/high.png"
+}

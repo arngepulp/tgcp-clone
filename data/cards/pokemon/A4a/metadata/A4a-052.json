@@ -1,0 +1,32 @@
+{
+  "id": "A4a-052",
+  "name": "Malamar",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Inkay",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Mental Surge",
+      "cost": [
+        "{D}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 20 damage to each of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/052/high.png"
+}

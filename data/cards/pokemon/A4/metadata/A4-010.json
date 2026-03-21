@@ -1,0 +1,34 @@
+{
+  "id": "A4-010",
+  "name": "Meganium",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Bayleef",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Bloomshine",
+      "cost": [
+        "{G}",
+        "{G}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "Heal 20 damage from each of your Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/010/high.png"
+}

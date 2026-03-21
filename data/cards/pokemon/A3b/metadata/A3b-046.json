@@ -1,0 +1,33 @@
+{
+  "id": "A3b-046",
+  "name": "Liepard",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Purrloin",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slashing Claw",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/046/high.png"
+}

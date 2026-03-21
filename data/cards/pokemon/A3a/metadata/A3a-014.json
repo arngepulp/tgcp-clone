@@ -1,0 +1,33 @@
+{
+  "id": "A3a-014",
+  "name": "Luxio",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Shinx",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Head Bolt",
+      "cost": [
+        "{L}",
+        "{L}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/014/high.png"
+}

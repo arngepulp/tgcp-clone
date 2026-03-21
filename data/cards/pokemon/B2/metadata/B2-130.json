@@ -1,0 +1,38 @@
+{
+  "id": "B2-130",
+  "name": "Smeargle",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Portrait",
+      "effect_id": "Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may look at a random Supporter card from your opponent's hand. Use the effect of that card as the effect of this Ability."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Tail Whap",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/130/high.png"
+}

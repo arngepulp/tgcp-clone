@@ -1,0 +1,32 @@
+{
+  "id": "B2-211",
+  "name": "Omanyte",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Helix Fossil",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Water Gun",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/211/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B1-191",
+  "name": "Loudred",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Whismur",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Hyper Voice",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/191/high.png"
+}

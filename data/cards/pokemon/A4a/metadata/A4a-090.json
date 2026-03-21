@@ -1,0 +1,38 @@
+{
+  "id": "A4a-090",
+  "name": "Suicune ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Legendary Pulse",
+      "effect_id": "At the end of your turn, if this Pok\u00e9mon is in the Active Spot, draw a card."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Crystal Waltz",
+      "cost": [
+        "{W}",
+        "{W}"
+      ],
+      "damage": 20,
+      "effect_id": "This attack does 20 damage for each Benched Pok\u00e9mon (both yours and your opponent's)."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/090/high.png"
+}

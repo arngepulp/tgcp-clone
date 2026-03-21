@@ -1,0 +1,32 @@
+{
+  "id": "A2-162",
+  "name": "Manaphy",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Oceanic Gift",
+      "cost": [
+        "{W}"
+      ],
+      "damage": null,
+      "effect_id": "Choose 2 of your Benched Pok\u00e9mon. For each of those Pok\u00e9mon, take a {W} Energy from your Energy Zone and attach it to that Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/162/high.png"
+}

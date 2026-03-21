@@ -1,0 +1,33 @@
+{
+  "id": "A1a-074",
+  "name": "Marshadow",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Revenge",
+      "cost": [
+        "{F}",
+        "{C}"
+      ],
+      "damage": "40+",
+      "effect_id": "If any of your Pok\u00e9mon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/074/high.png"
+}

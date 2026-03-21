@@ -1,0 +1,38 @@
+{
+  "id": "A3-229",
+  "name": "Wigglytuff",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Jigglypuff",
+  "abilities": [
+    {
+      "name": "Comforting Song",
+      "effect_id": "Once during your turn, you may heal 20 damage from your Active Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Gentle Slap",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/229/high.png"
+}

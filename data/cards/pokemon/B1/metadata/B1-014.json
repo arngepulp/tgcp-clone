@@ -1,0 +1,33 @@
+{
+  "id": "B1-014",
+  "name": "Simisage",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Pansage",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "{G}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "Flip 3 coins. This attack does 40 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/014/high.png"
+}

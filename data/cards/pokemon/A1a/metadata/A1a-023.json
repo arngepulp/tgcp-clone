@@ -1,0 +1,34 @@
+{
+  "id": "A1a-023",
+  "name": "Drednaw",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Chewtle",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Crunch",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{W}"
+      ],
+      "damage": 70,
+      "effect_id": "Flip a coin. If heads, discard a random Energy from your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/023/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A2-183",
+  "name": "Pachirisu ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sparking Gadget",
+      "cost": [
+        "{L}",
+        "{L}"
+      ],
+      "damage": "40+",
+      "effect_id": "If this Pok\u00e9mon has a Pok\u00e9mon Tool attached, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/183/high.png"
+}

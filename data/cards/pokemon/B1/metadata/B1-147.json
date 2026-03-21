@@ -1,0 +1,34 @@
+{
+  "id": "B1-147",
+  "name": "Coalossal",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Carkol",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Coal Drop",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{F}"
+      ],
+      "damage": 100,
+      "effect_id": "If your opponent's Active Pok\u00e9mon is a {G} Pok\u00e9mon, this attack does 50 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/147/high.png"
+}

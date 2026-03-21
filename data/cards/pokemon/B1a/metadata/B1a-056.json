@@ -1,0 +1,32 @@
+{
+  "id": "B1a-056",
+  "name": "Porygon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Stiffen",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes \u221220 damage from attacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/056/high.png"
+}

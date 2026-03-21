@@ -1,0 +1,32 @@
+{
+  "id": "A4-108",
+  "name": "Golbat",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Zubat",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Venomous Fang",
+      "cost": [
+        "{D}"
+      ],
+      "damage": 20,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/108/high.png"
+}

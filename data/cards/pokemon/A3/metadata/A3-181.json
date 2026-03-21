@@ -1,0 +1,34 @@
+{
+  "id": "A3-181",
+  "name": "Dhelmise ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Anchor Shot",
+      "cost": [
+        "{G}",
+        "{G}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/181/high.png"
+}

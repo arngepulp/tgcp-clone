@@ -1,0 +1,32 @@
+{
+  "id": "A3-116",
+  "name": "Toxapex",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Mareanie",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Spike Cannon",
+      "cost": [
+        "{D}"
+      ],
+      "damage": "20x",
+      "effect_id": "Flip 4 coins. This attack does 20 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/116/high.png"
+}

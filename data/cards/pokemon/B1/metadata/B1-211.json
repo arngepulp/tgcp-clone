@@ -1,0 +1,33 @@
+{
+  "id": "B1-211",
+  "name": "Wooloo",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Continuous Tumble",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "Flip a coin until you get tails. This attack does 40 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/211/high.png"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "B1-330",
+  "name": "Klefki",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Dismantling Keys",
+      "effect_id": "Once during your turn, if this Pok\u00e9mon is on your Bench, you may discard all Pok\u00e9mon Tools from your opponent's Active Pok\u00e9mon. If you do, discard this Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hook",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Crown",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/330/high.png"
+}

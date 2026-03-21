@@ -1,0 +1,33 @@
+{
+  "id": "A3b-106",
+  "name": "Gallade ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Kirlia",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Energized Blade",
+      "cost": [
+        "{F}",
+        "{F}"
+      ],
+      "damage": 70,
+      "effect_id": "This attack does 20 more damage for each Energy attached to your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/106/high.png"
+}

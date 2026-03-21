@@ -1,0 +1,32 @@
+{
+  "id": "A2-064",
+  "name": "Togetic",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Togepi",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fairy Wind",
+      "cost": [
+        "{P}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/064/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A3b-094",
+  "name": "Lapras",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Hydro Pump",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 20,
+      "effect_id": "If this Pok\u00e9mon has at least 3 extra {W} Energy attached, this attack does 70 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/094/high.png"
+}

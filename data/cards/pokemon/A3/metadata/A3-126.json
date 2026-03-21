@@ -1,0 +1,28 @@
+{
+  "id": "A3-126",
+  "name": "Hakamo-o",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 1,
+  "evolves_from": "Jangmo-o",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Dragon Claw",
+      "cost": [
+        "{L}",
+        "{F}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/126/high.png"
+}

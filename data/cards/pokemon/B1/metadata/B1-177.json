@@ -1,0 +1,38 @@
+{
+  "id": "B1-177",
+  "name": "Goomy",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 40,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Sticky Membrane",
+      "effect_id": "As long as this Pok\u00e9mon is in the Active Spot, attacks used by your opponent's Active Pok\u00e9mon cost 1 {C} more."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [
+        "{W}",
+        "{P}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/177/high.png"
+}

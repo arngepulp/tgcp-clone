@@ -1,0 +1,34 @@
+{
+  "id": "B2-031",
+  "name": "Galarian Mr. Rime",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Galarian Mr. Mime",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Triple Spin",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{W}"
+      ],
+      "damage": 60,
+      "effect_id": "Flip 3 coins. This attack does 60 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/031/high.png"
+}

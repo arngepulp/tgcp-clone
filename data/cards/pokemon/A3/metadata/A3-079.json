@@ -1,0 +1,32 @@
+{
+  "id": "A3-079",
+  "name": "Ribombee",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Cutiefly",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fairy Wind",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/079/high.png"
+}

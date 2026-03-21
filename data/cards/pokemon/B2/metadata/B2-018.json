@@ -1,0 +1,33 @@
+{
+  "id": "B2-018",
+  "name": "Alolan Marowak",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Cubone",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fiery Bone",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 40,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Burned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/018/high.png"
+}

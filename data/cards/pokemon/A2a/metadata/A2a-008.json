@@ -1,0 +1,33 @@
+{
+  "id": "A2a-008",
+  "name": "Cherrim",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Cherubi",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Leech Seed",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": 60,
+      "effect_id": "Heal 20 damage from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/008/high.png"
+}

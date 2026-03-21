@@ -1,0 +1,32 @@
+{
+  "id": "A2-157",
+  "name": "Combee",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Put 1 random Basic Pok\u00e9mon from your deck onto your Bench."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/157/high.png"
+}

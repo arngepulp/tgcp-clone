@@ -1,0 +1,32 @@
+{
+  "id": "A4a-018",
+  "name": "Slowking",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Slowpoke",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Litter",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 50,
+      "effect_id": "Discard up to 2 Pok\u00e9mon Tool cards from your hand. This attack does 50 damage for each card you discarded in this way."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/018/high.png"
+}

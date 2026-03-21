@@ -1,0 +1,33 @@
+{
+  "id": "A3-076",
+  "name": "Oricorio",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Dazzle Dance",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 40,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Confused."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/076/high.png"
+}

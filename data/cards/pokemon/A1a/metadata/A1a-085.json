@@ -1,0 +1,33 @@
+{
+  "id": "A1a-085",
+  "name": "Celebi ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Powerful Bloom",
+      "cost": [
+        "{G}",
+        "{C}"
+      ],
+      "damage": "50\u00d7",
+      "effect_id": "Flip a coin for each Energy attached to this Pok\u00e9mon. This attack does 50 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/085/high.png"
+}

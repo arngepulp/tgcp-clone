@@ -1,0 +1,32 @@
+{
+  "id": "A4-072",
+  "name": "Emolga",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Raging Thunder",
+      "cost": [
+        "{L}"
+      ],
+      "damage": 40,
+      "effect_id": "This attack also does 10 damage to 1 of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/072/high.png"
+}

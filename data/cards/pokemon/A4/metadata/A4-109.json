@@ -1,0 +1,32 @@
+{
+  "id": "A4-109",
+  "name": "Crobat ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 2,
+  "evolves_from": "Golbat",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Venomous Slash",
+      "cost": [
+        "{D}"
+      ],
+      "damage": 70,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/109/high.png"
+}

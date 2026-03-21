@@ -1,0 +1,33 @@
+{
+  "id": "A3b-032",
+  "name": "Slurpuff",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Swirlix",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sweets Relay",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": "If 1 of your Pok\u00e9mon used Sweets Relay during your last turn, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/032/high.png"
+}

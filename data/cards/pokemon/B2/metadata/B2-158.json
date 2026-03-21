@@ -1,0 +1,33 @@
+{
+  "id": "B2-158",
+  "name": "Vivillon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Spewpa",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Vivid Powder",
+      "cost": [
+        "{G}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned and Asleep."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/158/high.png"
+}

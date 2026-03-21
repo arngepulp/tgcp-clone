@@ -1,0 +1,34 @@
+{
+  "id": "B2-123",
+  "name": "Salamence",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 2,
+  "evolves_from": "Shelgon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Dragon Dive",
+      "cost": [
+        "{R}",
+        "{W}",
+        "{C}"
+      ],
+      "damage": 150,
+      "effect_id": "Flip a coin. If tails, this Pok\u00e9mon also does 50 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/123/high.png"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "B1-018",
+  "name": "Lilligant",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Petilil",
+  "abilities": [
+    {
+      "name": "Toughness Aroma",
+      "effect_id": "Each of your {G} Pok\u00e9mon gets +20 HP."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Smack",
+      "cost": [
+        "{G}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/018/high.png"
+}

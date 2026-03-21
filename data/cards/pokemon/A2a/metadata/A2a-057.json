@@ -1,0 +1,34 @@
+{
+  "id": "A2a-057",
+  "name": "Probopass ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Nosepass",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Defensive Unit",
+      "cost": [
+        "{M}",
+        "{M}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes \u221220 damage from attacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/057/high.png"
+}

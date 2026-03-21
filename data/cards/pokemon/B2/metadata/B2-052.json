@@ -1,0 +1,32 @@
+{
+  "id": "B2-052",
+  "name": "Plusle",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Electric Tail",
+      "cost": [
+        "{L}"
+      ],
+      "damage": 10,
+      "effect_id": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/052/high.png"
+}

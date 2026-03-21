@@ -1,0 +1,35 @@
+{
+  "id": "B1a-014",
+  "name": "Mega Charizard Y ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 220,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Charmeleon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Crimson Dive",
+      "cost": [
+        "{R}",
+        "{R}",
+        "{R}",
+        "{C}"
+      ],
+      "damage": 250,
+      "effect_id": "This Pok\u00e9mon also does 50 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/014/high.png"
+}

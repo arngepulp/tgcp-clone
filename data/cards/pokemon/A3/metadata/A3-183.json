@@ -1,0 +1,32 @@
+{
+  "id": "A3-183",
+  "name": "Crabominable ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Crabrawler",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Insatiable Striking",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 40,
+      "effect_id": "During your next turn, this Pok\u00e9mon's Insatiable Striking attack does +40 damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/183/high.png"
+}

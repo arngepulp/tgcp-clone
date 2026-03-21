@@ -1,0 +1,33 @@
+{
+  "id": "A3a-053",
+  "name": "Stakataka",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Brass Rock",
+      "cost": [
+        "{M}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes \u221220 damage from attacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/053/high.png"
+}

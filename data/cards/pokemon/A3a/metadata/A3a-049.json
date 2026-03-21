@@ -1,0 +1,34 @@
+{
+  "id": "A3a-049",
+  "name": "Lairon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Aron",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Lunge Out",
+      "cost": [
+        "{M}",
+        "{M}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/049/high.png"
+}

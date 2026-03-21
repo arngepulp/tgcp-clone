@@ -1,0 +1,39 @@
+{
+  "id": "A3a-015",
+  "name": "Luxray",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 2,
+  "evolves_from": "Luxio",
+  "abilities": [
+    {
+      "name": "Intimidating Fang",
+      "effect_id": "As long as this Pok\u00e9mon is in the Active Spot, attacks used by your opponent's Active Pok\u00e9mon do \u221220 damage."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Electric Ball",
+      "cost": [
+        "{L}",
+        "{L}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/015/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B2-205",
+  "name": "Tangela",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sleep Powder",
+      "cost": [
+        "{G}",
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Asleep."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/205/high.png"
+}

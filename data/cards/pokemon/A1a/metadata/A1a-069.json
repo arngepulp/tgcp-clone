@@ -1,0 +1,35 @@
+{
+  "id": "A1a-069",
+  "name": "Exeggutor",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Exeggcute",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Psychic",
+      "cost": [
+        "{G}",
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": "80+",
+      "effect_id": "This attack does 20 more damage for each Energy attached to your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/069/high.png"
+}

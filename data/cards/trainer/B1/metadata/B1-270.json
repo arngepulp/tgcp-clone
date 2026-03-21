@@ -1,0 +1,16 @@
+{
+  "id": "B1-270",
+  "name": "Copycat",
+  "suffix": null,
+  "card_type": "Trainer",
+  "hp": null,
+  "types": [],
+  "stage": null,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [],
+  "weakness": [],
+  "retreat_cost": null,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/270/high.png"
+}

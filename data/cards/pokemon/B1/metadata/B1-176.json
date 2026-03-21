@@ -1,0 +1,35 @@
+{
+  "id": "B1-176",
+  "name": "Druddigon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Giga Claw",
+      "cost": [
+        "{R}",
+        "{W}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 120,
+      "effect_id": "Flip 2 coins. If both of them are tails, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/176/high.png"
+}

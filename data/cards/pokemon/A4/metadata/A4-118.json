@@ -1,0 +1,34 @@
+{
+  "id": "A4-118",
+  "name": "Houndoom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Houndour",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Diving Swipe",
+      "cost": [
+        "{D}",
+        "{D}",
+        "{D}"
+      ],
+      "damage": 70,
+      "effect_id": "Discard a random card from your opponent's hand."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/118/high.png"
+}

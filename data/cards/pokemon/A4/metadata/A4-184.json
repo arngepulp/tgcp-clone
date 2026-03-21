@@ -1,0 +1,33 @@
+{
+  "id": "A4-184",
+  "name": "Smeargle",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Splatter Coating",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": "Change the type of a random Energy attached to your opponent's Active Pok\u00e9mon to 1 of the following at random: {G}, {R}, {W}, {L}, {P}, {F}, {D}, or {M}."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/184/high.png"
+}

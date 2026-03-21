@@ -1,0 +1,33 @@
+{
+  "id": "B1-062",
+  "name": "Simipour",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Panpour",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "{W}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "Flip 3 coins. This attack does 40 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/062/high.png"
+}

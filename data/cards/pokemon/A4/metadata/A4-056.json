@@ -1,0 +1,33 @@
+{
+  "id": "A4-056",
+  "name": "Octillery",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Remoraid",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Octazooka",
+      "cost": [
+        "{W}",
+        "{W}"
+      ],
+      "damage": 50,
+      "effect_id": "If the Defending Pok\u00e9mon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen. This effect lasts until the Defending Pok\u00e9mon leaves the Active Spot, and it doesn't stack."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/056/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A4a-027",
+  "name": "Eelektrik",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Tynamo",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Electro Ball",
+      "cost": [
+        "{L}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/027/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B2-032",
+  "name": "Delibird",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Box of Surprises",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Flip a coin. If heads, this attack does 70 damage to your opponent's Active Pok\u00e9mon. If tails, heal 30 damage from your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/032/high.png"
+}

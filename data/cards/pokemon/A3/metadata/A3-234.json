@@ -1,0 +1,39 @@
+{
+  "id": "A3-234",
+  "name": "Gengar ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 2,
+  "evolves_from": "Haunter",
+  "abilities": [
+    {
+      "name": "Shadowy Spellbind",
+      "effect_id": "As long as this Pok\u00e9mon is in the Active Spot, your opponent can't use any Supporter cards from their hand."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Spooky Shot",
+      "cost": [
+        "{P}",
+        "{P}",
+        "{P}"
+      ],
+      "damage": 100,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/234/high.png"
+}

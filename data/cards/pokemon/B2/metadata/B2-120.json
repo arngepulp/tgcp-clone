@@ -1,0 +1,34 @@
+{
+  "id": "B2-120",
+  "name": "Aegislash",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Metal"
+  ],
+  "stage": 2,
+  "evolves_from": "Doublade",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Superb Shield",
+      "cost": [
+        "{M}",
+        "{M}",
+        "{M}"
+      ],
+      "damage": 80,
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes \u221280 damage from attacks from your opponent's Pok\u00e9mon ex."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/120/high.png"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "A3-096",
+  "name": "Conkeldurr",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Gurdurr",
+  "abilities": [
+    {
+      "name": "Guts",
+      "effect_id": "If this Pok\u00e9mon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pok\u00e9mon is not Knocked Out, and its remaining HP becomes 10."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mega Punch",
+      "cost": [
+        "{F}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/096/high.png"
+}

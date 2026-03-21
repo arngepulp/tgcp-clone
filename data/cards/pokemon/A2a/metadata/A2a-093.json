@@ -1,0 +1,42 @@
+{
+  "id": "A2a-093",
+  "name": "Garchomp ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Gabite",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Linear Attack",
+      "cost": [
+        "{F}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon."
+    },
+    {
+      "name": "Dragon Claw",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{C}"
+      ],
+      "damage": 100,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/093/high.png"
+}

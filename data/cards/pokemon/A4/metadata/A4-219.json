@@ -1,0 +1,32 @@
+{
+  "id": "A4-219",
+  "name": "Jolteon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Beginning Bolt",
+      "cost": [
+        "{L}"
+      ],
+      "damage": 40,
+      "effect_id": "If this Pok\u00e9mon evolved during this turn, this attack does 20 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/219/high.png"
+}

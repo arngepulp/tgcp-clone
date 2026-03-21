@@ -1,0 +1,34 @@
+{
+  "id": "B1-249",
+  "name": "Stoutland",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 2,
+  "evolves_from": "Herdier",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Dangerous Bite",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": "If your opponent's Active Pok\u00e9mon is a Basic Pok\u00e9mon, this attack does 70 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/249/high.png"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "A4-033",
+  "name": "Entei",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Strong Flare",
+      "cost": [
+        "{R}",
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 110,
+      "effect_id": "Flip a coin. If tails, discard 2 random Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/033/high.png"
+}

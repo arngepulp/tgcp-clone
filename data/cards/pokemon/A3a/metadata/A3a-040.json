@@ -1,0 +1,33 @@
+{
+  "id": "A3a-040",
+  "name": "Krokorok",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Sandile",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Light Punch",
+      "cost": [
+        "{D}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/040/high.png"
+}

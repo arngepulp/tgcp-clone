@@ -1,0 +1,39 @@
+{
+  "id": "B1-297",
+  "name": "Poliwrath",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Water"
+  ],
+  "stage": 2,
+  "evolves_from": "Poliwhirl",
+  "abilities": [
+    {
+      "name": "Counterattack",
+      "effect_id": "If this Pok\u00e9mon is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon, do 20 damage to the Attacking Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mega Punch",
+      "cost": [
+        "{W}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/297/high.png"
+}

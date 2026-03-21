@@ -1,0 +1,16 @@
+{
+  "id": "A2b-111",
+  "name": "Pok\u00e9 Ball",
+  "suffix": null,
+  "card_type": "Trainer",
+  "hp": null,
+  "types": [],
+  "stage": null,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [],
+  "weakness": [],
+  "retreat_cost": null,
+  "rarity": "Crown",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/111/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B1a-053",
+  "name": "Probopass",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Nosepass",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Metallic Turbo",
+      "cost": [
+        "{M}",
+        "{M}"
+      ],
+      "damage": 40,
+      "effect_id": "Take 2 {M} Energy from your Energy Zone and attach it to 1 of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/053/high.png"
+}

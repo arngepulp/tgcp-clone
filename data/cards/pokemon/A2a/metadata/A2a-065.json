@@ -1,0 +1,33 @@
+{
+  "id": "A2a-065",
+  "name": "Noctowl",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Hoothoot",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Silent Wing",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": "Your opponent reveals their hand."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/065/high.png"
+}

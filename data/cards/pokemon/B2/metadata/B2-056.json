@@ -1,0 +1,32 @@
+{
+  "id": "B2-056",
+  "name": "Tadbulb",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Charge",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Take a {L} Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/056/high.png"
+}

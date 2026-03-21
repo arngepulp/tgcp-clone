@@ -1,0 +1,33 @@
+{
+  "id": "B1-284",
+  "name": "Mega Blaziken ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 210,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Combusken",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Mega Burning",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 120,
+      "effect_id": "Discard Fire{R} Energy from this Pok\u00e9mon. Your opponent's Active Pok\u00e9mon is now Burned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/284/high.png"
+}

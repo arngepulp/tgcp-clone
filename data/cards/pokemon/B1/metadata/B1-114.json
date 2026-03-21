@@ -1,0 +1,33 @@
+{
+  "id": "B1-114",
+  "name": "Gothitelle",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 2,
+  "evolves_from": "Gothorita",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Stellar Cradle",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 70,
+      "effect_id": "During your opponent's next turn, if they attach Energy from their Energy Zone to the Defending Pok\u00e9mon, that Pok\u00e9mon will be Asleep."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/114/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A4-012",
+  "name": "Ledian",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Ledyba",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Punch",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/012/high.png"
+}

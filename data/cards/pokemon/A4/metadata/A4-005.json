@@ -1,0 +1,34 @@
+{
+  "id": "A4-005",
+  "name": "Tangrowth",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Tangela",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Grass Knot",
+      "cost": [
+        "{G}",
+        "{G}",
+        "{C}"
+      ],
+      "damage": 10,
+      "effect_id": "This attack does 40 more damage for each Energy in your opponent's Active Pok\u00e9mon's Retreat Cost."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/005/high.png"
+}

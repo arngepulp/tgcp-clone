@@ -1,0 +1,32 @@
+{
+  "id": "A4a-062",
+  "name": "Miltank",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Rolling Frenzy",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 10,
+      "effect_id": "Until this Pok\u00e9mon leaves the Active Spot, this Pok\u00e9mon's Rolling Frenzy attack does +30 damage. This effect stacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/062/high.png"
+}

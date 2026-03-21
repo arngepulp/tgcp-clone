@@ -1,0 +1,32 @@
+{
+  "id": "B2-091",
+  "name": "Passimian",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fling",
+      "cost": [
+        "{F}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 30 damage to 1 of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/091/high.png"
+}

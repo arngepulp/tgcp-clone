@@ -1,0 +1,30 @@
+{
+  "id": "A4-101",
+  "name": "Tyrogue",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 30,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slappy Knuckle",
+      "cost": [],
+      "damage": 20,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/101/high.png"
+}

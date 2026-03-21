@@ -1,0 +1,28 @@
+{
+  "id": "A3-127",
+  "name": "Kommo-o",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 2,
+  "evolves_from": "Hakamo-o",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Clanging Scales",
+      "cost": [
+        "{L}",
+        "{F}"
+      ],
+      "damage": 130,
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes +30 damage from attacks."
+    }
+  ],
+  "weakness": [],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/127/high.png"
+}

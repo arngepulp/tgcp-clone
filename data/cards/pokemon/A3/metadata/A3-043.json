@@ -1,0 +1,33 @@
+{
+  "id": "A3-043",
+  "name": "Cloyster",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Shellder",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Guard Press",
+      "cost": [
+        "{W}",
+        "{W}"
+      ],
+      "damage": 50,
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes \u221220 damage from attacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/043/high.png"
+}

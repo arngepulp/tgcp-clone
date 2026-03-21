@@ -1,0 +1,33 @@
+{
+  "id": "A3b-027",
+  "name": "Galvantula",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Joltik",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Electric Shock",
+      "cost": [
+        "{L}",
+        "{L}"
+      ],
+      "damage": 70,
+      "effect_id": "Discard all Energy attached to this Pok\u00e9mon. Your opponent's Active Pok\u00e9mon is now Paralyzed."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/027/high.png"
+}

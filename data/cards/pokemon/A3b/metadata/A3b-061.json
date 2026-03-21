@@ -1,0 +1,33 @@
+{
+  "id": "A3b-061",
+  "name": "Audino",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Do the Wave",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "This attack does 20 damage for each of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/061/high.png"
+}

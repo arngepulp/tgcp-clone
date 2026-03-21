@@ -1,0 +1,30 @@
+{
+  "id": "A4a-059",
+  "name": "Igglybuff",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 30,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sleepy Lullaby",
+      "cost": [],
+      "damage": 10,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Asleep."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/059/high.png"
+}

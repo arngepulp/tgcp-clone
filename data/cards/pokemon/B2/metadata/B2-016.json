@@ -1,0 +1,32 @@
+{
+  "id": "B2-016",
+  "name": "Eldegoss",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Gossifleur",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Float Up",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 40,
+      "effect_id": "You may shuffle this Pok\u00e9mon and all attached cards into your deck."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/016/high.png"
+}

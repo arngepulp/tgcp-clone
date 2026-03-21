@@ -1,0 +1,34 @@
+{
+  "id": "B1a-054",
+  "name": "Genesect",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Metal Blast",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 10,
+      "effect_id": "This attack does 20 more damage for each {M} Energy attached to this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/054/high.png"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "A3b-081",
+  "name": "Sylveon ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [
+    {
+      "name": "Happy Ribbon",
+      "effect_id": "Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may draw 2 cards."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Fairy Wind",
+      "cost": [
+        "{P}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/081/high.png"
+}

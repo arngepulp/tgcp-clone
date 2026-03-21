@@ -1,0 +1,28 @@
+{
+  "id": "A3-176",
+  "name": "Drampa",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Berserk",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": "20+",
+      "effect_id": "If any of your Benched Pok\u00e9mon have damage on them, this attack does 50 more damage."
+    }
+  ],
+  "weakness": [],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/176/high.png"
+}

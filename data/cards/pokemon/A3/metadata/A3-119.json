@@ -1,0 +1,32 @@
+{
+  "id": "A3-119",
+  "name": "Excadrill",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Drilbur",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "{M}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/119/high.png"
+}

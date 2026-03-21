@@ -1,0 +1,39 @@
+{
+  "id": "B1-245",
+  "name": "Hydreigon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 2,
+  "evolves_from": "Zweilous",
+  "abilities": [
+    {
+      "name": "Roar in Unison",
+      "effect_id": "Once during your turn, you may take 2 {D} Energy from your Energy Zone and attach it to this Pok\u00e9mon. If you do, do 30 damage to this Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hyper Ray",
+      "cost": [
+        "{D}",
+        "{D}",
+        "{D}"
+      ],
+      "damage": 130,
+      "effect_id": "Discard all Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/245/high.png"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "B2-111",
+  "name": "Galarian Perrserker",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Galarian Meowth",
+  "abilities": [
+    {
+      "name": "Dig Up",
+      "effect_id": "Once during your turn, when you play this Pok\u00e9mon from your hand to evolve 1 of your Pok\u00e9mon, you may put 2 random Pok\u00e9mon Tool cards from your discard pile into your hand."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Metal Claw",
+      "cost": [
+        "{M}",
+        "{M}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/111/high.png"
+}

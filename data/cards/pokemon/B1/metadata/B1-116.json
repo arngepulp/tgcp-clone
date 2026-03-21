@@ -1,0 +1,32 @@
+{
+  "id": "B1-116",
+  "name": "Aromatisse",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Spritzee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Confounding Cologne",
+      "cost": [
+        "{P}"
+      ],
+      "damage": 40,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Confused."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/116/high.png"
+}

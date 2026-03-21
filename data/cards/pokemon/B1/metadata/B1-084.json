@@ -1,0 +1,34 @@
+{
+  "id": "B1-084",
+  "name": "Ampharos",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 2,
+  "evolves_from": "Flaaffy",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Zapping Bullet",
+      "cost": [
+        "{L}",
+        "{L}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": "1 of your opponent's Benched Pok\u00e9mon is chosen at random. This attack also does 20 damage to it."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/084/high.png"
+}

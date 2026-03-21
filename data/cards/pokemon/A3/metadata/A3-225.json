@@ -1,0 +1,33 @@
+{
+  "id": "A3-225",
+  "name": "Machamp",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Machoke",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Power Press",
+      "cost": [
+        "{F}",
+        "{F}"
+      ],
+      "damage": "70+",
+      "effect_id": "If this Pok\u00e9mon has at least 2 extra {F} Energy attached, this attack does 50 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/225/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "B1a-023",
+  "name": "Clawitzer",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Clauncher",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Aqua Shower",
+      "cost": [
+        "{W}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 20 damage to each of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/023/high.png"
+}

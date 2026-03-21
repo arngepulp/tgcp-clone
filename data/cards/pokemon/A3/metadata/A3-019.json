@@ -1,0 +1,32 @@
+{
+  "id": "A3-019",
+  "name": "Steenee",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Bounsweet",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Double Spin",
+      "cost": [
+        "{G}"
+      ],
+      "damage": "30x",
+      "effect_id": "Flip 2 coins. This attack does 30 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/019/high.png"
+}

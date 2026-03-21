@@ -1,0 +1,37 @@
+{
+  "id": "B2-204",
+  "name": "Meowth",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Carefree Steps",
+      "effect_id": "If any damage is done to this Pok\u00e9mon by attacks, flip a coin. If heads, prevent that damage."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Feelin' Fine",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Draw a card."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/204/high.png"
+}

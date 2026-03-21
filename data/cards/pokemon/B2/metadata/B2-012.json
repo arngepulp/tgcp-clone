@@ -1,0 +1,32 @@
+{
+  "id": "B2-012",
+  "name": "Spewpa",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Scatterbug",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Signs of Evolution",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Put a random card that evolves from Spewpa from your deck into your hand."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/012/high.png"
+}

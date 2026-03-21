@@ -1,0 +1,32 @@
+{
+  "id": "A2b-017",
+  "name": "Floatzel",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Buizel",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Water Arrow",
+      "cost": [
+        "{W}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/017/high.png"
+}

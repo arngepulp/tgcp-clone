@@ -1,0 +1,32 @@
+{
+  "id": "B1-093",
+  "name": "Galvantula",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Joltik",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Electro Ball",
+      "cost": [
+        "{L}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/093/high.png"
+}

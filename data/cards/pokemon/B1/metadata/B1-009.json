@@ -1,0 +1,33 @@
+{
+  "id": "B1-009",
+  "name": "Nuzleaf",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Seedot",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Gentle Slap",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/009/high.png"
+}

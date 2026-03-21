@@ -1,0 +1,33 @@
+{
+  "id": "B1-131",
+  "name": "Krokorok",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Sandile",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "{F}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/131/high.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "A3a-033",
+  "name": "Lycanroc ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Rockruff",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Lycanfang",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{C}"
+      ],
+      "damage": 130,
+      "effect_id": "Discard a {F} Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/033/high.png"
+}

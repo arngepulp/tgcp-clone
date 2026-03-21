@@ -1,0 +1,33 @@
+{
+  "id": "A2b-100",
+  "name": "Charmeleon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Charmander",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Combustion",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/100/high.png"
+}

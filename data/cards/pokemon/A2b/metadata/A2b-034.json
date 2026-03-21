@@ -1,0 +1,32 @@
+{
+  "id": "A2b-034",
+  "name": "Drifblim",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Drifloon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Gust",
+      "cost": [
+        "{P}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/034/high.png"
+}

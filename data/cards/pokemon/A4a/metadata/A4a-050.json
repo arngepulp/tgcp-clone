@@ -1,0 +1,38 @@
+{
+  "id": "A4a-050",
+  "name": "Zoroark",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Zorua",
+  "abilities": [
+    {
+      "name": "Illusive Trickery",
+      "effect_id": "If your opponent's Pok\u00e9mon is Knocked Out by damage from this Pok\u00e9mon's attacks, during your opponent's next turn, prevent all damage from\u2014and effects of\u2014attacks done to this Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Night Daze",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/050/high.png"
+}

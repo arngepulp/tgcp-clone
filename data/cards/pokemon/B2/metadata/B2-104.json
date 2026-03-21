@@ -1,0 +1,32 @@
+{
+  "id": "B2-104",
+  "name": "Purrloin",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Whiny Voice",
+      "cost": [
+        "{D}"
+      ],
+      "damage": null,
+      "effect_id": "Flip a coin. If heads, look at a random card from your opponent's hand and shuffle it into their deck."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/104/high.png"
+}

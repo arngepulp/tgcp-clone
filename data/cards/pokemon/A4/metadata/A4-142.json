@@ -1,0 +1,32 @@
+{
+  "id": "A4-142",
+  "name": "Aipom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Imitate",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Draw cards until you have the same number of cards in your hand as your opponent."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/142/high.png"
+}

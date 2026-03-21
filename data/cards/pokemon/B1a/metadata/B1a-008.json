@@ -1,0 +1,32 @@
+{
+  "id": "B1a-008",
+  "name": "Sunflora",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Sunkern",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Quick-Grow Beam",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 30,
+      "effect_id": "If Quick-Grow Extract is in your discard pile, this attack does 30 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/008/high.png"
+}

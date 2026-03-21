@@ -1,0 +1,33 @@
+{
+  "id": "B2-185",
+  "name": "Mega Gardevoir ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 210,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 2,
+  "evolves_from": "Kirlia",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fantasia Force",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 110,
+      "effect_id": "Take 3 {P} Energy from your Energy Zone and attach it to your {P} Pok\u00e9mon in any way you like."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/185/high.png"
+}

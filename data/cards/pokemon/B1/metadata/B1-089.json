@@ -1,0 +1,33 @@
+{
+  "id": "B1-089",
+  "name": "Pachirisu",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Attack the Wound",
+      "cost": [
+        "{L}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": "If your opponent's Active Pok\u00e9mon has damage on it, this attack does 30 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/089/high.png"
+}

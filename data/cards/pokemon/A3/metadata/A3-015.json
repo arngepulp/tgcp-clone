@@ -1,0 +1,32 @@
+{
+  "id": "A3-015",
+  "name": "Lurantis",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Fomantis",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Petal Blizzard",
+      "cost": [
+        "{G}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 20 damage to each of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/015/high.png"
+}

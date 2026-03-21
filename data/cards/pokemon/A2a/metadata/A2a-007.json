@@ -1,0 +1,32 @@
+{
+  "id": "A2a-007",
+  "name": "Cherrim",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Cherubi",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Worry Seed",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 40,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Confused."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/007/high.png"
+}

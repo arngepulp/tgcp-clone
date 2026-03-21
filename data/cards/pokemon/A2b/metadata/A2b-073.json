@@ -1,0 +1,33 @@
+{
+  "id": "A2b-073",
+  "name": "Meowscarada",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Floragato",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fighting Claws",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": "60+",
+      "effect_id": "If your opponent's Active Pok\u00e9mon is a Pok\u00e9mon ex, this attack does 70 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/073/high.png"
+}

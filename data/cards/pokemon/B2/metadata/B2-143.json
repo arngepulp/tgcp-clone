@@ -1,0 +1,32 @@
+{
+  "id": "B2-143",
+  "name": "Maushold",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Tandemaus",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Family Beatdown",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": "Flip a coin for each Tandemaus and Maushold you have in play. This attack does 60 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/143/high.png"
+}

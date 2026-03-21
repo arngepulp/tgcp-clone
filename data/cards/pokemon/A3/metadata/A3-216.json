@@ -1,0 +1,33 @@
+{
+  "id": "A3-216",
+  "name": "Wartortle",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Squirtle",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Wave Splash",
+      "cost": [
+        "{W}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/216/high.png"
+}

@@ -30,6 +30,7 @@ the idea is deck holds IDs but then load on demand
 TODOS
 so my next todos
 
-implement  the pregrame turns where both players play their pokemon but cant do anything
-p1 cant add energy on first turn after
-and p2 can do everything 
+add effects speacial test parsing to cards
+add trains abilities tools
+gui
+status conditions

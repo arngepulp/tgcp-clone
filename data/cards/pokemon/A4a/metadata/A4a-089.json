@@ -1,0 +1,34 @@
+{
+  "id": "A4a-089",
+  "name": "Poliwrath ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 180,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Poliwhirl",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Hydro Knuckle",
+      "cost": [
+        "{F}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 100,
+      "effect_id": "If this Pok\u00e9mon has any {W} Energy attached, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/089/high.png"
+}

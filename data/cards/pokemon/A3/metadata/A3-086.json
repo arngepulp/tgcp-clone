@@ -1,0 +1,33 @@
+{
+  "id": "A3-086",
+  "name": "Cosmoem",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Cosmog",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Stiffen",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes \u221250 damage from attacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/086/high.png"
+}

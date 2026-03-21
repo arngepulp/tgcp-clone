@@ -1,0 +1,34 @@
+{
+  "id": "A2a-040",
+  "name": "Pupitar",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Larvitar",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Speed Attack",
+      "cost": [
+        "{F}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/040/high.png"
+}

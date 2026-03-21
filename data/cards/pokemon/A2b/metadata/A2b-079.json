@@ -1,0 +1,33 @@
+{
+  "id": "A2b-079",
+  "name": "Beedrill ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Kakuna",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Crushing Spear",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": 80,
+      "effect_id": "Discard a random Energy from your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/079/high.png"
+}

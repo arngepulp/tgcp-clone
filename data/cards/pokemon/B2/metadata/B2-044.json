@@ -1,0 +1,35 @@
+{
+  "id": "B2-044",
+  "name": "Drednaw",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Chewtle",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Heavy Impact",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{W}",
+        "{C}"
+      ],
+      "damage": 120,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/044/high.png"
+}

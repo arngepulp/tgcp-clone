@@ -1,0 +1,33 @@
+{
+  "id": "B1-151",
+  "name": "Mega Absol ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Darkness Claw",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": 80,
+      "effect_id": "Your opponent reveals their hand. Choose a Supporter card you find there and discard it."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/151/high.png"
+}

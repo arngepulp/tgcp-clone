@@ -1,0 +1,38 @@
+{
+  "id": "B2-233",
+  "name": "Meloetta",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Strange Singing",
+      "effect_id": "At the beginning of your turn, if this Pok\u00e9mon is in the Active Spot, put a random {P} Pok\u00e9mon from your deck into your hand."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Psyshot",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Crown",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/233/high.png"
+}

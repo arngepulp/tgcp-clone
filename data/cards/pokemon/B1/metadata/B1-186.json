@@ -1,0 +1,32 @@
+{
+  "id": "B1-186",
+  "name": "Ambipom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Aipom",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Excited Tail",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": "Flip 2 coins. This attack does 30 damage for each heads. If this Pok\u00e9mon has Lucky Mittens attached, flip 4 coins instead."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/186/high.png"
+}

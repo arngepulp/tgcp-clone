@@ -1,0 +1,35 @@
+{
+  "id": "A3-178",
+  "name": "Bewear",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Stufful",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Tantrum",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 130,
+      "effect_id": "This Pok\u00e9mon is now Confused."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/178/high.png"
+}

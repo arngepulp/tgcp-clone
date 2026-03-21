@@ -1,0 +1,38 @@
+{
+  "id": "A2-092",
+  "name": "Lucario",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Riolu",
+  "abilities": [
+    {
+      "name": "Fighting Coach",
+      "effect_id": "Attacks used by your {F} Pok\u00e9mon do +20 damage to your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Submarine Blow",
+      "cost": [
+        "{F}",
+        "{F}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/092/high.png"
+}

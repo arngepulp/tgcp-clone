@@ -1,0 +1,43 @@
+{
+  "id": "B1a-098",
+  "name": "Buzzwole ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Punch",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    },
+    {
+      "name": "Big Beat",
+      "cost": [
+        "{G}",
+        "{G}",
+        "{C}"
+      ],
+      "damage": 120,
+      "effect_id": "During your next turn, this Pok\u00e9mon can't use Big Beat."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/098/high.png"
+}

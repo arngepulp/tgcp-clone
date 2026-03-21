@@ -1,0 +1,34 @@
+{
+  "id": "B1-179",
+  "name": "Goodra",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 2,
+  "evolves_from": "Sliggoo",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Spiral Drain",
+      "cost": [
+        "{W}",
+        "{P}",
+        "{C}"
+      ],
+      "damage": 100,
+      "effect_id": "Heal 40 damage from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/179/high.png"
+}

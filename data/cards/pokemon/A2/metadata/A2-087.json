@@ -1,0 +1,40 @@
+{
+  "id": "A2-087",
+  "name": "Regirock",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Exoskeleton",
+      "effect_id": "This Pok\u00e9mon takes \u221220 damage from attacks."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Boulder Crush",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{F}",
+        "{C}"
+      ],
+      "damage": 100,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/087/high.png"
+}

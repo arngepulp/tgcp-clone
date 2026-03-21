@@ -1,0 +1,33 @@
+{
+  "id": "B1-308",
+  "name": "Graveler",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Geodude",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Lunge Out",
+      "cost": [
+        "{F}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/308/high.png"
+}

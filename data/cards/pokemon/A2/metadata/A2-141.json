@@ -1,0 +1,32 @@
+{
+  "id": "A2-141",
+  "name": "Chatot",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fury Attack",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "Flip 3 coins. This attack does 20 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/141/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A2b-068",
+  "name": "Cyclizar",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Overacceleration",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "During your next turn, this Pok\u00e9mon's Overacceleration attack does +20 damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/068/high.png"
+}

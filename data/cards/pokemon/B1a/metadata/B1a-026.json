@@ -1,0 +1,34 @@
+{
+  "id": "B1a-026",
+  "name": "Magnezone",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 2,
+  "evolves_from": "Magneton",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Mirror Shot",
+      "cost": [
+        "{L}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": "During your opponent's next turn, if the Defending Pok\u00e9mon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/026/high.png"
+}

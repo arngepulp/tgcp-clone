@@ -1,0 +1,33 @@
+{
+  "id": "B1-079",
+  "name": "Barraskewda",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Arrokuda",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Double-Edge",
+      "cost": [
+        "{W}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "This Pok\u00e9mon also does 20 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/079/high.png"
+}

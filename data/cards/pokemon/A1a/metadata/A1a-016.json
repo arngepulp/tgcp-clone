@@ -1,0 +1,32 @@
+{
+  "id": "A1a-016",
+  "name": "Salazzle",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Salandit",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Poison Claws",
+      "cost": [
+        "{R}"
+      ],
+      "damage": 30,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/016/high.png"
+}

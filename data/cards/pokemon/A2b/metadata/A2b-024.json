@@ -1,0 +1,33 @@
+{
+  "id": "A2b-024",
+  "name": "Electrode",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Voltorb",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Tumbling Attack",
+      "cost": [
+        "{L}",
+        "{L}"
+      ],
+      "damage": "50+",
+      "effect_id": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/024/high.png"
+}

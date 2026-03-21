@@ -1,0 +1,33 @@
+{
+  "id": "A4-174",
+  "name": "Xatu",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Natu",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Life Drain",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": null,
+      "effect_id": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon's remaining HP is now 10."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/174/high.png"
+}

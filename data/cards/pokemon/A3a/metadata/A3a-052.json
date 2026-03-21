@@ -1,0 +1,39 @@
+{
+  "id": "A3a-052",
+  "name": "Ferrothorn",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Ferroseed",
+  "abilities": [
+    {
+      "name": "Steel Spikes",
+      "effect_id": "If this Pok\u00e9mon is in the Active Spot and is damaged by an attack from your opponent's Pok\u00e9mon, do 20 damage to the Attacking Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Spinning Attack",
+      "cost": [
+        "{M}",
+        "{M}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/052/high.png"
+}

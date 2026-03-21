@@ -1,0 +1,34 @@
+{
+  "id": "A3b-050",
+  "name": "Melmetal",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Meltan",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Mega Punch",
+      "cost": [
+        "{M}",
+        "{M}",
+        "{M}"
+      ],
+      "damage": 90,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/050/high.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "A3-166",
+  "name": "Tapu Koko",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Volt Switch",
+      "cost": [
+        "{L}",
+        "{L}",
+        "{L}"
+      ],
+      "damage": 70,
+      "effect_id": "Switch this Pok\u00e9mon with 1 of your Benched {L} Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/166/high.png"
+}

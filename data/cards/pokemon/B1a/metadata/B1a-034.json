@@ -1,0 +1,39 @@
+{
+  "id": "B1a-034",
+  "name": "Reuniclus",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 2,
+  "evolves_from": "Duosion",
+  "abilities": [
+    {
+      "name": "Infinite Increase",
+      "effect_id": "This Pok\u00e9mon gets +30 HP for each {P} Energy attached to it."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Psypunch",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/034/high.png"
+}

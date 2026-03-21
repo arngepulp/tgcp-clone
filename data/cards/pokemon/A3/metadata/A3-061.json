@@ -1,0 +1,35 @@
+{
+  "id": "A3-061",
+  "name": "Alolan Golem",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 2,
+  "evolves_from": "Alolan Graveler",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Super Zap Cannon",
+      "cost": [
+        "{L}",
+        "{L}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 150,
+      "effect_id": "Discard 2 {L} Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/061/high.png"
+}

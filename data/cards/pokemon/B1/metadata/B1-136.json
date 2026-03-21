@@ -1,0 +1,33 @@
+{
+  "id": "B1-136",
+  "name": "Golurk",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Golett",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Heavy Rocket",
+      "cost": [
+        "{F}",
+        "{F}"
+      ],
+      "damage": 60,
+      "effect_id": "Reveal the top 3 cards of your deck. This attack does 60 damage for each Pok\u00e9mon with a Retreat Cost of 3 or more you find there. Shuffle the revealed cards back into your deck."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/136/high.png"
+}

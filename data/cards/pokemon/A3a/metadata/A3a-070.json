@@ -1,0 +1,32 @@
+{
+  "id": "A3a-070",
+  "name": "Rowlet",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fury Attack",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 10,
+      "effect_id": "Flip 3 coins. This attack does 10 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/070/high.png"
+}

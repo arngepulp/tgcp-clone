@@ -1,0 +1,33 @@
+{
+  "id": "B1-100",
+  "name": "Mismagius",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Misdreavus",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Spooky Shot",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/100/high.png"
+}

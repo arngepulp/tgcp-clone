@@ -1,0 +1,33 @@
+{
+  "id": "A4-063",
+  "name": "Swanna",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Ducklett",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Feathery Cyclone",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": "Move all Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/063/high.png"
+}

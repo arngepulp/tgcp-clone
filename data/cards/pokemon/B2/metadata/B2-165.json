@@ -1,0 +1,32 @@
+{
+  "id": "B2-165",
+  "name": "Minun",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Buddy Spark",
+      "cost": [
+        "{L}"
+      ],
+      "damage": 30,
+      "effect_id": "If Plusle is on your Bench, this attack also does 10 damage to each of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/165/high.png"
+}

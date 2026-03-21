@@ -1,0 +1,32 @@
+{
+  "id": "B2-059",
+  "name": "Galarian Rapidash",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Galarian Ponyta",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Photon Laser",
+      "cost": [
+        "{P}"
+      ],
+      "damage": 40,
+      "effect_id": "If you have 5 or more {P} Energy in play, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/059/high.png"
+}

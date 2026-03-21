@@ -1,0 +1,32 @@
+{
+  "id": "A3a-055",
+  "name": "Herdier",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Lillipup",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/055/high.png"
+}

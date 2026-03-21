@@ -1,0 +1,16 @@
+{
+  "id": "A4-201",
+  "name": "Hiker",
+  "suffix": null,
+  "card_type": "Trainer",
+  "hp": null,
+  "types": [],
+  "stage": null,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [],
+  "weakness": [],
+  "retreat_cost": null,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/201/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B1a-036",
+  "name": "Aromatisse",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Spritzee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Perfume Blast",
+      "cost": [
+        "{P}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": "During your opponent's next turn, attacks used by the Defending Pok\u00e9mon cost 1 {C} more."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/036/high.png"
+}

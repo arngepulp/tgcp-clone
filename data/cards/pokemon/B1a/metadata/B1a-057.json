@@ -1,0 +1,33 @@
+{
+  "id": "B1a-057",
+  "name": "Porygon2",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Porygon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Speed Attack",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/057/high.png"
+}

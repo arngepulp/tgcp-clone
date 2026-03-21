@@ -1,0 +1,33 @@
+{
+  "id": "A2-173",
+  "name": "Croagunk",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Group Beatdown",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": "20\u00d7",
+      "effect_id": "Flip a coin for each Pok\u00e9mon you have in play. This attack does 20 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/173/high.png"
+}

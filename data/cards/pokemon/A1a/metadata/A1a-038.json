@@ -1,0 +1,33 @@
+{
+  "id": "A1a-038",
+  "name": "Florges",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 2,
+  "evolves_from": "Floette",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Bloomshine",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 80,
+      "effect_id": "Heal 20 damage from each of your Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/038/high.png"
+}

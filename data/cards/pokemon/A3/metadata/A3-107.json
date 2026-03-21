@@ -1,0 +1,33 @@
+{
+  "id": "A3-107",
+  "name": "Alolan Raticate",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Alolan Rattata",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Scrounge-and-Scarf",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": 50,
+      "effect_id": "Discard a random Item card from your opponent's hand."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/107/high.png"
+}

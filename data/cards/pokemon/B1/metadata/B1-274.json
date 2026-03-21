@@ -1,0 +1,34 @@
+{
+  "id": "B1-274",
+  "name": "Rapidash ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Ponyta",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sprinting Flare",
+      "cost": [
+        "{R}",
+        "{R}",
+        "{R}"
+      ],
+      "damage": 110,
+      "effect_id": "This attack also does 20 damage to 1 of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/274/high.png"
+}

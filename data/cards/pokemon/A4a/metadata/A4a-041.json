@@ -1,0 +1,32 @@
+{
+  "id": "A4a-041",
+  "name": "Dugtrio",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Diglett",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Cliff Crumbler",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 40,
+      "effect_id": "Discard the top card of your deck. If that card is a {F} Pok\u00e9mon, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/041/high.png"
+}

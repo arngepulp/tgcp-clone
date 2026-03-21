@@ -1,0 +1,33 @@
+{
+  "id": "A4-137",
+  "name": "Porygon-Z",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 2,
+  "evolves_from": "Porygon2",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slowing Beam",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": "During your opponent's next turn, attacks used by the Defending Pok\u00e9mon cost 1 {C} more."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/137/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A3-158",
+  "name": "Tsareena",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Steenee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Three Kick Combo",
+      "cost": [
+        "{G}"
+      ],
+      "damage": "50x",
+      "effect_id": "Flip 3 coins. This attack does 50 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/158/high.png"
+}

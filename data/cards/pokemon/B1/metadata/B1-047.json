@@ -1,0 +1,33 @@
+{
+  "id": "B1-047",
+  "name": "Turtonator",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Shell Trap",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 40,
+      "effect_id": "During your opponent's next turn, if this Pok\u00e9mon is damaged by an attack, do 20 damage to the Attacking Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/047/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B2-065",
+  "name": "Gardevoir",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 2,
+  "evolves_from": "Kirlia",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Psy Turbo",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 60,
+      "effect_id": "Take 2 {P} Energy from your Energy Zone and attach it to 1 of your Benched {P} Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/065/high.png"
+}

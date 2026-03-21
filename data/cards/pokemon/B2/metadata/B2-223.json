@@ -1,0 +1,30 @@
+{
+  "id": "B2-223",
+  "name": "Tyrogue",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 30,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slappy Knuckle",
+      "cost": [],
+      "damage": 20,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/223/high.png"
+}

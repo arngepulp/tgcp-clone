@@ -1,0 +1,33 @@
+{
+  "id": "A4-104",
+  "name": "Pupitar",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Larvitar",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Guard Press",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes \u221230 damage from attacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/104/high.png"
+}

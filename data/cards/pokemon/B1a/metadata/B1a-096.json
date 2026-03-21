@@ -1,0 +1,32 @@
+{
+  "id": "B1a-096",
+  "name": "Type: Null",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Quick Blow",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "Flip a coin. If heads, this attack does 20 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/096/high.png"
+}

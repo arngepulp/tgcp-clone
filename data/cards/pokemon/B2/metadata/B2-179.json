@@ -1,0 +1,32 @@
+{
+  "id": "B2-179",
+  "name": "Slakoth",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Yawn",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Asleep."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/179/high.png"
+}

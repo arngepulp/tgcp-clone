@@ -1,0 +1,38 @@
+{
+  "id": "B1-206",
+  "name": "Furfrou",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Fur Coat",
+      "effect_id": "This Pok\u00e9mon takes \u221220 damage from attacks."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sharp Fang",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/206/high.png"
+}

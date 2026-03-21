@@ -1,0 +1,32 @@
+{
+  "id": "A3-011",
+  "name": "Dartrix",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Rowlet",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Razor Wing",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/011/high.png"
+}

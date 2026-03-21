@@ -1,0 +1,39 @@
+{
+  "id": "B1a-018",
+  "name": "Wartortle",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Squirtle",
+  "abilities": [
+    {
+      "name": "Shell Shield",
+      "effect_id": "As long as this Pok\u00e9mon is on your Bench, prevent all damage done to this Pok\u00e9mon by attacks."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Waterfall",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/018/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A2a-028",
+  "name": "Manectric",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Electrike",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Flash",
+      "cost": [
+        "{L}"
+      ],
+      "damage": 40,
+      "effect_id": "During your opponent's next turn, if the Defending Pok\u00e9mon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/028/high.png"
+}

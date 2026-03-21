@@ -1,0 +1,33 @@
+{
+  "id": "B2-209",
+  "name": "Seadra",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Horsea",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Razor Fin",
+      "cost": [
+        "{W}",
+        "{W}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/209/high.png"
+}

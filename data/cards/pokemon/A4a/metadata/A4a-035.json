@@ -1,0 +1,38 @@
+{
+  "id": "A4a-035",
+  "name": "Galarian Cursola",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Galarian Corsola",
+  "abilities": [
+    {
+      "name": "Perish Body",
+      "effect_id": "If this Pok\u00e9mon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pok\u00e9mon, flip a coin. If heads, the Attacking Pok\u00e9mon is Knocked Out."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Spooky Shot",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/035/high.png"
+}

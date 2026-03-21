@@ -1,0 +1,33 @@
+{
+  "id": "B1-010",
+  "name": "Shiftry",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Nuzleaf",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Nipping Cyclone",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": 70,
+      "effect_id": "Discard a random card from your opponent's hand."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/010/high.png"
+}

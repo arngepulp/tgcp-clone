@@ -1,0 +1,34 @@
+{
+  "id": "B1-192",
+  "name": "Exploud",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 2,
+  "evolves_from": "Loudred",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Booming Roar",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": "During your opponent's next turn, they can't play any Item cards from their hand."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/192/high.png"
+}

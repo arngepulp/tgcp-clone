@@ -1,0 +1,33 @@
+{
+  "id": "A2a-012",
+  "name": "Houndoom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Houndour",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Corner",
+      "cost": [
+        "{R}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": "During your opponent's next turn, the Defending Pok\u00e9mon can't retreat."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/012/high.png"
+}

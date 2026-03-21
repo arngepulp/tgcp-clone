@@ -1,0 +1,33 @@
+{
+  "id": "B1-149",
+  "name": "Honchkrow",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Murkrow",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Evil Admonition",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "This attack does 40 more damage for each of your opponent's Pok\u00e9mon in play that has an Ability."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/149/high.png"
+}

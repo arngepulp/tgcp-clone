@@ -1,0 +1,33 @@
+{
+  "id": "B2-135",
+  "name": "Vigoroth",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Slakoth",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Best Punch",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/135/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A2b-038",
+  "name": "Machoke",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Machop",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Pummel",
+      "cost": [
+        "{F}",
+        "{F}"
+      ],
+      "damage": "30+",
+      "effect_id": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/038/high.png"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "A3b-090",
+  "name": "Dragonite ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 180,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 2,
+  "evolves_from": "Dragonair",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Giga Impact",
+      "cost": [
+        "{W}",
+        "{L}",
+        "{C}"
+      ],
+      "damage": 180,
+      "effect_id": "During your next turn, this Pok\u00e9mon can't attack."
+    }
+  ],
+  "weakness": [],
+  "retreat_cost": 2,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/090/high.png"
+}

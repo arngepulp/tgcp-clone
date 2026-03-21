@@ -1,0 +1,32 @@
+{
+  "id": "B1-315",
+  "name": "Dodrio",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Doduo",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Drill Peck",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/315/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B2-093",
+  "name": "Cornerstone Mask Ogerpon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Cornerstone Dance",
+      "cost": [
+        "{F}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "Flip a coin. If heads, during your opponent's next turn, this Pok\u00e9mon takes \u2212100 damage from attacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/093/high.png"
+}

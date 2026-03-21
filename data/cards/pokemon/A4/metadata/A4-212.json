@@ -1,0 +1,33 @@
+{
+  "id": "A4-212",
+  "name": "Yanma",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "U-turn",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "Switch this Pok\u00e9mon with 1 of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/212/high.png"
+}

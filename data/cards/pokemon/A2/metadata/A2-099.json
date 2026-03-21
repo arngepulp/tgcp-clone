@@ -1,0 +1,32 @@
+{
+  "id": "A2-099",
+  "name": "Weavile ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Sneasel",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Scratching Nails",
+      "cost": [
+        "{D}"
+      ],
+      "damage": "30+",
+      "effect_id": "If your opponent's Active Pok\u00e9mon has damage on it, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/099/high.png"
+}

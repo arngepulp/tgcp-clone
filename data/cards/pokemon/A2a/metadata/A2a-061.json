@@ -1,0 +1,29 @@
+{
+  "id": "A2a-061",
+  "name": "Giratina",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Crisis Dive",
+      "cost": [
+        "{G}",
+        "{P}",
+        "{C}"
+      ],
+      "damage": 120,
+      "effect_id": "Discard 2 random Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/061/high.png"
+}

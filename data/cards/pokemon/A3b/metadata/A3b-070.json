@@ -1,0 +1,32 @@
+{
+  "id": "A3b-070",
+  "name": "Leafeon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Leaf Blast",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 10,
+      "effect_id": "This attack does 20 more damage for each {G} Energy attached to this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/070/high.png"
+}

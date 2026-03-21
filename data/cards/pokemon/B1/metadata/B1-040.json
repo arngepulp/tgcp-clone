@@ -1,0 +1,35 @@
+{
+  "id": "B1-040",
+  "name": "Darmanitan",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Darumaka",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Darmani-Hands",
+      "cost": [
+        "{R}",
+        "{R}",
+        "{R}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "Flip 2 coins. This attack does 30 more damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/040/high.png"
+}

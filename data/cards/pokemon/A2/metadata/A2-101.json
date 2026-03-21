@@ -1,0 +1,33 @@
+{
+  "id": "A2-101",
+  "name": "Mightyena",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Poochyena",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Darkness Fang",
+      "cost": [
+        "{D}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/101/high.png"
+}

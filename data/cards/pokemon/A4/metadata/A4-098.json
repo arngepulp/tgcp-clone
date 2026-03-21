@@ -1,0 +1,35 @@
+{
+  "id": "A4-098",
+  "name": "Mamoswine",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Piloswine",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Earthquake",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{F}",
+        "{C}"
+      ],
+      "damage": 160,
+      "effect_id": "This attack also does 20 damage to each of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/098/high.png"
+}

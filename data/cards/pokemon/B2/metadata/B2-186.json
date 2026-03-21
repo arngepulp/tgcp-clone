@@ -1,0 +1,38 @@
+{
+  "id": "B2-186",
+  "name": "Mimikyu ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Disguise",
+      "effect_id": "When this Pok\u00e9mon is first damaged by an attack after coming into play, prevent that damage."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Claw Slash",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/186/high.png"
+}

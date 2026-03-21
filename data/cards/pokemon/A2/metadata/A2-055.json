@@ -1,0 +1,32 @@
+{
+  "id": "A2-055",
+  "name": "Electrode",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Voltorb",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Rolling Attack",
+      "cost": [
+        "{L}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/055/high.png"
+}

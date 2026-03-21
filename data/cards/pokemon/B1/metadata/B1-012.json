@@ -1,0 +1,32 @@
+{
+  "id": "B1-012",
+  "name": "Breloom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Shroomish",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Seed Bomb",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/012/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A2-097",
+  "name": "Honchkrow",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Murkrow",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Skill Dive",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/097/high.png"
+}

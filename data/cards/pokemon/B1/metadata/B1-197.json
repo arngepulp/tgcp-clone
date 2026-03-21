@@ -1,0 +1,33 @@
+{
+  "id": "B1-197",
+  "name": "Altaria",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Swablu",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Do the Wave",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "This attack does 20 more damage for each of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/197/high.png"
+}

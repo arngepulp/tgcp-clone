@@ -1,0 +1,32 @@
+{
+  "id": "A4a-026",
+  "name": "Tynamo",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 40,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Tiny Bolt",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 10,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/026/high.png"
+}

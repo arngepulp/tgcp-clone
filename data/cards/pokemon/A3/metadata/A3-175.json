@@ -1,0 +1,33 @@
+{
+  "id": "A3-175",
+  "name": "Magearna",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Silver Cannon",
+      "cost": [
+        "{M}",
+        "{M}"
+      ],
+      "damage": "40+",
+      "effect_id": "If your opponent's Active Pok\u00e9mon has an Ability, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/175/high.png"
+}

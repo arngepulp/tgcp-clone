@@ -1,0 +1,39 @@
+{
+  "id": "A2a-021",
+  "name": "Abomasnow",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Snover",
+  "abilities": [
+    {
+      "name": "Vigor Link",
+      "effect_id": "If you have Arceus or Arceus ex in play, attacks used by this Pok\u00e9mon cost 1 less {C} Energy."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mega Punch",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/021/high.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "B2-055",
+  "name": "Toxtricity ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Toxel",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Damaging Spark",
+      "cost": [
+        "{L}",
+        "{L}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": "This attack also does 30 damage to each of your opponent's Benched Pok\u00e9mon that has damage on it."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/055/high.png"
+}

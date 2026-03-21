@@ -1,0 +1,33 @@
+{
+  "id": "B1-182",
+  "name": "Pidgeot",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 2,
+  "evolves_from": "Pidgeotto",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Twister",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "Flip 2 coins. For each heads, discard a random Energy from your opponent's Active Pok\u00e9mon. If both of them are tails, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/182/high.png"
+}

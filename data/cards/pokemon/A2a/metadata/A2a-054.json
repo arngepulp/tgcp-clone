@@ -1,0 +1,33 @@
+{
+  "id": "A2a-054",
+  "name": "Magneton",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Magnemite",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Rolling Attack",
+      "cost": [
+        "{M}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/054/high.png"
+}

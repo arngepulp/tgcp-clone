@@ -1,0 +1,32 @@
+{
+  "id": "A4-028",
+  "name": "Quilava",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Cyndaquil",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Combustion",
+      "cost": [
+        "{R}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/028/high.png"
+}

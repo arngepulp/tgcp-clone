@@ -1,0 +1,34 @@
+{
+  "id": "A4a-054",
+  "name": "Dragalge",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Skrelp",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sludge Bomb",
+      "cost": [
+        "{D}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/054/high.png"
+}

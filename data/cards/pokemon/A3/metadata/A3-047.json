@@ -1,0 +1,32 @@
+{
+  "id": "A3-047",
+  "name": "Brionne",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Popplio",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Wave Splash",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/047/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A2-030",
+  "name": "Heat Rotom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Heat Breath",
+      "cost": [
+        "{R}",
+        "{C}"
+      ],
+      "damage": "30+",
+      "effect_id": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/030/high.png"
+}

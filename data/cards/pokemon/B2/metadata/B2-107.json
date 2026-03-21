@@ -1,0 +1,33 @@
+{
+  "id": "B2-107",
+  "name": "Scrafty",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Scraggy",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Crush the Weak",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": 50,
+      "effect_id": "If this Pok\u00e9mon has more Energy attached than your opponent's Active Pok\u00e9mon, this attack does 50 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/107/high.png"
+}

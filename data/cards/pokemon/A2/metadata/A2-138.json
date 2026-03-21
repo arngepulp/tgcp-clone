@@ -1,0 +1,32 @@
+{
+  "id": "A2-138",
+  "name": "Lopunny",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Buneary",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Jump Kick",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "This attack also does 20 damage to 1 of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/138/high.png"
+}

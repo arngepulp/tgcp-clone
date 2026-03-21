@@ -1,0 +1,38 @@
+{
+  "id": "A3a-042",
+  "name": "Nihilego",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "More Poison",
+      "effect_id": "Your opponent's Active Pok\u00e9mon takes +10 damage from being Poisoned."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "New Wave",
+      "cost": [
+        "{D}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/042/high.png"
+}

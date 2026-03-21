@@ -1,0 +1,32 @@
+{
+  "id": "A4-170",
+  "name": "Delibird",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Stumbling Draw",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 10,
+      "effect_id": "Draw a card."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/170/high.png"
+}

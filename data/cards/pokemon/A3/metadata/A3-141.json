@@ -1,0 +1,38 @@
+{
+  "id": "A3-141",
+  "name": "Komala",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Comatose",
+      "effect_id": "As long as this Pok\u00e9mon is in the Active Spot, whenever you attach an Energy from your Energy Zone to it, it is now Asleep."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Rolling Tackle",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/141/high.png"
+}

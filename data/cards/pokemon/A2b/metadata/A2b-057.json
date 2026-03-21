@@ -1,0 +1,34 @@
+{
+  "id": "A2b-057",
+  "name": "Gholdengo",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Gimmighoul",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Scintillating Surfing",
+      "cost": [
+        "{M}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": "50x",
+      "effect_id": "Flip a coin for each {M} Energy attached to this Pok\u00e9mon. This attack does 50 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/057/high.png"
+}

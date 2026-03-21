@@ -1,0 +1,34 @@
+{
+  "id": "A3-022",
+  "name": "Golisopod",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Wimpod",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "First Impression",
+      "cost": [
+        "{G}",
+        "{G}",
+        "{G}"
+      ],
+      "damage": "60+",
+      "effect_id": "If this Pok\u00e9mon moved from your Bench to the Active Spot this turn, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/022/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A1a-036",
+  "name": "Flab\u00e9b\u00e9",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 40,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Hypnotic Gaze",
+      "cost": [
+        "{P}"
+      ],
+      "damage": null,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Asleep."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/036/high.png"
+}

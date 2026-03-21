@@ -1,0 +1,32 @@
+{
+  "id": "A3a-037",
+  "name": "Alolan Meowth",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Meddle",
+      "cost": [
+        "{D}"
+      ],
+      "damage": null,
+      "effect_id": "Discard a random Pok\u00e9mon Tool card from your opponent's hand."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/037/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B1-164",
+  "name": "Morgrem",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Impidimp",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "False Surrender",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": 50,
+      "effect_id": "This attack's damage isn't affected by any effects on your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/164/high.png"
+}

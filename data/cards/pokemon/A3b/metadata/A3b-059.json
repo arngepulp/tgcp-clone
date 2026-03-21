@@ -1,0 +1,38 @@
+{
+  "id": "A3b-059",
+  "name": "Ambipom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Aipom",
+  "abilities": [
+    {
+      "name": "Catching Tail",
+      "effect_id": "Once during your turn, you may put a random Pok\u00e9mon Tool card from your deck into your hand."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Corkscrew Punch",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/059/high.png"
+}

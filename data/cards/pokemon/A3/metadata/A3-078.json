@@ -1,0 +1,32 @@
+{
+  "id": "A3-078",
+  "name": "Cutiefly",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 30,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Flap",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 10,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/078/high.png"
+}

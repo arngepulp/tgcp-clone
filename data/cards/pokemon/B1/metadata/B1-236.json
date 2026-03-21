@@ -1,0 +1,38 @@
+{
+  "id": "B1-236",
+  "name": "Eiscue",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Ice Face",
+      "effect_id": "If this Pok\u00e9mon has full HP, it takes \u221240 damage from attacks from your opponent's Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [
+        "{W}",
+        "{W}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/236/high.png"
+}

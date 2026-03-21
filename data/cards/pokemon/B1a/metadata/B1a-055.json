@@ -1,0 +1,32 @@
+{
+  "id": "B1a-055",
+  "name": "Ditto",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Copy a Friend",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Choose 1 of your Benched Pok\u00e9mon's attacks, except any Pok\u00e9mon ex, and use it as this attack. If this Pok\u00e9mon doesn't have the necessary Energy to use that attack, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/055/high.png"
+}

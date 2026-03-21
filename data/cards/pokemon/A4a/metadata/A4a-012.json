@@ -1,0 +1,32 @@
+{
+  "id": "A4a-012",
+  "name": "Talonflame",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Fletchinder",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Searing Flame",
+      "cost": [
+        "{R}"
+      ],
+      "damage": 50,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Burned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/012/high.png"
+}

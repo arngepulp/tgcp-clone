@@ -1,0 +1,30 @@
+{
+  "id": "A4a-105",
+  "name": "Mantyke",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 30,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Splashy Toss",
+      "cost": [],
+      "damage": null,
+      "effect_id": "Take a {W} Energy from your Energy Zone and attach it to 1 of your Benched Basic Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Crown",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/105/high.png"
+}

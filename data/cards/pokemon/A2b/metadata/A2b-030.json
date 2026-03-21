@@ -1,0 +1,32 @@
+{
+  "id": "A2b-030",
+  "name": "Kadabra",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Abra",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Psyshot",
+      "cost": [
+        "{P}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/030/high.png"
+}

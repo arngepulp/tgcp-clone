@@ -1,0 +1,32 @@
+{
+  "id": "A4-102",
+  "name": "Hitmontop",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Piercing Spin",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 20,
+      "effect_id": "This attack also does 20 damage to 1 of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/102/high.png"
+}

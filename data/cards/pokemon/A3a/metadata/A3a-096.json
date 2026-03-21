@@ -1,0 +1,32 @@
+{
+  "id": "A3a-096",
+  "name": "Pidgeotto",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Pidgey",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Gust",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/096/high.png"
+}

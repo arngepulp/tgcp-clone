@@ -1,0 +1,37 @@
+{
+  "id": "B1-184",
+  "name": "Eevee",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Boosted Evolution",
+      "effect_id": "As long as this Pok\u00e9mon is in the Active Spot, it can evolve during your first turn or the turn you play it."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Stampede",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 10,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/184/high.png"
+}

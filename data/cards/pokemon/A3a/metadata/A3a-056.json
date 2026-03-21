@@ -1,0 +1,38 @@
+{
+  "id": "A3a-056",
+  "name": "Stoutland",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 2,
+  "evolves_from": "Herdier",
+  "abilities": [
+    {
+      "name": "Guard Dog Visage",
+      "effect_id": "As long as this Pok\u00e9mon is in the Active Spot, attacks used by your opponent's Active Pok\u00e9mon cost 1 {C} more."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sharp Fang",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/056/high.png"
+}

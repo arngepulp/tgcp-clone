@@ -1,0 +1,33 @@
+{
+  "id": "B1-273",
+  "name": "Whimsicott ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Cottonee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Grass Knot",
+      "cost": [
+        "{G}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "This attack does 30 more damage for each Energy in your opponent's Active Pok\u00e9mon's Retreat Cost."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/273/high.png"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "A3-066",
+  "name": "Oricorio",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Safeguard",
+      "effect_id": "Prevent all damage done to this Pok\u00e9mon by attacks from your opponent's Pok\u00e9mon ex."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Zzzap",
+      "cost": [
+        "{L}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/066/high.png"
+}

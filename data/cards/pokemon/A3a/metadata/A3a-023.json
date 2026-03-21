@@ -1,0 +1,33 @@
+{
+  "id": "A3a-023",
+  "name": "Clefable",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Clefairy",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Moon Kick",
+      "cost": [
+        "{P}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/023/high.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "B2-175",
+  "name": "Yveltal",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Evil Crash",
+      "cost": [
+        "{D}",
+        "{D}",
+        "{D}"
+      ],
+      "damage": 90,
+      "effect_id": "Discard a random Energy from both Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/175/high.png"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "A4-066",
+  "name": "Pichu",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 30,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Crackly Toss",
+      "cost": [],
+      "damage": null,
+      "effect_id": "Take a {L} Energy from your Energy Zone and attach it to 1 of your Benched Basic Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/066/high.png"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "B1-229",
+  "name": "Rillaboom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Thwackey",
+  "abilities": [
+    {
+      "name": "Captivating Rhythm",
+      "effect_id": "Once during your turn, you may flip a coin. If heads, switch in 1 of your opponent's Benched Pok\u00e9mon to the Active Spot."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Drum Rush",
+      "cost": [
+        "{G}",
+        "{G}",
+        "{G}",
+        "{C}"
+      ],
+      "damage": 120,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/229/high.png"
+}

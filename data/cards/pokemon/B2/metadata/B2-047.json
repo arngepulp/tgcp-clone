@@ -1,0 +1,32 @@
+{
+  "id": "B2-047",
+  "name": "Barraskewda",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Arrokuda",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Jet Headbutt",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/047/high.png"
+}

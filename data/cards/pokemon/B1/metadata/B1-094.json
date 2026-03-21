@@ -1,0 +1,32 @@
+{
+  "id": "B1-094",
+  "name": "Dedenne",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Electric Nibbling",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "Discard a {L} Energy from your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/094/high.png"
+}

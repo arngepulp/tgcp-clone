@@ -1,0 +1,33 @@
+{
+  "id": "B2-069",
+  "name": "Chandelure",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 2,
+  "evolves_from": "Lampent",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Past Friends",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 60,
+      "effect_id": "This attack does 20 more damage for each Supporter card in your discard pile."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/069/high.png"
+}

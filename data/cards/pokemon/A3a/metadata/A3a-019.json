@@ -1,0 +1,42 @@
+{
+  "id": "A3a-019",
+  "name": "Tapu Koko ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Plasma Hurricane",
+      "cost": [
+        "{L}"
+      ],
+      "damage": 20,
+      "effect_id": "Take a {L} Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+    },
+    {
+      "name": "Mach Bolt",
+      "cost": [
+        "{L}",
+        "{L}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/019/high.png"
+}

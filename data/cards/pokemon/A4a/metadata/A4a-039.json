@@ -1,0 +1,34 @@
+{
+  "id": "A4a-039",
+  "name": "Jellicent",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Frillish",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Devour Soul",
+      "cost": [
+        "{P}",
+        "{P}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/039/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A3b-040",
+  "name": "Mienfoo",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Kick Shot",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 40,
+      "effect_id": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/040/high.png"
+}

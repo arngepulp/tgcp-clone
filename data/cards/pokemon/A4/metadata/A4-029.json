@@ -1,0 +1,38 @@
+{
+  "id": "A4-029",
+  "name": "Typhlosion",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Quilava",
+  "abilities": [
+    {
+      "name": "Fire Breath",
+      "effect_id": "Once during your turn, you may make your opponent's Active Pok\u00e9mon Burned."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Magma Punch",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/029/high.png"
+}

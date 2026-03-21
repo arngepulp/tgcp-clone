@@ -1,0 +1,32 @@
+{
+  "id": "A4-039",
+  "name": "Poliwhirl",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Poliwag",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Wave Splash",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/039/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A2b-044",
+  "name": "Flamigo",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Double Kick",
+      "cost": [
+        "{F}",
+        "{F}"
+      ],
+      "damage": "50x",
+      "effect_id": "Flip 2 coins. This attack does 50 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/044/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B1-042",
+  "name": "Lampent",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Litwick",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Will-O-Wisp",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/042/high.png"
+}

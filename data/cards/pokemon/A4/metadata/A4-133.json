@@ -1,0 +1,32 @@
+{
+  "id": "A4-133",
+  "name": "Kangaskhan",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Cross-Cut",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "If your opponent's Active Pok\u00e9mon is an Evolution Pok\u00e9mon, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/133/high.png"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "B1a-052",
+  "name": "Mega Steelix ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 220,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Onix",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Adamantine Rolling",
+      "cost": [
+        "{M}",
+        "{M}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 120,
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes  damage from attacks and has no Weakness."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/052/high.png"
+}

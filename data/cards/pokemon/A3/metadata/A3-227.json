@@ -1,0 +1,32 @@
+{
+  "id": "A3-227",
+  "name": "Marowak",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Cubone",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Bone Beatdown",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/227/high.png"
+}

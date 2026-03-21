@@ -1,0 +1,33 @@
+{
+  "id": "B2-157",
+  "name": "Roserade",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Roselia",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Poison Ring",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": 50,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned. During your opponent's next turn, that Pok\u00e9mon can't retreat."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/157/high.png"
+}

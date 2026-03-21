@@ -1,0 +1,32 @@
+{
+  "id": "A4-130",
+  "name": "Fearow",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Spearow",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Peck Bugs",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": "If your opponent's Active Pok\u00e9mon is a {G} Pok\u00e9mon, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/130/high.png"
+}

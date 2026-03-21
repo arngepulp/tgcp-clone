@@ -1,0 +1,38 @@
+{
+  "id": "A3-104",
+  "name": "Passimian ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Offload Pass",
+      "effect_id": "If this Pok\u00e9mon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pok\u00e9mon, move all {F} Energy from this Pok\u00e9mon to 1 of your Benched Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Seismic Toss",
+      "cost": [
+        "{F}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/104/high.png"
+}

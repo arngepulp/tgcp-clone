@@ -1,0 +1,33 @@
+{
+  "id": "A2-074",
+  "name": "Drifblim",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Drifloon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Balloon Strike",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/074/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B1-035",
+  "name": "Blaziken",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Combusken",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Blaze Kick",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 100,
+      "effect_id": "Discard a {R} Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/035/high.png"
+}

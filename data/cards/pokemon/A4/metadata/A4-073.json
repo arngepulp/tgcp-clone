@@ -1,0 +1,32 @@
+{
+  "id": "A4-073",
+  "name": "Slowpoke",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Rest",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "This Pok\u00e9mon is now Asleep. Heal 30 damage from it."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/073/high.png"
+}

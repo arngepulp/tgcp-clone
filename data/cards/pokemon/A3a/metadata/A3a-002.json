@@ -1,0 +1,33 @@
+{
+  "id": "A3a-002",
+  "name": "Lilligant",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Petilil",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Cut",
+      "cost": [
+        "{G}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/002/high.png"
+}

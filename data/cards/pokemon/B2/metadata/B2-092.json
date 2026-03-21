@@ -1,0 +1,37 @@
+{
+  "id": "B2-092",
+  "name": "Falinks",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Coordinated Unit",
+      "effect_id": "If you have another Falinks in play, this Pok\u00e9mon's attacks do +20 damage to your opponent's Active Pok\u00e9mon, and this Pok\u00e9mon takes \u221220 damage from attacks from your opponent's Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Invade",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 20,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/092/high.png"
+}

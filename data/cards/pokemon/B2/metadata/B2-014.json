@@ -1,0 +1,33 @@
+{
+  "id": "B2-014",
+  "name": "Buzzwole",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Ground Beat",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": 40,
+      "effect_id": "If your opponent has gotten exactly 1 points, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/014/high.png"
+}

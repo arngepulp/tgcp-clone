@@ -1,0 +1,33 @@
+{
+  "id": "A4-079",
+  "name": "Togetic",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Togepi",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Speed Dive",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/079/high.png"
+}

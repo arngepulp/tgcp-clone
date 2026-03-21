@@ -1,0 +1,33 @@
+{
+  "id": "B1-118",
+  "name": "Slurpuff",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Swirlix",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Draining Kiss",
+      "cost": [
+        "{P}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": "Heal 30 damage from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/118/high.png"
+}

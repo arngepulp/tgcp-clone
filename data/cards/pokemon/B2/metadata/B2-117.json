@@ -1,0 +1,33 @@
+{
+  "id": "B2-117",
+  "name": "Galarian Stunfisk",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Snapping Trap",
+      "cost": [
+        "{M}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "During your opponent's next turn, if this Pok\u00e9mon is in the Active Spot when your opponent's Active Pok\u00e9mon retreats, this attack does 40 damage to the new Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/117/high.png"
+}

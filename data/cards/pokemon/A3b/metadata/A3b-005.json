@@ -1,0 +1,32 @@
+{
+  "id": "A3b-005",
+  "name": "Tsareena",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Steenee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Kick Down",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 50,
+      "effect_id": "Your opponent reveals a random card from their hand and shuffles it into their deck."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/005/high.png"
+}

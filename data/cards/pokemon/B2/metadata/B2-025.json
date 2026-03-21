@@ -1,0 +1,32 @@
+{
+  "id": "B2-025",
+  "name": "Raboot",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Scorbunny",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Kick",
+      "cost": [
+        "{R}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/025/high.png"
+}

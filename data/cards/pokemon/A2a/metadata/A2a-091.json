@@ -1,0 +1,39 @@
+{
+  "id": "A2a-091",
+  "name": "Leafeon ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [
+    {
+      "name": "Forest Breath",
+      "effect_id": "Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may take a {G} Energy from your Energy Zone and attach it to 1 of your {G} Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Solar Beam",
+      "cost": [
+        "{G}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/091/high.png"
+}

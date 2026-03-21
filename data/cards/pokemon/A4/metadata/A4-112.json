@@ -1,0 +1,38 @@
+{
+  "id": "A4-112",
+  "name": "Umbreon ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [
+    {
+      "name": "Dark Chase",
+      "effect_id": "Once during your turn, if this Pok\u00e9mon is in the Active Spot, you may switch in 1 of your opponent's Benched Pok\u00e9mon that has damage on it to the Active Spot."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Darkness Fang",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/112/high.png"
+}

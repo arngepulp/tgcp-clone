@@ -1,0 +1,38 @@
+{
+  "id": "B2-194",
+  "name": "Teal Mask Ogerpon ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Soothing Wind",
+      "effect_id": "Each of your Pok\u00e9mon that has any Energy attached recovers from all Special Conditions and can't be affected by any Special Conditions."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Energized Leaves",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": 60,
+      "effect_id": "If the amount of Energy attached to both Active Pok\u00e9mon is 5 or more, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/194/high.png"
+}

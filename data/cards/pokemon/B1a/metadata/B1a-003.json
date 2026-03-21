@@ -1,0 +1,35 @@
+{
+  "id": "B1a-003",
+  "name": "Venusaur",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Ivysaur",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Poisonous Whip",
+      "cost": [
+        "{G}",
+        "{G}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/003/high.png"
+}

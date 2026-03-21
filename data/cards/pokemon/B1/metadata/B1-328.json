@@ -1,0 +1,39 @@
+{
+  "id": "B1-328",
+  "name": "Arceus ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Fabled Luster",
+      "effect_id": "This Pok\u00e9mon can't be affected by any Special Conditions."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Ultimate Force",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": "This attack does 20 more damage for each of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/328/high.png"
+}

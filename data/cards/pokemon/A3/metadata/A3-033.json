@@ -1,0 +1,42 @@
+{
+  "id": "A3-033",
+  "name": "Incineroar ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 180,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Torracat",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fire Fang",
+      "cost": [
+        "{R}"
+      ],
+      "damage": 30,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Burned."
+    },
+    {
+      "name": "Scar-Charged Smash",
+      "cost": [
+        "{R}",
+        "{R}",
+        "{C}"
+      ],
+      "damage": "80+",
+      "effect_id": "If this Pok\u00e9mon has damage on it, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/033/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A4-099",
+  "name": "Phanpy",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Reckless Charge",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 30,
+      "effect_id": "This Pok\u00e9mon also does 10 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/099/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B2-084",
+  "name": "Medicham",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Meditite",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Psykick",
+      "cost": [
+        "{F}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": "If this Pok\u00e9mon has any {P} Energy attached, this attack does 50 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/084/high.png"
+}

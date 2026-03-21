@@ -1,0 +1,39 @@
+{
+  "id": "A4-080",
+  "name": "Togekiss",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 2,
+  "evolves_from": "Togetic",
+  "abilities": [
+    {
+      "name": "Celestial Blessing",
+      "effect_id": "If any damage is done to this Pok\u00e9mon by attacks, flip a coin. If heads, prevent that damage."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Magical Shot",
+      "cost": [
+        "{P}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/080/high.png"
+}

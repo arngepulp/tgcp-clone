@@ -1,0 +1,33 @@
+{
+  "id": "B1-167",
+  "name": "Ferrothorn",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Ferroseed",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Guard Press",
+      "cost": [
+        "{M}",
+        "{M}"
+      ],
+      "damage": 50,
+      "effect_id": "During your opponent's next turn, this Pok\u00e9mon takes \u221220 damage from attacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/167/high.png"
+}

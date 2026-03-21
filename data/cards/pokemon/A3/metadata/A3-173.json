@@ -1,0 +1,35 @@
+{
+  "id": "A3-173",
+  "name": "Mudsdale",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Mudbray",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "High Horsepower",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{F}",
+        "{C}"
+      ],
+      "damage": 140,
+      "effect_id": "This Pok\u00e9mon also does 40 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/173/high.png"
+}

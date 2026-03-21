@@ -1,0 +1,32 @@
+{
+  "id": "A4a-043",
+  "name": "Phanpy",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Flail",
+      "cost": [
+        "{F}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does damage to your opponent's Active Pok\u00e9mon equal to the damage this Pok\u00e9mon has on it."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/043/high.png"
+}

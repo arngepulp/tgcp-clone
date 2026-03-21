@@ -1,0 +1,33 @@
+{
+  "id": "B2-027",
+  "name": "Hearthflame Mask Ogerpon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Hearthflame Dance",
+      "cost": [
+        "{R}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "Flip a coin. If heads, take 2 {R} Energy from your Energy Zone and attach it to 1 of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/027/high.png"
+}

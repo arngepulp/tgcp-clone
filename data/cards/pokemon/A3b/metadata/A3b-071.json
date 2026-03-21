@@ -1,0 +1,33 @@
+{
+  "id": "A3b-071",
+  "name": "Flareon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Assisting Heater",
+      "cost": [
+        "{R}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "Take a {R} Energy from your Energy Zone and attach it to 1 of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/071/high.png"
+}

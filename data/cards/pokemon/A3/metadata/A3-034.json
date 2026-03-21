@@ -1,0 +1,33 @@
+{
+  "id": "A3-034",
+  "name": "Oricorio",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Kindle",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 40,
+      "effect_id": "Discard a random Energy from both Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/034/high.png"
+}

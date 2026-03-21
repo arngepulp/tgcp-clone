@@ -1,0 +1,32 @@
+{
+  "id": "A4-100",
+  "name": "Donphan ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Phanpy",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Gigantic Press",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 50,
+      "effect_id": "If this Pok\u00e9mon has at least 2 extra {F} Energy attached, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/100/high.png"
+}

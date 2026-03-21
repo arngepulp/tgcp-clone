@@ -1,0 +1,38 @@
+{
+  "id": "B2-133",
+  "name": "Swellow",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Taillow",
+  "abilities": [
+    {
+      "name": "Repelling Wind",
+      "effect_id": "Once during your turn, you may switch out your opponent's Active Basic Pok\u00e9mon to the Bench. (Your opponent chooses the new Active Pok\u00e9mon.)"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wing Attack",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/133/high.png"
+}

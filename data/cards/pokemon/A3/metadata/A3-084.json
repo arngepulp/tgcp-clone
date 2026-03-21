@@ -1,0 +1,32 @@
+{
+  "id": "A3-084",
+  "name": "Tapu Lele",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Energy Arrow",
+      "cost": [
+        "{P}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon for each Energy attached to that Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/084/high.png"
+}

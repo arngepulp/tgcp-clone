@@ -1,0 +1,33 @@
+{
+  "id": "A3-118",
+  "name": "Alolan Dugtrio",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Alolan Diglett",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Iron Head",
+      "cost": [
+        "{M}",
+        "{M}"
+      ],
+      "damage": "70x",
+      "effect_id": "Flip a coin until you get tails. This attack does 70 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/118/high.png"
+}

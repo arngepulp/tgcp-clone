@@ -1,0 +1,39 @@
+{
+  "id": "A2a-083",
+  "name": "Glaceon ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [
+    {
+      "name": "Snowy Terrain",
+      "effect_id": "During Pok\u00e9mon Checkup, if this Pok\u00e9mon is in the Active Spot, do 10 damage to your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Freezing Wind",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/083/high.png"
+}

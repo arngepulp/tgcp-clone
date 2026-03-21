@@ -1,0 +1,32 @@
+{
+  "id": "B1-293",
+  "name": "Litten",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Heat Tackle",
+      "cost": [
+        "{R}"
+      ],
+      "damage": 30,
+      "effect_id": "This Pok\u00e9mon also does 10 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/293/high.png"
+}

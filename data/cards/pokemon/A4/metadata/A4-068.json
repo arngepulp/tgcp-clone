@@ -1,0 +1,33 @@
+{
+  "id": "A4-068",
+  "name": "Flaaffy",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Mareep",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Zap Kick",
+      "cost": [
+        "{L}",
+        "{L}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/068/high.png"
+}

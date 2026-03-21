@@ -1,0 +1,33 @@
+{
+  "id": "A3-101",
+  "name": "Lycanroc",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Rockruff",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Blood Fang",
+      "cost": [
+        "{F}",
+        "{F}"
+      ],
+      "damage": "50+",
+      "effect_id": "If your opponent's Active Pok\u00e9mon has more remaining HP than this Pok\u00e9mon, this attack does 50 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/101/high.png"
+}

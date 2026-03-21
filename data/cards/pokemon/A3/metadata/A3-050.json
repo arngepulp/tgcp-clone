@@ -1,0 +1,32 @@
+{
+  "id": "A3-050",
+  "name": "Wishiwashi",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 30,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "{W}"
+      ],
+      "damage": null,
+      "effect_id": "Put 1 random Wishiwashi or Wishiwashi ex from your deck onto your Bench."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/050/high.png"
+}

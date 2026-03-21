@@ -1,0 +1,34 @@
+{
+  "id": "A3-206",
+  "name": "Alolan Muk ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Alolan Grimer",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Chemical Panic",
+      "cost": [
+        "{D}",
+        "{D}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "1 Special Condition from among Asleep, Burned, Confused, Paralyzed, and Poisoned is chosen at random, and your opponent's Active Pok\u00e9mon is now affected by that Special Condition. Any Special Conditions already affecting that Pok\u00e9mon will not be chosen."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/206/high.png"
+}

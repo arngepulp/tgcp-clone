@@ -1,0 +1,32 @@
+{
+  "id": "A3-162",
+  "name": "Alolan Vulpix",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Call Forth Cold",
+      "cost": [
+        "{W}"
+      ],
+      "damage": null,
+      "effect_id": "Take a {W} Energy from your Energy Zone and attach it to this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/162/high.png"
+}

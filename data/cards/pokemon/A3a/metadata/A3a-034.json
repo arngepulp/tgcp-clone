@@ -1,0 +1,33 @@
+{
+  "id": "A3a-034",
+  "name": "Passimian",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Let's Throw",
+      "cost": [
+        "{F}",
+        "{F}"
+      ],
+      "damage": 40,
+      "effect_id": "If Passimian is on your Bench, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/034/high.png"
+}

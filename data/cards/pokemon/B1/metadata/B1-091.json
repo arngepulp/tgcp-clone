@@ -1,0 +1,34 @@
+{
+  "id": "B1-091",
+  "name": "Zebstrika",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Blitzle",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Electric Ball",
+      "cost": [
+        "{L}",
+        "{L}",
+        "{L}"
+      ],
+      "damage": 90,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/091/high.png"
+}

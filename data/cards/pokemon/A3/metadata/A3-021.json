@@ -1,0 +1,39 @@
+{
+  "id": "A3-021",
+  "name": "Wimpod",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Wimp Out",
+      "effect_id": "During your first turn, this Pok\u00e9mon has no Retreat Cost."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Gnaw",
+      "cost": [
+        "{G}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/021/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A3-224",
+  "name": "Machoke",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Machop",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Strength",
+      "cost": [
+        "{F}",
+        "{F}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/224/high.png"
+}

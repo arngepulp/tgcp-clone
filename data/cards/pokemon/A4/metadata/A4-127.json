@@ -1,0 +1,33 @@
+{
+  "id": "A4-127",
+  "name": "Klang",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Klink",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Gear Cutter",
+      "cost": [
+        "{M}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/127/high.png"
+}

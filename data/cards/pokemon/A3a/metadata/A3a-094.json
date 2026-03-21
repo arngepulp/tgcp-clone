@@ -1,0 +1,33 @@
+{
+  "id": "A3a-094",
+  "name": "Jynx",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Psychic",
+      "cost": [
+        "{P}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": "This attack does 20 more damage for each Energy attached to your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/094/high.png"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "B1a-102",
+  "name": "Aegislash",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Metal"
+  ],
+  "stage": 2,
+  "evolves_from": "Doublade",
+  "abilities": [
+    {
+      "name": "Cursed Metal",
+      "effect_id": "Attacks used by your {P} Pok\u00e9mon and {M} Pok\u00e9mon do +30 damage to your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Slicing Blade",
+      "cost": [
+        "{M}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Crown",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/102/high.png"
+}

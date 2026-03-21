@@ -1,0 +1,35 @@
+{
+  "id": "B1-057",
+  "name": "Wailord",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 200,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Wailmer",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Whale Pump",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": "This attack does 10 more damage for each {W} Energy attached to this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/057/high.png"
+}

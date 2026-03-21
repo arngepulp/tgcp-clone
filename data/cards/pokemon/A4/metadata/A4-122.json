@@ -1,0 +1,35 @@
+{
+  "id": "A4-122",
+  "name": "Steelix",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Onix",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Heavy Impact",
+      "cost": [
+        "{M}",
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 110,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/122/high.png"
+}

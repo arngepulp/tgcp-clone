@@ -1,0 +1,33 @@
+{
+  "id": "A4-227",
+  "name": "Nidorino",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Nidoran\u2642",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Horn Attack",
+      "cost": [
+        "{D}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/227/high.png"
+}

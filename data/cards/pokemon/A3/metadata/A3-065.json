@@ -1,0 +1,33 @@
+{
+  "id": "A3-065",
+  "name": "Vikavolt",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 2,
+  "evolves_from": "Charjabug",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Disconnect",
+      "cost": [
+        "{L}",
+        "{L}"
+      ],
+      "damage": 70,
+      "effect_id": "During your opponent's next turn, they can't play any Item cards from their hand."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/065/high.png"
+}

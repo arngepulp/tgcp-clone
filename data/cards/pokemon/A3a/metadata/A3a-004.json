@@ -1,0 +1,32 @@
+{
+  "id": "A3a-004",
+  "name": "Dartrix",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Rowlet",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Skill Dive",
+      "cost": [
+        "{G}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 20 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/004/high.png"
+}

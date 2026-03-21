@@ -1,0 +1,33 @@
+{
+  "id": "A4-105",
+  "name": "Binacle",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Dual Chop",
+      "cost": [
+        "{F}",
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": "Flip 2 coins. This attack does 30 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/105/high.png"
+}

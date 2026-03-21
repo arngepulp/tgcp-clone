@@ -1,0 +1,33 @@
+{
+  "id": "A4a-055",
+  "name": "Altaria",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 1,
+  "evolves_from": "Swablu",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Dragon Arcana",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "If this Pok\u00e9mon has 2 or more different types of Energy attached, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/055/high.png"
+}

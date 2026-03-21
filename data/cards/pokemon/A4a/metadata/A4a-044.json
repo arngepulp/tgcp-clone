@@ -1,0 +1,39 @@
+{
+  "id": "A4a-044",
+  "name": "Donphan",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Phanpy",
+  "abilities": [
+    {
+      "name": "Exoskeleton",
+      "effect_id": "This Pok\u00e9mon takes \u221220 damage from attacks."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Land Crush",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/044/high.png"
+}

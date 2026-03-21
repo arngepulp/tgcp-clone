@@ -1,0 +1,33 @@
+{
+  "id": "B1-162",
+  "name": "Toxapex",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Mareanie",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Venoshock",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": 50,
+      "effect_id": "If your opponent's Active Pok\u00e9mon is Poisoned, this attack does 70 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/162/high.png"
+}

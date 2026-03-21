@@ -1,0 +1,39 @@
+{
+  "id": "B2-136",
+  "name": "Slaking",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 2,
+  "evolves_from": "Vigoroth",
+  "abilities": [
+    {
+      "name": "Snoozing Habit",
+      "effect_id": "As long as this Pok\u00e9mon is in the Active Spot, whenever you attach an Energy from your Energy Zone to it, it is now Asleep."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Knuckle Sandwich",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 150,
+      "effect_id": "Discard a random Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/136/high.png"
+}

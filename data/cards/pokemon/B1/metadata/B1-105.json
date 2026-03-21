@@ -1,0 +1,38 @@
+{
+  "id": "B1-105",
+  "name": "Dusknoir",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 2,
+  "evolves_from": "Dusclops",
+  "abilities": [
+    {
+      "name": "Fade into Darkness",
+      "effect_id": "When this Pok\u00e9mon is Knocked Out, flip a coin. If heads, your opponent can't get any points for it."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hammer In",
+      "cost": [
+        "{P}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/105/high.png"
+}

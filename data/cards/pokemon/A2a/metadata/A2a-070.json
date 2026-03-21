@@ -1,0 +1,35 @@
+{
+  "id": "A2a-070",
+  "name": "Arceus",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Power Blast",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 100,
+      "effect_id": "Discard a random Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/070/high.png"
+}

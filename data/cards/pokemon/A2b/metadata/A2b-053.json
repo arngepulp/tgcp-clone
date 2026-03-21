@@ -1,0 +1,33 @@
+{
+  "id": "A2b-053",
+  "name": "Tinkatuff",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Tinkatink",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Tenacious Hammer",
+      "cost": [
+        "{M}",
+        "{M}"
+      ],
+      "damage": "30+",
+      "effect_id": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/053/high.png"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "A4-015",
+  "name": "Jumpluff",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Skiploom",
+  "abilities": [
+    {
+      "name": "Fluffy Flight",
+      "effect_id": "Your Active Pok\u00e9mon has no Retreat Cost."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Spinning Attack",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/015/high.png"
+}

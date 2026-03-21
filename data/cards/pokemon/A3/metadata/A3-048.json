@@ -1,0 +1,38 @@
+{
+  "id": "A3-048",
+  "name": "Primarina",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Water"
+  ],
+  "stage": 2,
+  "evolves_from": "Brionne",
+  "abilities": [
+    {
+      "name": "Melodious Healing",
+      "effect_id": "Once during your turn, you may heal 30 damage from each of your {W} Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Surf",
+      "cost": [
+        "{W}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/048/high.png"
+}

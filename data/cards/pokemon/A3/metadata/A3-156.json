@@ -1,0 +1,34 @@
+{
+  "id": "A3-156",
+  "name": "Alolan Exeggutor",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Exeggcute",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Tropical Hammer",
+      "cost": [
+        "{G}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 150,
+      "effect_id": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/156/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "A4-045",
+  "name": "Gyarados",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Magikarp",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Wild Swing",
+      "cost": [
+        "{W}",
+        "{W}"
+      ],
+      "damage": 20,
+      "effect_id": "You may discard any number of your Benched {W} Pok\u00e9mon. This attack does 40 more damage for each Benched Pok\u00e9mon you discarded in this way."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/045/high.png"
+}

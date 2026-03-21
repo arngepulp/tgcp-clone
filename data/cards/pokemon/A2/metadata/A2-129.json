@@ -1,0 +1,34 @@
+{
+  "id": "A2-129",
+  "name": "Porygon-Z",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 2,
+  "evolves_from": "Porygon2",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Buggy Beam",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "Change the type of the next Energy that will be generated for your opponent to 1 of the following at random: {G}, {R}, {W}, {L}, {P}, {F}, {D}, or {M}."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/129/high.png"
+}

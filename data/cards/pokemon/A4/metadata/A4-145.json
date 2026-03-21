@@ -1,0 +1,32 @@
+{
+  "id": "A4-145",
+  "name": "Teddiursa",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Honey Snack",
+      "cost": [
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Heal 20 damage from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/145/high.png"
+}

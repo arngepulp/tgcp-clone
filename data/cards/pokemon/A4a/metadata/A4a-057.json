@@ -1,0 +1,33 @@
+{
+  "id": "A4a-057",
+  "name": "Lickitung",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Stretch Tongue",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 30 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/057/high.png"
+}

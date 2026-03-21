@@ -1,0 +1,35 @@
+{
+  "id": "B2-187",
+  "name": "Gigalith ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 190,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 2,
+  "evolves_from": "Boldore",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Megaton Cannon",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{F}",
+        "{F}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 140 damage to 1 of your opponent's Pok\u00e9mon. During your next turn, this Pok\u00e9mon can't attack."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/187/high.png"
+}

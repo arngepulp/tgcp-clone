@@ -1,0 +1,33 @@
+{
+  "id": "B2-140",
+  "name": "Diggersby",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Bunnelby",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Earthquake",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": "This attack also does 10 damage to each of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/140/high.png"
+}

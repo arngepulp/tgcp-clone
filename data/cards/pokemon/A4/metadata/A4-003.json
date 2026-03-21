@@ -1,0 +1,33 @@
+{
+  "id": "A4-003",
+  "name": "Bellossom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Gloom",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Petal Dance",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": 60,
+      "effect_id": "Flip 3 coins. This attack does 60 damage for each heads. This Pok\u00e9mon is now Confused."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/003/high.png"
+}

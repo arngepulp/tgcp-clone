@@ -1,0 +1,33 @@
+{
+  "id": "B1-108",
+  "name": "Drifblim",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Drifloon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Balloon Barrage",
+      "cost": [
+        "{P}",
+        "{C}"
+      ],
+      "damage": 20,
+      "effect_id": "This attack does 20 more damage for each Energy attached to this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/108/high.png"
+}

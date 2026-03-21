@@ -1,0 +1,34 @@
+{
+  "id": "A2-016",
+  "name": "Wormadam",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Burmy",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Leaf Cutter",
+      "cost": [
+        "{G}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": "60+",
+      "effect_id": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/016/high.png"
+}

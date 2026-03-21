@@ -1,0 +1,32 @@
+{
+  "id": "B1-007",
+  "name": "Dustox",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Cascoon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Select Powder",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 60,
+      "effect_id": "Choose either Poisoned or Confused. Your opponent's Active Pok\u00e9mon is now affected by that Special Condition."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/007/high.png"
+}

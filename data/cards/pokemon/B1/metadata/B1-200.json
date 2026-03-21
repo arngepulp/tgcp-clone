@@ -1,0 +1,33 @@
+{
+  "id": "B1-200",
+  "name": "Watchog",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Patrat",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Biting Fang",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "Flip a coin. If heads, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/200/high.png"
+}

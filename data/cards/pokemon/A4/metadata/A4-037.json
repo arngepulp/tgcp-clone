@@ -1,0 +1,33 @@
+{
+  "id": "A4-037",
+  "name": "Heatmor",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Roasting Heat",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 30,
+      "effect_id": "If your opponent's Active Pok\u00e9mon is Burned, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/037/high.png"
+}

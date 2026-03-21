@@ -1,0 +1,34 @@
+{
+  "id": "A4-065",
+  "name": "Lanturn ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Chinchou",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Flashing Signal",
+      "cost": [
+        "{L}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed. If tails, your opponent's Active Pok\u00e9mon is now Confused."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/065/high.png"
+}

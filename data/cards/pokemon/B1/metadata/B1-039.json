@@ -1,0 +1,33 @@
+{
+  "id": "B1-039",
+  "name": "Darumaka",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Reckless Charge",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 50,
+      "effect_id": "This Pok\u00e9mon also does 10 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/039/high.png"
+}

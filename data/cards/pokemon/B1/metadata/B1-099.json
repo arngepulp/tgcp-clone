@@ -1,0 +1,32 @@
+{
+  "id": "B1-099",
+  "name": "Misdreavus",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Double Spin",
+      "cost": [
+        "{P}"
+      ],
+      "damage": 20,
+      "effect_id": "Flip 2 coins. This attack does 20 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/099/high.png"
+}

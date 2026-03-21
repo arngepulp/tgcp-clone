@@ -1,0 +1,37 @@
+{
+  "id": "A3b-092",
+  "name": "Eevee ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Veevee 'volve",
+      "effect_id": "This Pok\u00e9mon can evolve into any Pok\u00e9mon that evolves from Eevee if you play it from your hand onto this Pok\u00e9mon. (This Pok\u00e9mon can't evolve during your first turn or the turn you play it.)"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 30,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/092/high.png"
+}

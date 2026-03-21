@@ -1,0 +1,32 @@
+{
+  "id": "B1-227",
+  "name": "Beautifly",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Silcoon",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Skill Dive",
+      "cost": [
+        "{G}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/227/high.png"
+}

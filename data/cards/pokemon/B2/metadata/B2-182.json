@@ -1,0 +1,33 @@
+{
+  "id": "B2-182",
+  "name": "Alolan Ninetales ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Alolan Vulpix",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Binding Snow",
+      "cost": [
+        "{W}",
+        "{W}"
+      ],
+      "damage": 80,
+      "effect_id": "During your opponent's next turn, they can't take any Energy from their Energy Zone to attach to their Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/182/high.png"
+}

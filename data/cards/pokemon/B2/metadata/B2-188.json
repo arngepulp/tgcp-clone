@@ -1,0 +1,33 @@
+{
+  "id": "B2-188",
+  "name": "Mega Mawile ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Heat-Up Crunch",
+      "cost": [
+        "{M}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": "Until this Pok\u00e9mon leaves the Active Spot, this Pok\u00e9mon's Heat-Up Crunch attack does +30 damage. This effect stacks."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/188/high.png"
+}

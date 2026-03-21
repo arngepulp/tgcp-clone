@@ -1,0 +1,35 @@
+{
+  "id": "B2-010",
+  "name": "Chesnaught",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Quilladin",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Needle Lariat",
+      "cost": [
+        "{G}",
+        "{G}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "During your opponent's next turn, if this Pok\u00e9mon is damaged by an attack, do 80 damage to the Attacking Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/010/high.png"
+}

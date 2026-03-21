@@ -1,0 +1,38 @@
+{
+  "id": "A3-239",
+  "name": "Solgaleo ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 180,
+  "types": [
+    "Metal"
+  ],
+  "stage": 2,
+  "evolves_from": "Cosmoem",
+  "abilities": [
+    {
+      "name": "Rising Road",
+      "effect_id": "Once during your turn, if this Pok\u00e9mon is on your Bench, you may switch it with your Active Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sol Breaker",
+      "cost": [
+        "{M}",
+        "{M}"
+      ],
+      "damage": 120,
+      "effect_id": "This Pok\u00e9mon also does 10 damage to itself."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Crown",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/239/high.png"
+}

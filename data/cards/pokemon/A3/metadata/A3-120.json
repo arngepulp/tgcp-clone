@@ -1,0 +1,32 @@
+{
+  "id": "A3-120",
+  "name": "Escavalier",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Karrablast",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Pike",
+      "cost": [
+        "{M}"
+      ],
+      "damage": 30,
+      "effect_id": "This attack also does 20 damage to 1 of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/120/high.png"
+}

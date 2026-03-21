@@ -1,0 +1,33 @@
+{
+  "id": "A2-065",
+  "name": "Togekiss",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 2,
+  "evolves_from": "Togetic",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Overdrive Smash",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 60,
+      "effect_id": "During your next turn, this Pok\u00e9mon's Overdrive Smash attack does +60 damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/065/high.png"
+}

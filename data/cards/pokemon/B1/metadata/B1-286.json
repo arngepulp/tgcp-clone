@@ -1,0 +1,33 @@
+{
+  "id": "B1-286",
+  "name": "Mega Altaria ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 190,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Swablu",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Mega Harmony",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 40,
+      "effect_id": "This attack does 30 more damage for each of your Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/286/high.png"
+}

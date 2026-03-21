@@ -1,0 +1,32 @@
+{
+  "id": "A3-219",
+  "name": "Starmie",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Staryu",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Wave Splash",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/219/high.png"
+}

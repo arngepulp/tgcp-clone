@@ -1,0 +1,34 @@
+{
+  "id": "B1-205",
+  "name": "Braviary",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Rufflet",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/205/high.png"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "A2-033",
+  "name": "Mamoswine",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Water"
+  ],
+  "stage": 2,
+  "evolves_from": "Piloswine",
+  "abilities": [
+    {
+      "name": "Thick Fat",
+      "effect_id": "This Pok\u00e9mon takes \u221230 damage from attacks from {R} or {W} Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Frosty Flattening",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 120,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/033/high.png"
+}

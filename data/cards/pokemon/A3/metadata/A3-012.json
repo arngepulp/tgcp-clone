@@ -1,0 +1,42 @@
+{
+  "id": "A3-012",
+  "name": "Decidueye ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Dartrix",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Pierce the Pain",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 100 damage to 1 of your opponent's Pok\u00e9mon that have damage on them."
+    },
+    {
+      "name": "Razor Leaf",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/012/high.png"
+}

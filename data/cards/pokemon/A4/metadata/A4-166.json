@@ -1,0 +1,30 @@
+{
+  "id": "A4-166",
+  "name": "Magby",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 30,
+  "types": [
+    "Fire"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Toasty Toss",
+      "cost": [],
+      "damage": null,
+      "effect_id": "Take a {R} Energy from your Energy Zone and attach it to 1 of your Benched Basic Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 0,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/166/high.png"
+}

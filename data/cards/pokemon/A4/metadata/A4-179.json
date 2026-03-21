@@ -1,0 +1,40 @@
+{
+  "id": "A4-179",
+  "name": "Tyranitar",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 2,
+  "evolves_from": "Pupitar",
+  "abilities": [
+    {
+      "name": "Energy Plunder",
+      "effect_id": "Once during your turn, you may move all {D} Energy from each of your Pok\u00e9mon to this Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Buster Tail",
+      "cost": [
+        "{D}",
+        "{D}",
+        "{D}",
+        "{C}"
+      ],
+      "damage": 130,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/179/high.png"
+}

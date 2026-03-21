@@ -1,0 +1,34 @@
+{
+  "id": "B1-241",
+  "name": "Hippowdon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Hippopotas",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Crashing Fangs",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{C}"
+      ],
+      "damage": 100,
+      "effect_id": "Flip a coin. If tails, during your next turn, this Pok\u00e9mon can't attack."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/241/high.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "A2b-063",
+  "name": "Lickilicky",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Lickitung",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Rollout",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/063/high.png"
+}

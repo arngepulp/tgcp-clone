@@ -1,0 +1,34 @@
+{
+  "id": "B2-042",
+  "name": "Aurorus",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Water"
+  ],
+  "stage": 2,
+  "evolves_from": "Amaura",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Hail Prison",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{C}"
+      ],
+      "damage": 90,
+      "effect_id": "Discard Water2 {W} Energy from this Pok\u00e9mon. Your opponent's Active Pok\u00e9mon is now Paralyzed."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/042/high.png"
+}

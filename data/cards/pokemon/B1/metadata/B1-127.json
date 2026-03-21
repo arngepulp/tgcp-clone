@@ -1,0 +1,35 @@
+{
+  "id": "B1-127",
+  "name": "Hariyama",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Makuhita",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slapping Knockdown",
+      "cost": [
+        "{F}",
+        "{F}",
+        "{F}",
+        "{C}"
+      ],
+      "damage": 110,
+      "effect_id": "Before doing damage, discard all Pok\u00e9mon Tools from your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/127/high.png"
+}

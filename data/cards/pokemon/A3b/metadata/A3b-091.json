@@ -1,0 +1,40 @@
+{
+  "id": "A3b-091",
+  "name": "Snorlax ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Full-Mouth Manner",
+      "effect_id": "At the end of your turn, if this Pok\u00e9mon is in the Active Spot, heal 20 damage from it."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Flop-Down Punch",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 130,
+      "effect_id": "This Pok\u00e9mon is now Asleep."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/091/high.png"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "B1-111",
+  "name": "Cofagrigus",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Yamask",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Soul Shot",
+      "cost": [
+        "{P}",
+        "{P}"
+      ],
+      "damage": 120,
+      "effect_id": "Discard 2 cards from your hand. If you can't discard 2 cards, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/111/high.png"
+}

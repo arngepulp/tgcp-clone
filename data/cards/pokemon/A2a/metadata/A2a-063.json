@@ -1,0 +1,35 @@
+{
+  "id": "A2a-063",
+  "name": "Snorlax",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Collapse",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 100,
+      "effect_id": "This Pok\u00e9mon is now Asleep."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/063/high.png"
+}

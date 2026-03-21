@@ -1,0 +1,34 @@
+{
+  "id": "A2-037",
+  "name": "Empoleon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Water"
+  ],
+  "stage": 2,
+  "evolves_from": "Prinplup",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Aqua Jet",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "This attack also does 30 damage to 1 of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/037/high.png"
+}

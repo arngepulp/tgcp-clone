@@ -1,0 +1,32 @@
+{
+  "id": "B1-123",
+  "name": "Sandslash",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Sandshrew",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Cut",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/123/high.png"
+}

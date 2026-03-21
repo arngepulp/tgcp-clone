@@ -1,0 +1,33 @@
+{
+  "id": "A1a-040",
+  "name": "Slurpuff",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Swirlix",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Magical Shot",
+      "cost": [
+        "{P}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A1a/040/high.png"
+}

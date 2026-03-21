@@ -1,0 +1,32 @@
+{
+  "id": "A3-135",
+  "name": "Toucannon",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 2,
+  "evolves_from": "Trumbeak",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Drill Peck",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/135/high.png"
+}

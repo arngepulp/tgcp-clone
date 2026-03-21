@@ -1,0 +1,33 @@
+{
+  "id": "B1-034",
+  "name": "Combusken",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Torchic",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "High Jump Kick",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/034/high.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "A2a-079",
+  "name": "Sudowoodo",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fighting Headbutt",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 20,
+      "effect_id": "If your opponent's Active Pok\u00e9mon is a Pok\u00e9mon ex, this attack does 30 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/079/high.png"
+}

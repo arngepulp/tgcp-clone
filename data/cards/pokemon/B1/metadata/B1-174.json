@@ -1,0 +1,45 @@
+{
+  "id": "B1-174",
+  "name": "Melmetal ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Meltan",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Headbutt",
+      "cost": [
+        "{M}",
+        "{M}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    },
+    {
+      "name": "Metal Arms",
+      "cost": [
+        "{M}",
+        "{M}",
+        "{M}",
+        "{C}"
+      ],
+      "damage": 100,
+      "effect_id": "If this Pok\u00e9mon has a Pok\u00e9mon Tool attached, this attack does 50 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/174/high.png"
+}

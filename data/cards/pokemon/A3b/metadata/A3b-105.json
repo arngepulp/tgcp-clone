@@ -1,0 +1,42 @@
+{
+  "id": "A3b-105",
+  "name": "Zapdos ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Peck",
+      "cost": [
+        "{L}"
+      ],
+      "damage": 20,
+      "effect_id": null
+    },
+    {
+      "name": "Thundering Hurricane",
+      "cost": [
+        "{L}",
+        "{L}",
+        "{L}"
+      ],
+      "damage": 50,
+      "effect_id": "Flip 4 coins. This attack does 50 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/105/high.png"
+}

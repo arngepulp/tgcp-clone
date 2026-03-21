@@ -1,0 +1,33 @@
+{
+  "id": "A4a-005",
+  "name": "Sunflora",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Sunkern",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Trip Over",
+      "cost": [
+        "{G}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/005/high.png"
+}

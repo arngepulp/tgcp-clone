@@ -1,0 +1,33 @@
+{
+  "id": "B2-125",
+  "name": "Persian",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Meowth",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/125/high.png"
+}

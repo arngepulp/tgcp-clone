@@ -1,0 +1,37 @@
+{
+  "id": "A4-023",
+  "name": "Cherubi",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 50,
+  "types": [
+    "Grass"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "En-fruits-iastic",
+      "effect_id": "If this Pok\u00e9mon has a Pok\u00e9mon Tool attached, attacks used by this Pok\u00e9mon cost 1 less {G} Energy."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sweets Relay",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 10,
+      "effect_id": "If 1 of your Pok\u00e9mon used Sweets Relay during your last turn, this attack does 20 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/023/high.png"
+}

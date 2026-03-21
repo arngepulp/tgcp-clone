@@ -1,0 +1,32 @@
+{
+  "id": "A4-139",
+  "name": "Furret",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Sentret",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Tail Smash",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/139/high.png"
+}

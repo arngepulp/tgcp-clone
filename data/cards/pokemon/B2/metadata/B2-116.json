@@ -1,0 +1,33 @@
+{
+  "id": "B2-116",
+  "name": "Ferrothorn",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Metal"
+  ],
+  "stage": 1,
+  "evolves_from": "Ferroseed",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Pummel",
+      "cost": [
+        "{M}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "Flip a coin. If heads, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/116/high.png"
+}

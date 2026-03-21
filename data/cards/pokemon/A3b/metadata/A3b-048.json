@@ -1,0 +1,33 @@
+{
+  "id": "A3b-048",
+  "name": "Togedemaru",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Bristling Spikes",
+      "cost": [
+        "{M}",
+        "{M}"
+      ],
+      "damage": 30,
+      "effect_id": "During your opponent's next turn, if this Pok\u00e9mon is damaged by an attack, do 30 damage to the Attacking Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/048/high.png"
+}

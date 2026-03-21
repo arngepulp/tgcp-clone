@@ -1,0 +1,32 @@
+{
+  "id": "A4-223",
+  "name": "Nidoran\u2640",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "{D}"
+      ],
+      "damage": null,
+      "effect_id": "Put 1 random Nidoran\u2642 from your deck onto your Bench."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/223/high.png"
+}

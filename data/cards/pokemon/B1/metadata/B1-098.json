@@ -1,0 +1,34 @@
+{
+  "id": "B1-098",
+  "name": "Xatu",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Natu",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Zen Headbutt",
+      "cost": [
+        "{P}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/098/high.png"
+}

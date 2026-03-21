@@ -1,0 +1,34 @@
+{
+  "id": "B2-202",
+  "name": "Mega Kangaskhan ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 180,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Double-Punching Family",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "This attack is used twice in a row. The second attack does 40 damage.\n(If the first attack Knocks Out your opponent's Active Pok\u00e9mon, the second attack is used after your opponent chooses a new Active Pok\u00e9mon.)"
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/202/high.png"
+}

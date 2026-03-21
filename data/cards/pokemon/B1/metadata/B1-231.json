@@ -1,0 +1,38 @@
+{
+  "id": "B1-231",
+  "name": "Chandelure",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Fire"
+  ],
+  "stage": 2,
+  "evolves_from": "Lampent",
+  "abilities": [
+    {
+      "name": "Slow Sear",
+      "effect_id": "Once during your turn, you may discard the top card of your opponent's deck."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Heat Blast",
+      "cost": [
+        "{R}",
+        "{R}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/231/high.png"
+}

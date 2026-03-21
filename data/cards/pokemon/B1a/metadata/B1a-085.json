@@ -1,0 +1,33 @@
+{
+  "id": "B1a-085",
+  "name": "Mega Lopunny ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 190,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Buneary",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Rapid Smashers",
+      "cost": [
+        "{F}",
+        "{F}"
+      ],
+      "damage": 90,
+      "effect_id": "Flip 2 coins. This attack does 90 damage for each heads. Your opponent's Active Pok\u00e9mon is now Confused."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/085/high.png"
+}

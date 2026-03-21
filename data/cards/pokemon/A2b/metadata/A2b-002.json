@@ -1,0 +1,32 @@
+{
+  "id": "A2b-002",
+  "name": "Kakuna",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Weedle",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "String Shot",
+      "cost": [
+        "{G}"
+      ],
+      "damage": 20,
+      "effect_id": "Flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Paralyzed."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/002/high.png"
+}

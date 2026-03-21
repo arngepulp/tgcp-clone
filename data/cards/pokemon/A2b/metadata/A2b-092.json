@@ -1,0 +1,34 @@
+{
+  "id": "A2b-092",
+  "name": "Pikachu ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 120,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Thunderbolt",
+      "cost": [
+        "{L}",
+        "{L}",
+        "{L}"
+      ],
+      "damage": 150,
+      "effect_id": "Discard all Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/092/high.png"
+}

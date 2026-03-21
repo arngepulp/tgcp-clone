@@ -1,0 +1,32 @@
+{
+  "id": "A2b-025",
+  "name": "Pachirisu",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Plasma",
+      "cost": [
+        "{L}"
+      ],
+      "damage": 10,
+      "effect_id": "Take a {L} Energy from your Energy Zone and attach it to 1 of your Benched  Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/025/high.png"
+}

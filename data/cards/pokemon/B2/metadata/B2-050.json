@@ -1,0 +1,38 @@
+{
+  "id": "B2-050",
+  "name": "Alolan Raichu",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Pikachu",
+  "abilities": [
+    {
+      "name": "Surge Surfer",
+      "effect_id": "If a Stadium is in play, this Pok\u00e9mon has no Retreat Cost."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Thunder Spear",
+      "cost": [
+        "{L}",
+        "{L}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 50 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/050/high.png"
+}

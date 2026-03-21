@@ -1,0 +1,33 @@
+{
+  "id": "B1a-021",
+  "name": "Basculin",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Surprise Strike",
+      "cost": [
+        "{W}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": "If this Pok\u00e9mon moved from your Bench to the Active Spot this turn, this attack does 40 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/021/high.png"
+}

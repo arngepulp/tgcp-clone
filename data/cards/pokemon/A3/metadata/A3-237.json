@@ -1,0 +1,34 @@
+{
+  "id": "A3-237",
+  "name": "Wigglytuff ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Jigglypuff",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sleepy Song",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 80,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Asleep."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/237/high.png"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "B2-109",
+  "name": "Guzzlord",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Breakcore",
+      "cost": [
+        "{D}",
+        "{D}",
+        "{D}",
+        "{C}"
+      ],
+      "damage": null,
+      "effect_id": "Flip a coin. If heads, discard your opponent's Active Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 4,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/109/high.png"
+}

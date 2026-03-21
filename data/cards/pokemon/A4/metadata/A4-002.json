@@ -1,0 +1,33 @@
+{
+  "id": "A4-002",
+  "name": "Gloom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Oddish",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Leaf Step",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/002/high.png"
+}

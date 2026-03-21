@@ -1,0 +1,34 @@
+{
+  "id": "A2b-094",
+  "name": "Tinkaton ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 170,
+  "types": [
+    "Metal"
+  ],
+  "stage": 2,
+  "evolves_from": "Tinkatuff",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Terrific Thumping",
+      "cost": [
+        "{M}",
+        "{M}",
+        "{C}"
+      ],
+      "damage": "80+",
+      "effect_id": "Flip a coin. If heads, this attack does 80 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/094/high.png"
+}

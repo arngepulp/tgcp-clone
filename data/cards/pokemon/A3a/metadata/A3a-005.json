@@ -1,0 +1,33 @@
+{
+  "id": "A3a-005",
+  "name": "Decidueye",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Dartrix",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sniping Arrow",
+      "cost": [
+        "{G}",
+        "{G}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 70 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/005/high.png"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "B2-225",
+  "name": "Flareon ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 150,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [
+    {
+      "name": "Combust",
+      "effect_id": "Once during your turn, you may attach a {R} Energy from your discard pile to this Pok\u00e9mon. If you do, do 20 damage to this Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Fire Spin",
+      "cost": [
+        "{R}",
+        "{R}",
+        "{C}"
+      ],
+      "damage": 130,
+      "effect_id": "Discard 2 {R} Energy from this Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/225/high.png"
+}

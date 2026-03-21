@@ -1,0 +1,38 @@
+{
+  "id": "A3-109",
+  "name": "Alolan Persian",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Alolan Meowth",
+  "abilities": [
+    {
+      "name": "Fur Coat",
+      "effect_id": "This Pok\u00e9mon takes \u221220 damage from attacks."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Claw Slash",
+      "cost": [
+        "{D}",
+        "{C}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/109/high.png"
+}

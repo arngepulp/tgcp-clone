@@ -1,0 +1,33 @@
+{
+  "id": "B1-178",
+  "name": "Sliggoo",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Dragon"
+  ],
+  "stage": 1,
+  "evolves_from": "Goomy",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Gentle Slap",
+      "cost": [
+        "{W}",
+        "{P}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/178/high.png"
+}

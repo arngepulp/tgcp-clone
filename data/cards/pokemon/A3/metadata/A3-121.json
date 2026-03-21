@@ -1,0 +1,32 @@
+{
+  "id": "A3-121",
+  "name": "Klefki",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 70,
+  "types": [
+    "Metal"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Unlock",
+      "cost": [
+        "{M}"
+      ],
+      "damage": 10,
+      "effect_id": "Draw a card."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/121/high.png"
+}

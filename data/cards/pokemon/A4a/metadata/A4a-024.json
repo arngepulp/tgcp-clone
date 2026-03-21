@@ -1,0 +1,33 @@
+{
+  "id": "A4a-024",
+  "name": "Cryogonal",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Ice Blade",
+      "cost": [
+        "{W}",
+        "{W}"
+      ],
+      "damage": null,
+      "effect_id": "This attack does 40 damage to 1 of your opponent's Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/024/high.png"
+}

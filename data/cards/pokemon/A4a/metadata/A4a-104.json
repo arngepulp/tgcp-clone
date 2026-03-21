@@ -1,0 +1,33 @@
+{
+  "id": "A4a-104",
+  "name": "Paldean Clodsire ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 160,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Paldean Wooper",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Venoshock",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": 60,
+      "effect_id": "If your opponent's Active Pok\u00e9mon is Poisoned, this attack does 60 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/104/high.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "B2-036",
+  "name": "Mega Swampert ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 230,
+  "types": [
+    "Water"
+  ],
+  "stage": 2,
+  "evolves_from": "Marshtomp",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Strong-Armed Destroyer",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{W}"
+      ],
+      "damage": 150,
+      "effect_id": "Discard 2 random Energy from among the Energy attached to all Pok\u00e9mon (both yours and your opponent's)."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/036/high.png"
+}

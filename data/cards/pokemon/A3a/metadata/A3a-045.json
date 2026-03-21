@@ -1,0 +1,32 @@
+{
+  "id": "A3a-045",
+  "name": "Naganadel",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Poipole",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Electro House",
+      "cost": [
+        "{D}"
+      ],
+      "damage": 40,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/045/high.png"
+}

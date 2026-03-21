@@ -1,0 +1,32 @@
+{
+  "id": "A3b-018",
+  "name": "Vanillite",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 60,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sweets Relay",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 10,
+      "effect_id": "If 1 of your Pok\u00e9mon used Sweets Relay during your last turn, this attack does 20 more damage."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3b/018/high.png"
+}

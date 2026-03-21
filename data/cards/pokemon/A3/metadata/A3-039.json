@@ -1,0 +1,32 @@
+{
+  "id": "A3-039",
+  "name": "Alolan Sandslash",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Alolan Sandshrew",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Spike Armor",
+      "cost": [
+        "{W}"
+      ],
+      "damage": 20,
+      "effect_id": "During your opponent's next turn, if this Pok\u00e9mon is damaged by an attack, do 40 damage to the Attacking Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3/039/high.png"
+}

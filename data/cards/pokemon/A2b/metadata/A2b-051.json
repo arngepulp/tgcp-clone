@@ -1,0 +1,38 @@
+{
+  "id": "A2b-051",
+  "name": "Grafaiai",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Shroodle",
+  "abilities": [
+    {
+      "name": "Poison Coating",
+      "effect_id": "Once during your turn, you may flip a coin. If heads, your opponent's Active Pok\u00e9mon is now Poisoned."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "{D}",
+        "{D}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2b/051/high.png"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "A4-234",
+  "name": "Gyarados ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 180,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Magikarp",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Rampaging Whirlpool",
+      "cost": [
+        "{W}",
+        "{W}",
+        "{W}",
+        "{C}"
+      ],
+      "damage": 140,
+      "effect_id": "Discard a random Energy from among the Energy attached to all Pok\u00e9mon (both yours and your opponent's)."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/234/high.png"
+}

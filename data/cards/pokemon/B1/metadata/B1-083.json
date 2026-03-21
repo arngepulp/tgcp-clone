@@ -1,0 +1,33 @@
+{
+  "id": "B1-083",
+  "name": "Flaaffy",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Mareep",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Electric Punch",
+      "cost": [
+        "{L}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/083/high.png"
+}

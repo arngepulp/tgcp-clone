@@ -1,0 +1,38 @@
+{
+  "id": "A3a-027",
+  "name": "Shiinotic",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Psychic"
+  ],
+  "stage": 1,
+  "evolves_from": "Morelull",
+  "abilities": [
+    {
+      "name": "Illuminate",
+      "effect_id": "Once during your turn, you may put a random Pok\u00e9mon from your deck into your hand."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Gentle Slap",
+      "cost": [
+        "{C}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Three Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A3a/027/high.png"
+}

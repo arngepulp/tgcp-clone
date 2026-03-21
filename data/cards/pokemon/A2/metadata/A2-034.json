@@ -1,0 +1,38 @@
+{
+  "id": "A2-034",
+  "name": "Regice",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Water"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Crystal Body",
+      "effect_id": "Prevent all effects of attacks used by your opponent's Pok\u00e9mon done to this Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Frost Smash",
+      "cost": [
+        "{W}",
+        "{W}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Metal",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2/034/high.png"
+}

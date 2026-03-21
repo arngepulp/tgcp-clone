@@ -1,0 +1,38 @@
+{
+  "id": "B1-257",
+  "name": "Jolteon ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 1,
+  "evolves_from": "Eevee",
+  "abilities": [
+    {
+      "name": "Electromagnetic Wall",
+      "effect_id": "As long as this Pok\u00e9mon is in the Active Spot, whenever your opponent attaches an Energy from their Energy Zone to 1 of their Pok\u00e9mon, do 20 damage to that Pok\u00e9mon."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mach Bolt",
+      "cost": [
+        "{L}",
+        "{L}"
+      ],
+      "damage": 80,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/257/high.png"
+}

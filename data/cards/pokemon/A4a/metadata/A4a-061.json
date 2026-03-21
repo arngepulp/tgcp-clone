@@ -1,0 +1,35 @@
+{
+  "id": "A4a-061",
+  "name": "Ursaring",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Colorless"
+  ],
+  "stage": 1,
+  "evolves_from": "Teddiursa",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Claw Slash",
+      "cost": [
+        "{C}",
+        "{C}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 110,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/061/high.png"
+}

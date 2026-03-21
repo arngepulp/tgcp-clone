@@ -1,0 +1,38 @@
+{
+  "id": "A4a-025",
+  "name": "Raikou ex",
+  "suffix": "EX",
+  "card_type": "Pokemon",
+  "hp": 130,
+  "types": [
+    "Lightning"
+  ],
+  "stage": 0,
+  "evolves_from": null,
+  "abilities": [
+    {
+      "name": "Legendary Pulse",
+      "effect_id": "At the end of your turn, if this Pok\u00e9mon is in the Active Spot, draw a card."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Voltaic Bullet",
+      "cost": [
+        "{L}",
+        "{L}"
+      ],
+      "damage": 60,
+      "effect_id": "This attack also does 10 damage to 1 of your opponent's Benched Pok\u00e9mon."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Four Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4a/025/high.png"
+}

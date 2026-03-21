@@ -1,0 +1,32 @@
+{
+  "id": "B2-078",
+  "name": "Sandslash",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Sandshrew",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 30,
+      "effect_id": "Flip 3 coins. This attack does 30 damage for each heads."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/078/high.png"
+}

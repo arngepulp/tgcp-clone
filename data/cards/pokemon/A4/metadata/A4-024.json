@@ -1,0 +1,32 @@
+{
+  "id": "A4-024",
+  "name": "Cherrim",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 80,
+  "types": [
+    "Grass"
+  ],
+  "stage": 1,
+  "evolves_from": "Cherubi",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Seed Bomb",
+      "cost": [
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A4/024/high.png"
+}

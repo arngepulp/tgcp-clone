@@ -1,0 +1,32 @@
+{
+  "id": "A2a-044",
+  "name": "Medicham",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Fighting"
+  ],
+  "stage": 1,
+  "evolves_from": "Meditite",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Kick Shot",
+      "cost": [
+        "{F}"
+      ],
+      "damage": 80,
+      "effect_id": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/044/high.png"
+}

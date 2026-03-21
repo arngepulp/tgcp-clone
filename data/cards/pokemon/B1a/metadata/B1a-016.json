@@ -1,0 +1,32 @@
+{
+  "id": "B1a-016",
+  "name": "Houndoom",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Fire"
+  ],
+  "stage": 1,
+  "evolves_from": "Houndour",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Sharp Fang",
+      "cost": [
+        "{R}"
+      ],
+      "damage": 50,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "One Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1a/016/high.png"
+}

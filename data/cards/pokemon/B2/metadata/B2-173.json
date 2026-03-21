@@ -1,0 +1,39 @@
+{
+  "id": "B2-173",
+  "name": "Alolan Muk",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 110,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Alolan Grimer",
+  "abilities": [
+    {
+      "name": "Power of Alchemy",
+      "effect_id": "Basic Pok\u00e9mon in play (both yours and your opponent's) have no Abilities."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sludge Bomb",
+      "cost": [
+        "{D}",
+        "{C}",
+        "{C}"
+      ],
+      "damage": 70,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 3,
+  "rarity": "One Star",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/173/high.png"
+}

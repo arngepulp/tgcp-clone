@@ -1,0 +1,38 @@
+{
+  "id": "B1-289",
+  "name": "Victreebel",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 140,
+  "types": [
+    "Grass"
+  ],
+  "stage": 2,
+  "evolves_from": "Weepinbell",
+  "abilities": [
+    {
+      "name": "Fragrance Trap",
+      "effect_id": "If this Pok\u00e9mon is in the Active Spot, once during your turn, you may switch in 1 of your opponent's Benched Basic Pok\u00e9mon to the Active Spot."
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Vine Whip",
+      "cost": [
+        "{G}",
+        "{C}"
+      ],
+      "damage": 60,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "One Shiny",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B1/289/high.png"
+}

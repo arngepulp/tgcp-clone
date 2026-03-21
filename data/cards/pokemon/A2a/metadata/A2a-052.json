@@ -1,0 +1,32 @@
+{
+  "id": "A2a-052",
+  "name": "Toxicroak",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 100,
+  "types": [
+    "Darkness"
+  ],
+  "stage": 1,
+  "evolves_from": "Croagunk",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Toxic",
+      "cost": [
+        "{D}"
+      ],
+      "damage": null,
+      "effect_id": "Your opponent's Active Pok\u00e9mon is now Poisoned. Do 20 damage to this Pok\u00e9mon instead of the usual amount for this Special Condition."
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 1,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/A2a/052/high.png"
+}

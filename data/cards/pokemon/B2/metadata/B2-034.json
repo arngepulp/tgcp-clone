@@ -1,0 +1,33 @@
+{
+  "id": "B2-034",
+  "name": "Marshtomp",
+  "suffix": null,
+  "card_type": "Pokemon",
+  "hp": 90,
+  "types": [
+    "Water"
+  ],
+  "stage": 1,
+  "evolves_from": "Mudkip",
+  "abilities": [],
+  "attacks": [
+    {
+      "name": "Surf",
+      "cost": [
+        "{W}",
+        "{C}"
+      ],
+      "damage": 40,
+      "effect_id": null
+    }
+  ],
+  "weakness": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreat_cost": 2,
+  "rarity": "Two Diamond",
+  "image_path": "https://assets.tcgdex.net/en/tcgp/B2/034/high.png"
+}

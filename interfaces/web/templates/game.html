@@ -192,7 +192,7 @@
                     {% endif %}
                 </select>
                 <button type="submit">Attack</button>
-                
+
             </form>
             <form action="/use_ability" method="POST">
                 <input type="hidden" name="player" value="{{ player_num }}">
@@ -294,7 +294,7 @@
                         <p>Empty</p>
                     {% endif %}
                 </div>
-                <div class="card active">
+                <div class="card active" ondragover="allowDrop(event)" ondrop="dropPlayPokemon(event, 0)">
                     {% if player.active %}
                         <img src="/card_image/pokemon/{{ player.active.id.split('-')[0] }}/{{ player.active.id }}">
                         <div class="card-info">
@@ -305,7 +305,8 @@
                         <p>Empty</p>
                     {% endif %}
                 </div>
-                <div class="card bench1">
+
+                <div class="card bench1" ondragover="allowDrop(event)" ondrop="dropPlayPokemon(event, 1)">
                     {% if player.bench[0] %}
                         <img src="/card_image/pokemon/{{ player.bench[0].id.split('-')[0] }}/{{ player.bench[0].id }}">
                         <div class="card-info">
@@ -316,7 +317,8 @@
                         <p>Empty</p>
                     {% endif %}
                 </div>
-                <div class="card bench2">
+
+                <div class="card bench2" ondragover="allowDrop(event)" ondrop="dropPlayPokemon(event, 2)">
                     {% if player.bench[1] %}
                         <img src="/card_image/pokemon/{{ player.bench[1].id.split('-')[0] }}/{{ player.bench[1].id }}">
                         <div class="card-info">
@@ -327,7 +329,8 @@
                         <p>Empty</p>
                     {% endif %}
                 </div>
-                <div class="card bench3">
+
+                <div class="card bench3" ondragover="allowDrop(event)" ondrop="dropPlayPokemon(event, 3)">
                     {% if player.bench[2] %}
                         <img src="/card_image/pokemon/{{ player.bench[2].id.split('-')[0] }}/{{ player.bench[2].id }}">
                         <div class="card-info">
@@ -338,11 +341,10 @@
                         <p>Empty</p>
                     {% endif %}
                 </div>
-            </div>
 
-            <div class="hand">
+          <div class="hand">
                 {% for card_id in player.hand %}
-                    <div class="hand-card">
+                    <div class="hand-card" draggable="true" ondragstart="dragStart(event, {{ loop.index0 }})">
                         <img src="/card_image/pokemon/{{ card_id.split('-')[0] }}/{{ card_id }}" style="width:100%; height:auto;">
                     </div>
                 {% endfor %}
@@ -358,6 +360,39 @@
     socket.on('refresh', function() {
         location.reload();
     });
+</script>
+
+<script>
+    // 1. Pick up the card
+    function dragStart(event, cardIndex) {
+        event.dataTransfer.setData("cardIndex", cardIndex);
+    }
+
+    // 2. Allow dropping on the board
+    function allowDrop(event) {
+        event.preventDefault(); // Required by browsers to allow a drop
+    }
+
+    // 3. Handle the drop and send to Flask
+    function dropPlayPokemon(event, locationIndex) {
+        event.preventDefault();
+        let cardIndex = event.dataTransfer.getData("cardIndex");
+        if (!cardIndex) return;
+
+        let formData = new FormData();
+        formData.append('player', '{{ player_num }}');
+        formData.append('card_index', cardIndex);
+        formData.append('location', locationIndex);
+
+        // Send a silent POST request to your existing route
+        fetch('/play_or_evolve', {
+            method: 'POST',
+            body: formData
+        });
+        // We don't even need to handle the response, because your 
+        // redirect_or_win() in Flask triggers a SocketIO 'refresh' 
+        // which will automatically reload the page for us!
+    }
 </script>
 </body>
 </html>

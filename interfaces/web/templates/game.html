@@ -5,17 +5,18 @@
         body {
             background-color: #d2d2fc;
         }
-        .board {
+       .board {
             display: grid;
-            grid-template-columns: repeat(3, 150px);
-            grid-template-rows: repeat(4, 206px);
-            gap: 10px;
+            grid-template-columns: repeat(3, 200px);
+            grid-template-rows: repeat(4, 280px);
+            gap: 15px;
             justify-content: center;
         }
         .card {
             background-color: rgb(91, 95, 99);
             padding: 5px;
             border-radius: 5px;
+            font-size: 11px;
         }
         .bench1opp { grid-column: 1; grid-row: 1; }
         .bench2opp { grid-column: 2; grid-row: 1; }
@@ -25,15 +26,33 @@
         .bench1    { grid-column: 1; grid-row: 4; }
         .bench2    { grid-column: 2; grid-row: 4; }
         .bench3    { grid-column: 3; grid-row: 4; }
+        .hand {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .hand-card {
+            width: 100px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
     </style>
 </head>
 <body>
+    <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 10px;">
+        <p>Opponent deck: {{ opponent.deck | length }} | Hand: {{ opponent.hand | length }}</p>
+        <p>Your deck: {{ player.deck | length }} | Hand: {{ player.hand | length }}</p>
+    </div>
+    <p style="text-align: center;">Opponent hand: {{ opponent.hand | length }} cards</p>
     <div class="board">
         <div class="card bench1opp">
             {% if opponent.bench[0] %}
                 <img src="/card_image/pokemon/{{ opponent.bench[0].id.split('-')[0] }}/{{ opponent.bench[0].id }}" style="width:100%; height:auto;">
-                <p>{{ opponent.bench[0].name }}</p>
-                <p>HP: {{ opponent.bench[0].current_hp }}</p>
+            
+                <p>HP: {{ opponent.bench[0].current_hp }}/{{ opponent.bench[0].hp }}</p>
+                <p>{{ opponent.bench[0].attached_energy | join(', ') }}</p>
             {% else %}
                 <p>Empty</p>
             {% endif %}
@@ -41,8 +60,9 @@
         <div class="card bench2opp">
             {% if opponent.bench[1] %}
                 <img src="/card_image/pokemon/{{ opponent.bench[1].id.split('-')[0] }}/{{ opponent.bench[1].id }}" style="width:100%; height:auto;">
-                <p>{{ opponent.bench[1].name }}</p>
-                <p>HP: {{ opponent.bench[1].current_hp }}</p>
+            
+                <p>HP: {{ opponent.bench[1].current_hp }}/{{ opponent.bench[1].hp }}</p>
+                <p>{{ opponent.bench[1].attached_energy | join(', ') }}</p>
             {% else %}
                 <p>Empty</p>
             {% endif %}
@@ -50,8 +70,9 @@
         <div class="card bench3opp">
             {% if opponent.bench[2] %}
                 <img src="/card_image/pokemon/{{ opponent.bench[2].id.split('-')[0] }}/{{ opponent.bench[2].id }}" style="width:100%; height:auto;">
-                <p>{{ opponent.bench[2].name }}</p>
-                <p>HP: {{ opponent.bench[2].current_hp }}</p>
+                
+                <p>HP: {{ opponent.bench[2].current_hp }}/{{ opponent.bench[2].hp }}</p>
+                <p>{{ opponent.bench[2].attached_energy | join(', ') }}</p>
             {% else %}
                 <p>Empty</p>
             {% endif %}
@@ -59,8 +80,9 @@
         <div class="card activeopp">
             {% if opponent.active %}
                 <img src="/card_image/pokemon/{{ opponent.active.id.split('-')[0] }}/{{ opponent.active.id }}" style="width:100%; height:auto;">
-                <p>{{ opponent.active.name }}</p>
-                <p>HP: {{ opponent.active.current_hp }}</p>
+               
+                <p>HP: {{ opponent.active.current_hp }}/{{ opponent.active.hp }}</p>
+                <p>{{ opponent.active.attached_energy | join(', ') }}</p>
             {% else %}
                 <p>Empty</p>
             {% endif %}
@@ -68,8 +90,9 @@
         <div class="card active">
             {% if player.active %}
                 <img src="/card_image/pokemon/{{ player.active.id.split('-')[0] }}/{{ player.active.id }}" style="width:100%; height:auto;">
-                <p>{{ player.active.name }}</p>
-                <p>HP: {{ player.active.current_hp }}</p>
+               
+                <p>HP: {{ player.active.current_hp }}/{{ player.active.hp }}</p>
+                <p>{{ player.active.attached_energy | join(', ') }}</p>
             {% else %}
                 <p>Empty</p>
             {% endif %}
@@ -77,8 +100,9 @@
         <div class="card bench1">
             {% if player.bench[0] %}
                 <img src="/card_image/pokemon/{{ player.bench[0].id.split('-')[0] }}/{{ player.bench[0].id }}" style="width:100%; height:auto;">
-                <p>{{ player.bench[0].name }}</p>
-                <p>HP: {{ player.bench[0].current_hp }}</p>
+                
+                <p>HP: {{ player.bench[0].current_hp }}/{{ player.bench[0].hp }}</p>
+                <p>{{ player.bench[0].attached_energy | join(', ') }}</p>
             {% else %}
                 <p>Empty</p>
             {% endif %}
@@ -86,8 +110,9 @@
         <div class="card bench2">
             {% if player.bench[1] %}
                 <img src="/card_image/pokemon/{{ player.bench[1].id.split('-')[0] }}/{{ player.bench[1].id }}" style="width:100%; height:auto;">
-                <p>{{ player.bench[1].name }}</p>
-                <p>HP: {{ player.bench[1].current_hp }}</p>
+               
+                <p>HP: {{ player.bench[1].current_hp }}/{{ player.bench[1].hp }}</p>
+                <p>{{ player.bench[1].attached_energy | join(', ') }}</p>
             {% else %}
                 <p>Empty</p>
             {% endif %}
@@ -95,12 +120,20 @@
         <div class="card bench3">
             {% if player.bench[2] %}
                 <img src="/card_image/pokemon/{{ player.bench[2].id.split('-')[0] }}/{{ player.bench[2].id }}" style="width:100%; height:auto;">
-                <p>{{ player.bench[2].name }}</p>
-                <p>HP: {{ player.bench[2].current_hp }}</p>
+             
+                <p>HP: {{ player.bench[2].current_hp }}/{{ player.bench[2].hp }}</p>
+                <p>{{ player.bench[2].attached_energy | join(', ') }}</p>
             {% else %}
                 <p>Empty</p>
             {% endif %}
         </div>
     </div>
+    <div class="hand">
+    {% for card_id in player.hand %}
+        <div class="hand-card">
+            <img src="/card_image/pokemon/{{ card_id.split('-')[0] }}/{{ card_id }}" style="width:100%; height:auto;">
+        </div>
+    {% endfor %}
+</div>
 </body>
 </html>

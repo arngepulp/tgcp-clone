@@ -137,7 +137,6 @@ def ability(state, location):
         print("This Pokemon has no abilities!")
         return False
 
-    # --- 1. NEW: Check if already used ---
     if getattr(pokemon, 'ability_used', False): 
         print(f"{pokemon.name} has already used its ability this turn!")
         return False

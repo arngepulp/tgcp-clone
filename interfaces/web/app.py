@@ -7,6 +7,8 @@ from engine.models.player import Player
 from engine.game.board_state import Gamestate
 from engine.models.pokemon import PokemonInstance
 import os
+from consts import ENERGY_SYMBOLS
+
 
 p1 = Player("bulb")
 p2 = Player("ponyta")
@@ -62,11 +64,13 @@ def index():
 
 @app.route('/player1')
 def player1():
-    return render_template('game.html', player=game.player1, opponent=game.player2, player_num=1, game=game)
+    # ADDED ENERGY_SYMBOLS HERE
+    return render_template('game.html', player=game.player1, opponent=game.player2, player_num=1, game=game, ENERGY_SYMBOLS=ENERGY_SYMBOLS)
 
 @app.route('/player2')
 def player2():
-    return render_template('game.html', player=game.player2, opponent=game.player1, player_num=2, game=game)
+    # ADDED ENERGY_SYMBOLS HERE
+    return render_template('game.html', player=game.player2, opponent=game.player1, player_num=2, game=game, ENERGY_SYMBOLS=ENERGY_SYMBOLS)
 
 @app.route('/winner')
 def winner():

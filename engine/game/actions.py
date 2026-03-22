@@ -165,6 +165,11 @@ def attack(state,index=0):
     print(f"DEBUG attack: current={state.current_player.deck_name}, opponent={state.opponent.deck_name}")
     print(f"DEBUG: attacking {state.opponent.active.name}")
     check_knockout(state)
+    
+    damage = int(atk['damage'])
+    # handling effects
+    state.opponent.active.take_damage(damage, damage_type)
+    resolve_effects(state, atk.get('effect_id'), state.current_player.active, damage_dealt=damage)
     state.pass_turn()
 
 def ability(state, location):

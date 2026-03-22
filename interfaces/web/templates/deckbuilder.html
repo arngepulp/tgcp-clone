@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TGCP - Deck Builder</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            background-color: #1a1a2e;
+            margin: 0;
+            padding: 10px;
+            color: white;
+            font-family: sans-serif;
+        }
+        h2 { color: #a29bfe; margin: 0 0 10px 0; }
+        h3 { color: #b2b2c8; margin: 0 0 8px 0; font-size: 14px; }
+        .current-deck {
+            background: #16213e;
+            border: 1px solid #0f3460;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 12px;
+        }
+        .current-deck-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+        .current-deck-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .deck-card-thumb {
+            position: relative;
+            width: 100px;
+        }
+        .deck-card-thumb img {
+            width: 100%;
+            border-radius: 3px;
+        }
+        .deck-card-count {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .deck-card-remove {
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 11px;
+            padding: 2px 6px;
+        }
+        .deck-total { color: #b2b2c8; font-size: 13px; }
+        .main-layout {
+            display: flex;
+            gap: 12px;
+            height: calc(100vh - 220px);
+        }
+        .left-panel {
+            display: flex;
+            flex-direction: column;
+            flex: 3;
+            gap: 10px;
+            min-width: 0;
+        }
+        .filters {
+            background: #16213e;
+            border: 1px solid #0f3460;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .filter-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+        }
+        .filter-row input, .filter-row select {
+            background: #0f3460;
+            color: white;
+            border: none;
+            padding: 5px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        .filter-row input[type="text"] { width: 150px; }
+        .filter-row input[type="number"] { width: 60px; }
+        .filter-btn {
+            background: #5b6eff;
+            color: white;
+            border: none;
+            padding: 5px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .filter-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 12px;
+            color: #b2b2c8;
+        }
+        .card-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            overflow-y: auto;
+            flex: 1;
+            align-content: flex-start;
+            padding: 4px;
+        }
+        .card-item {
+            position: relative;
+            width: 100px;
+            cursor: pointer;
+            transition: transform 0.15s;
+        }
+        .card-item:hover { transform: translateY(-4px); }
+        .card-item img {
+            width: 100%;
+            border-radius: 4px;
+            border: 1px solid #333;
+        }
+        .card-item-name {
+            font-size: 9px;
+            text-align: center;
+            color: #b2b2c8;
+            margin-top: 2px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .add-btn {
+            position: absolute;
+            bottom: 18px;
+            left: 0; right: 0;
+            background: rgba(91, 110, 255, 0.9);
+            color: white;
+            border: none;
+            padding: 3px;
+            cursor: pointer;
+            font-size: 10px;
+            font-weight: bold;
+            display: none;
+        }
+        .card-item:hover .add-btn { display: block; }
+        .right-panel {
+            width: 200px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .save-section {
+            background: #16213e;
+            border: 1px solid #0f3460;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .save-section input, .save-section select {
+            width: 100%;
+            background: #0f3460;
+            color: white;
+            border: none;
+            padding: 5px 8px;
+            border-radius: 4px;
+            margin-bottom: 6px;
+            font-size: 12px;
+        }
+        .save-btn {
+            width: 100%;
+            background: #2ecc71;
+            color: white;
+            border: none;
+            padding: 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 12px;
+            margin-bottom: 4px;
+        }
+        .clear-btn {
+            width: 100%;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .saved-decks {
+            background: #16213e;
+            border: 1px solid #0f3460;
+            border-radius: 8px;
+            padding: 10px;
+            overflow-y: auto;
+            flex: 1;
+        }
+        .deck-link {
+            display: block;
+            padding: 6px 8px;
+            background: #0f3460;
+            border-radius: 4px;
+            color: white;
+            text-decoration: none;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        .deck-link:hover { background: #5b6eff; }
+        .message-box {
+            background: #e74c3c;
+            color: white;
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>🃏 Deck Builder</h2>
+
+    {% for message in get_flashed_messages() %}
+        <div class="message-box">{{ message }}</div>
+    {% endfor %}
+
+    <div class="current-deck">
+        <div class="current-deck-header">
+            <h3>Current Deck</h3>
+            <span class="deck-total" id="deck-total">
+                {{ current_deck.cards.values() | sum }} / 20 cards
+            </span>
+            {% if current_deck.name %}
+                <span style="color: #a29bfe; font-size: 13px;">{{ current_deck.name }}</span>
+            {% endif %}
+        </div>
+        <div class="current-deck-cards" id="deck-display">
+            {% for card_id, count in current_deck.cards.items() %}
+                <div class="deck-card-thumb">
+                    <img src="/card_image/{{ card_id.split('-')[0] }}/{{ card_id }}">
+                    <span class="deck-card-count">x{{ count }}</span>
+                    <button class="deck-card-remove" onclick="removeCard('{{ card_id }}')">-</button>
+                </div>
+            {% else %}
+                <p style="color: #444; font-size: 13px;">No cards yet — click a card to add it.</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="main-layout">
+        <div class="left-panel">
+            <div class="filters">
+                <form method="GET" action="/deckbuilder">
+                    <div class="filter-row">
+                        <input type="text" name="search" placeholder="Search name..." value="{{ request.args.get('search', '') }}">
+                        <select name="type">
+                            <option value="">All Types</option>
+                            {% for t in ["Grass","Fire","Water","Lightning","Psychic","Fighting","Darkness","Metal","Dragon","Colorless"] %}
+                                <option value="{{ t }}" {{ 'selected' if request.args.get('type') == t }}>{{ t }}</option>
+                            {% endfor %}
+                        </select>
+                        <select name="set">
+                            <option value="">All Sets</option>
+                            {% for s in SETS %}
+                                <option value="{{ s }}" {{ 'selected' if request.args.get('set') == s }}>{{ s }}</option>
+                            {% endfor %}
+                        </select>
+                        <select name="rarity">
+                            <option value="">All Rarities</option>
+                            {% for r in RARITIES %}
+                                <option value="{{ r }}" {{ 'selected' if request.args.get('rarity') == r }}>{{ r }}</option>
+                            {% endfor %}
+                        </select>
+                        <input type="number" name="min_hp" placeholder="Min HP" value="{{ request.args.get('min_hp', '') }}">
+                        <input type="number" name="max_hp" placeholder="Max HP" value="{{ request.args.get('max_hp', '') }}">
+                        <label class="filter-checkbox">
+                            <input type="checkbox" name="has_ability" value="true" {{ 'checked' if request.args.get('has_ability') == 'true' }}> Has Ability
+                        </label>
+                        <label class="filter-checkbox">
+                            <input type="checkbox" name="is_ex" value="true" {{ 'checked' if request.args.get('is_ex') == 'true' }}> EX Only
+                        </label>
+                        <label class="filter-checkbox">
+                            <input type="checkbox" name="is_trainer" value="true" {{ 'checked' if request.args.get('is_trainer') == 'true' }}> Trainers Only
+                        </label>
+                        <button class="filter-btn" type="submit">Filter</button>
+                        <a href="/deckbuilder" style="color: #b2b2c8; font-size: 12px;">Clear</a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="card-grid">
+                {% for card in cards %}
+                    <div class="card-item">
+                        <img src="/card_image/{{ card.id.split('-')[0] }}/{{ card.id }}"
+                             onerror="this.src='/static/placeholder.png'">
+                        <div class="card-item-name">{{ card.name }}</div>
+                        <button class="add-btn" onclick="addCard('{{ card.id }}')">+ Add</button>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="save-section">
+                <h3>Save Deck</h3>
+                <form action="/deckbuilder/save" method="POST">
+                    <input type="text" name="name" placeholder="Deck name..." value="{{ current_deck.name }}">
+                    <select name="energy" multiple size="4">
+                        {% for e in ['{G}','{R}','{W}','{L}','{P}','{F}','{D}','{M}','{N}','{C}'] %}
+                            <option value="{{ e }}" {{ 'selected' if e in current_deck.energy }}>{{ e }}</option>
+                        {% endfor %}
+                    </select>
+                    <small style="color:#b2b2c8; font-size:10px;">Hold Ctrl to select multiple energy</small>
+                    <button class="save-btn" type="submit">💾 Save Deck</button>
+                </form>
+                <form action="/deckbuilder/clear" method="POST">
+                    <button class="clear-btn" type="submit">🗑 Clear Deck</button>
+                </form>
+            </div>
+
+            <div class="saved-decks">
+                <h3>Saved Decks</h3>
+                {% for deck_name in saved_decks %}
+                    <a class="deck-link" href="/deckbuilder/load/{{ deck_name }}">📂 {{ deck_name }}</a>
+                {% else %}
+                    <p style="color:#444; font-size:12px;">No saved decks yet.</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+<script>
+    function addCard(cardId) {
+        fetch('/deckbuilder/add', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+            body: 'card_id=' + encodeURIComponent(cardId)
+        }).then(r => r.json()).then(data => {
+            if (data.error) {
+                alert(data.error);
+            } else {
+                updateDeckDisplay(data.deck);
+            }
+        });
+    }
+
+    function removeCard(cardId) {
+        fetch('/deckbuilder/remove', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+            body: 'card_id=' + encodeURIComponent(cardId)
+        }).then(r => r.json()).then(data => {
+            updateDeckDisplay(data.deck);
+        });
+    }
+
+    function updateDeckDisplay(deck) {
+        const display = document.getElementById('deck-display');
+        const total = document.getElementById('deck-total');
+        const count = Object.values(deck.cards).reduce((a, b) => a + b, 0);
+        total.textContent = count + ' / 20 cards';
+
+        display.innerHTML = '';
+        if (Object.keys(deck.cards).length === 0) {
+            display.innerHTML = '<p style="color:#444; font-size:13px;">No cards yet — click a card to add it.</p>';
+            return;
+        }
+        for (const [cardId, cnt] of Object.entries(deck.cards)) {
+            const set = cardId.split('-')[0];
+            display.innerHTML += '<div class="deck-card-thumb">'
+                + '<img src="/card_image/' + set + '/' + cardId + '">'
+                + '<span class="deck-card-count">x' + cnt + '</span>'
+                + '<button class="deck-card-remove" onclick="removeCard(\'' + cardId + '\')">-</button>'
+                + '</div>';
+        }
+    }
+</script>
+
+</body>
+</html>

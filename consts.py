@@ -62,3 +62,18 @@ RARITIES = [
     "Three Star",
     "Crown",
 ]
+
+SETS = [
+    "A1",   # Genetic Apex
+    "A1a",  # Mythical Island
+    "A2",   # Space-Time Smackdown
+    "A2a",  # Triumphant Light
+    "A2b",  # Shining Revelry
+    "A3",   # Extradimensional Crisis
+    "A3a",  # Eevee Grove
+    "A4",   # Celestial Guardians
+    "A4a",  # Secluded Springs
+    "B1",
+    "B2",
+    "P-A",  # Promos-A
+]

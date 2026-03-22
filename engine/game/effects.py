@@ -107,9 +107,7 @@ def apply_status(targets, status):
 # --- Damage Modifiers ---
 def damage_bonus_flat(state, targets, amount):
     # adds flat damage to current attack
-    for t in targets:
-        t.
-    pass  # TODO
+    pass
 
 def damage_bonus_conditional(state, source, effect_data):
     # does more damage if X extra energy attached

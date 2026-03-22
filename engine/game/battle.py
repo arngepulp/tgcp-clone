@@ -43,12 +43,15 @@ def setup_phase(state):
     state.opponent = state.player2
 
 def run_loop(state):
-    while True:
-        if state.opponent.active is None and not any(state.opponent.bench):
-            break
-        choose_action(state)
-        if check_win(state):
-            break
+    while state.current_player.ready == False or state.opponent.ready == True:
+        pass
+    if state.phase == "playing":
+        while True:
+            if state.opponent.active is None and not any(state.opponent.bench):
+                break
+            choose_action(state)
+            # if check_win(state):
+            #     break
 
 
             

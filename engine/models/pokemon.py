@@ -3,7 +3,13 @@ from engine.models.card import PokemonCard
 
 class PokemonInstance(PokemonCard):
     def __init__(self, card: PokemonCard):
-        super().__init__(card.__dict__)
+        # Ensure we pull all attributes from the card object
+        # If PokemonCard expects a dict, this is fine, but we must ensure 'id' is in there
+        super().__init__(card.__dict__ if hasattr(card, '__dict__') else card)
+        
+        # If the super() call doesn't automatically set self.id, do it manually:
+        self.id = getattr(card, 'id', 'unknown-id')
+        self.name = getattr(card, 'name', 'Unknown')
         
         self.current_hp = self.hp  
         self.attached_energy = []

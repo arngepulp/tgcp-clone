@@ -23,41 +23,55 @@ def check_requirements(target, check, wildcard='{C}'):
     
     return leftover_items >= wildcards_needed
 
-def get_location(state,location):
-    # checks if a pokemon is in a location, if it is returns the pokemon instnace
-    # returns None if else
-    if location == 0:
-        return state.current_player.active  # None if empty
+def get_location(state_or_player, location):
+    # This checks if the first argument is the whole game or just a player
+    if hasattr(state_or_player, 'current_player'):
+        player = state_or_player.current_player
     else:
-        return state.current_player.bench[location - 1]  # None if empty
-    
+        player = state_or_player
 
-def play_pokemon(state, card_id, location):
-    if get_location(state, location) is not None:
+    if location == 0:
+        return player.active
+    else:
+        # Extra safety check for bench index
+        try:
+            return player.bench[location - 1]
+        except (IndexError, AttributeError):
+            return None
+
+def play_pokemon(state, card_id, location, forced_player=None):
+    player = forced_player if forced_player else state.current_player
+    
+ 
+    if player.active is None and location != 0:
+        print("Illegal move: Must place Active Pokémon first!")
+        return False
+
+    if get_location(player, location) is not None:
         print("That spot is already taken!")
-        return
+        return False 
     
     card = load_card(card_id)
     pokemon = PokemonInstance(card)
     
+    if getattr(pokemon, 'evolves_from', None) is not None:
+        print("This is not a basic pokemon!")
+        return False
     
-    if pokemon.evolves_from is not None:
-        print("this is not a basic pokemon!")
-        return
-    
+    # Placement
     if location == 0:
-        state.current_player.active = pokemon
+        player.active = pokemon
     else:
-        state.current_player.bench[location - 1] = pokemon
+        player.bench[location - 1] = pokemon
     
-    # remove from hand
-    if card_id in state.current_player.hand:
-        state.current_player.hand.remove(card_id)
-   
+    if card_id in player.hand:
+        player.hand.remove(card_id)
+    
+    return True
 
     
 def attach_energy(state,location=0):
-    if state.first_turn:
+    if state.first_turn and state.phase != 'setup':
         print("Can't attach energy on the first turn!")
         return False
     
@@ -73,24 +87,31 @@ def attach_energy(state,location=0):
     print(f"the value {state.current_player.energy_attached_this_turn}")
     state.current_player.energy_drawn()
     
-def evolve_pokemon(state,location,evolver_id):
-    # check if pokemon has been out for at least 1 turn
-    evolvee = get_location(state,location)
+def evolve_pokemon(state, location, evolver_id):
+    # 1. Get the current player and the target
+    player = state.current_player
+    evolvee = get_location(player, location)
+    
     if evolvee is None:
-        print("No pokemon in that spot!")
-        return
+        return False
     
+    # 2. RULE: Can't evolve the same turn it was played
     if evolvee.turns_in_play < 1:
-        print("This pokemon has not been out long enough")
-        return
-    # check if proper evolves from
+        print("This pokemon hasn't been out long enough!")
+        return False
     
-    evolver_card = load_card(evolver_id)  # load from json
-    if evolver_card.evolves_from != evolvee.name:
-        print("This pokemon does not evolve from that pokemon!")
-        return
+    # 3. RULE: Can't evolve the same pokemon twice in one turn
+    if getattr(evolvee, 'evolved_this_turn', False):
+        print("This pokemon already evolved this turn!")
+        return False
     
-    # store old state
+    # 4. Check if proper evolves from
+    evolver_card = load_card(evolver_id)
+    if getattr(evolver_card, 'evolves_from', None) != evolvee.name:
+        print("Incorrect evolution line!")
+        return False
+    
+     # store old state
     energy = evolvee.attached_energy
     item = evolvee.item
     turns = evolvee.turns_in_play
@@ -107,6 +128,24 @@ def evolve_pokemon(state,location,evolver_id):
         state.current_player.active = new_instance
     else:
         state.current_player.bench[location - 1] = new_instance
+    damage_taken = evolvee.hp - evolvee.current_hp
+    
+    new_instance = PokemonInstance(evolver_card)
+    new_instance.attached_energy = evolvee.attached_energy
+    new_instance.item = evolvee.item
+    new_instance.turns_in_play = evolvee.turns_in_play
+    new_instance.current_hp = new_instance.hp - damage_taken
+    
+    new_instance.evolved_this_turn = True
+    
+    if location == 0:
+        player.active = new_instance
+    else:
+        player.bench[location - 1] = new_instance
+
+    return True 
+    
+   
 
 def attack(state,index=0):
     ## TODO check pokemon energy before attacking
@@ -123,6 +162,8 @@ def attack(state,index=0):
     damage = int(state.current_player.active.attacks[index]['damage'])
     damage_type = state.current_player.active.types[0]
     state.opponent.active.take_damage(damage, damage_type)
+    print(f"DEBUG attack: current={state.current_player.deck_name}, opponent={state.opponent.deck_name}")
+    print(f"DEBUG: attacking {state.opponent.active.name}")
     check_knockout(state)
     state.pass_turn()
 
@@ -146,7 +187,6 @@ def ability(state, location):
     if "effect_id" in ability_data and ability_data["effect_id"]:
         resolve_effects(state, ability_data["effect_id"], source=pokemon)
         
-        # --- 2. NEW: Mark as used ---
         pokemon.ability_used = True  
         
         return True
@@ -184,12 +224,6 @@ def retreat(state, replacement_index):
 
 
 def end_turn(state):
-    for player in [state.player1, state.player2]:
-        if player.active:
-            player.active.ability_used = False
-        for bench_poke in player.bench:
-            if bench_poke:
-                bench_poke.ability_used = False
     state.pass_turn()
     
     

@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>TGCP</title>
+    <title>TGCP - Battle</title>
     <style>
         body {
             background-color: #1a1a2e;
@@ -31,6 +32,7 @@
             position: relative;
             overflow: hidden;
             cursor: pointer;
+            border: 1px dashed #444;
         }
         .card img.pokemon-img {
             width: 100%;
@@ -49,19 +51,13 @@
             width: calc(100% - 20px);
         }
         .hp { color: white; margin: 0; font-weight: bold; margin-bottom: 3px; }
-        
-        /* ENERGY ICON STYLES */
         .energy-icon {
             width: 18px;
             height: 18px;
             vertical-align: middle;
             border-radius: 50%;
             box-shadow: 0 0 2px rgba(0,0,0,0.8);
-            background-color: #333;
-            color: white;
-            text-align: center;
-            line-height: 18px;
-            font-size: 10px;
+            margin-right: 2px;
         }
         .energy-pool {
             display: flex;
@@ -77,8 +73,6 @@
             color: #b2b2c8;
             font-weight: bold;
         }
-
-        /* CLICK MENU STYLES */
         .action-menu {
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
@@ -89,56 +83,41 @@
             gap: 6px;
             padding: 10px;
             z-index: 10;
-        }
-        .action-menu form { margin: 0; }
-        .action-menu select {
-            width: 100%;
-            padding: 4px;
-            margin-bottom: 4px;
-            background: #0f3460;
-            color: white;
-            border: 1px solid #5b6eff;
-            border-radius: 4px;
+            overflow-y: auto;
         }
         .action-menu button {
             width: 100%;
             padding: 8px;
-            background: #e74c3c;
+            background: #34495e;
             color: white;
             border: none;
             border-radius: 4px;
             cursor: pointer;
             font-weight: bold;
-            font-size: 12px;
         }
-        .action-menu button:hover { background: #c0392b; }
-
+        .action-menu button:hover:not(:disabled) { filter: brightness(1.2); }
+        .action-menu button:disabled { background: #2c3e50; opacity: 0.5; cursor: not-allowed; }
         .bench1opp { grid-column: 1; grid-row: 1; }
         .bench2opp { grid-column: 2; grid-row: 1; }
         .bench3opp { grid-column: 3; grid-row: 1; }
         .activeopp { grid-column: 2; grid-row: 2; }
-        .active    { grid-column: 2; grid-row: 3; }
+        .active    { grid-column: 2; grid-row: 3; border: 2px solid #5b6eff; }
         .bench1    { grid-column: 1; grid-row: 4; }
         .bench2    { grid-column: 2; grid-row: 4; }
         .bench3    { grid-column: 3; grid-row: 4; }
-        
         .hand {
             display: flex;
-            flex-direction: row;
-            gap: 5px;
+            gap: 10px;
             justify-content: center;
-            align-items: center;
+            margin-top: 20px;
             flex-wrap: wrap;
-            margin-top: 15px;
         }
         .hand-card {
-            width: 80px;
-            border-radius: 5px;
-            overflow: hidden;
+            width: 100px;
             cursor: grab;
+            transition: transform 0.2s;
         }
-        .hand-card:active { cursor: grabbing; }
-        
+        .hand-card:hover { transform: translateY(-10px); }
         .actions {
             display: flex;
             flex-direction: column;
@@ -146,50 +125,33 @@
             padding: 15px;
             background: #16213e;
             border-radius: 10px;
-            min-width: 160px;
-            margin-top: 40px;
+            min-width: 180px;
             border: 1px solid #0f3460;
         }
-        .actions form { display: flex; flex-direction: column; gap: 4px; margin: 0; }
         .actions button {
-            width: 100%; padding: 6px; border-radius: 4px; border: none; background: #5b6eff; color: white; cursor: pointer; font-weight: bold;
+            width: 100%; padding: 10px; border-radius: 4px; border: none; color: white; cursor: pointer; font-weight: bold;
         }
-        .actions button:hover { background: #3a4fcc; }
-        .turn-indicator { text-align: center; font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #a29bfe; }
-        .deck-info { display: flex; justify-content: center; gap: 40px; margin-bottom: 10px; color: #b2b2c8; }
-        .pts-info { display: flex; justify-content: center; gap: 60px; margin-bottom: 10px; font-size: 16px; font-weight: bold; }
-        .message-box { background: #e74c3c; color: white; padding: 8px 16px; border-radius: 6px; text-align: center; margin-bottom: 10px; max-width: 400px; margin-left: auto; margin-right: auto; }
+        .actions button:disabled { background: #444 !important; cursor: not-allowed; opacity: 0.6; }
+        .turn-indicator { text-align: center; font-size: 22px; font-weight: bold; margin-bottom: 10px; color: #a29bfe; }
+        .message-box { background: #e74c3c; color: white; padding: 10px; border-radius: 6px; text-align: center; margin-bottom: 10px; }
     </style>
 </head>
 <body>
+
     <div class="turn-indicator">
-        {% if game.current_player == player %}
+        {% if game.phase == 'setup' %}
+            Setup Phase: Prepare your Board
+        {% elif game.current_player == player %}
             Your Turn!
         {% else %}
             Opponent's Turn
         {% endif %}
     </div>
 
-    <div class="pts-info">
-        <p>Opponent PTS: {{ opponent.pts }}</p>
-        <p>Your PTS: {{ player.pts }}</p>
-    </div>
-
-    <div class="deck-info">
-        <p>Opponent deck: {{ opponent.deck | length }} | Hand: {{ opponent.hand | length }}</p>
-        <p>Your deck: {{ player.deck | length }} | Hand: {{ player.hand | length }}</p>
-    </div>
-
     <div class="energy-pool">
         <span>Next Energy:</span>
         {% for symbol in player.energy_pool[:2] %}
-            {% if symbol in ENERGY_SYMBOLS %}
-                <img src="{{ url_for('static', filename='icon/' ~ symbol ~ '.svg') }}" class="energy-icon" alt="{{ symbol }}" title="{{ ENERGY_SYMBOLS[symbol] }}">
-            {% else %}
-                <span>{{ symbol }}</span>
-            {% endif %}
-        {% else %}
-            <span>Empty</span>
+            <img src="{{ url_for('static', filename='icon/' ~ symbol ~ '.svg') }}" class="energy-icon">
         {% endfor %}
     </div>
 
@@ -199,91 +161,59 @@
 
     <div class="page">
         <div class="actions">
-        {% if player.active is none and (player.bench[0] or player.bench[1] or player.bench[2]) %}
-            <div style="color: #e74c3c; text-align: center; font-weight: bold; margin-bottom: 10px;">
-                Your Active Pokémon fainted!
-            </div>
-            <form action="/promote" method="POST">
-                <input type="hidden" name="player" value="{{ player_num }}">
-                <select name="bench_index" style="width: 100%; padding: 3px; border-radius: 4px; background: #0f3460; color: white; border: none; margin-bottom: 4px;">
-                    {% if player.bench[0] %}<option value="0">Bench 1: {{ player.bench[0].name }}</option>{% endif %}
-                    {% if player.bench[1] %}<option value="1">Bench 2: {{ player.bench[1].name }}</option>{% endif %}
-                    {% if player.bench[2] %}<option value="2">Bench 3: {{ player.bench[2].name }}</option>{% endif %}
-                </select>
-                <button type="submit">Send Out</button>
-            </form>
+            {% if game.phase == 'setup' %}
+                <div style="text-align: center; color: #2ecc71; margin-bottom: 10px;">
+                    Place an Active Pokémon to start.
+                </div>
+                <form action="/finish_setup" method="POST">
+                    <input type="hidden" name="player" value="{{ player_num }}">
+                    <button type="submit" style="background: #2ecc71;"
+                        {% if not player.active %}disabled{% endif %}>
+                        Confirm Setup
+                    </button>
+                </form>
+            {% else %}
+                <form action="/end_turn" method="POST">
+                    <input type="hidden" name="player" value="{{ player_num }}">
+                    <button type="submit" style="background: #3498db;"
+                        {% if game.current_player != player %}disabled{% endif %}>
+                        End Turn
+                    </button>
+                </form>
+                <div style="text-align: center; margin-top: 10px;">
+                    <span style="color: {{ '#2ecc71' if game.current_player == player else '#e74c3c' }}">
+                        {{ "YOUR TURN" if game.current_player == player else "OPPONENT'S TURN" }}
+                    </span>
+                </div>
+            {% endif %}
 
-        {% else %}
-            <form action="/end_turn" method="POST">
-                <input type="hidden" name="player" value="{{ player_num }}">
-                <button type="submit" style="background: #e67e22;">End Turn</button>
-            </form>
-        {% endif %}
+            <div style="margin-top: 20px; font-size: 12px; color: #b2b2c8;">
+                Your PTS: {{ player.pts }}<br>
+                Opponent PTS: {{ opponent.pts }}<br>
+                Cards in Deck: {{ player.deck|length }}
+            </div>
         </div>
 
-        <div>
+        <div class="game-container">
             <div class="board">
-                <div class="card bench1opp">
-                    {% if opponent.bench[0] %}
-                        <img class="pokemon-img" src="/card_image/pokemon/{{ opponent.bench[0].id.split('-')[0] }}/{{ opponent.bench[0].id }}">
-                        <div class="card-info">
-                            <p class="hp">HP: {{ opponent.bench[0].current_hp }}/{{ opponent.bench[0].hp }}</p>
-                            <div style="display: flex; gap: 2px;">
-                                {% for symbol in opponent.bench[0].attached_energy %}
-                                    <img src="{{ url_for('static', filename='icon/' ~ symbol ~ '.svg') }}" class="energy-icon" alt="{{ symbol }}">
-                                {% endfor %}
-                            </div>
-                        </div>
+
+                {% for p in opponent.bench %}
+                <div class="card bench{{ loop.index }}opp">
+                    {% if p %}
+                        <img class="pokemon-img" src="/card_image/pokemon/{{ p.id.split('-')[0] }}/{{ p.id }}">
+                        <div class="card-info"><p class="hp">HP: {{ p.current_hp }}</p></div>
                     {% else %}
-                        <p style="text-align:center; margin-top:130px;">Empty</p>
+                        <p style="text-align:center; margin-top:130px; color:#444;">Bench {{ loop.index }}</p>
                     {% endif %}
                 </div>
-                
-                <div class="card bench2opp">
-                    {% if opponent.bench[1] %}
-                        <img class="pokemon-img" src="/card_image/pokemon/{{ opponent.bench[1].id.split('-')[0] }}/{{ opponent.bench[1].id }}">
-                        <div class="card-info">
-                            <p class="hp">HP: {{ opponent.bench[1].current_hp }}/{{ opponent.bench[1].hp }}</p>
-                            <div style="display: flex; gap: 2px;">
-                                {% for symbol in opponent.bench[1].attached_energy %}
-                                    <img src="{{ url_for('static', filename='icon/' ~ symbol ~ '.svg') }}" class="energy-icon" alt="{{ symbol }}">
-                                {% endfor %}
-                            </div>
-                        </div>
-                    {% else %}
-                        <p style="text-align:center; margin-top:130px;">Empty</p>
-                    {% endif %}
-                </div>
-                
-                <div class="card bench3opp">
-                    {% if opponent.bench[2] %}
-                        <img class="pokemon-img" src="/card_image/pokemon/{{ opponent.bench[2].id.split('-')[0] }}/{{ opponent.bench[2].id }}">
-                        <div class="card-info">
-                            <p class="hp">HP: {{ opponent.bench[2].current_hp }}/{{ opponent.bench[2].hp }}</p>
-                            <div style="display: flex; gap: 2px;">
-                                {% for symbol in opponent.bench[2].attached_energy %}
-                                    <img src="{{ url_for('static', filename='icon/' ~ symbol ~ '.svg') }}" class="energy-icon" alt="{{ symbol }}">
-                                {% endfor %}
-                            </div>
-                        </div>
-                    {% else %}
-                        <p style="text-align:center; margin-top:130px;">Empty</p>
-                    {% endif %}
-                </div>
-                
+                {% endfor %}
+
                 <div class="card activeopp">
                     {% if opponent.active %}
                         <img class="pokemon-img" src="/card_image/pokemon/{{ opponent.active.id.split('-')[0] }}/{{ opponent.active.id }}">
-                        <div class="card-info">
-                            <p class="hp">HP: {{ opponent.active.current_hp }}/{{ opponent.active.hp }}</p>
-                            <div style="display: flex; gap: 2px;">
-                                {% for symbol in opponent.active.attached_energy %}
-                                    <img src="{{ url_for('static', filename='icon/' ~ symbol ~ '.svg') }}" class="energy-icon" alt="{{ symbol }}">
-                                {% endfor %}
-                            </div>
-                        </div>
+                        <div class="card-info"><p class="hp">HP: {{ opponent.active.current_hp }}</p></div>
                     {% else %}
-                        <p style="text-align:center; margin-top:130px;">Empty</p>
+                        <p style="text-align:center; margin-top:130px; color:#444;">Opponent Active</p>
                     {% endif %}
                 </div>
 
@@ -292,150 +222,112 @@
                         <img class="pokemon-img" src="/card_image/pokemon/{{ player.active.id.split('-')[0] }}/{{ player.active.id }}">
                         <div class="card-info">
                             <p class="hp">HP: {{ player.active.current_hp }}/{{ player.active.hp }}</p>
-                            <div style="display: flex; gap: 2px;">
-                                {% for symbol in player.active.attached_energy %}
-                                    <img src="{{ url_for('static', filename='icon/' ~ symbol ~ '.svg') }}" class="energy-icon" alt="{{ symbol }}">
-                                {% endfor %}
-                            </div>
+                            {% for e in player.active.attached_energy %}
+                                <img src="{{ url_for('static', filename='icon/' ~ e ~ '.svg') }}" class="energy-icon">
+                            {% endfor %}
                         </div>
-
-                        <div id="active-menu" class="action-menu" style="display: none;" onclick="event.stopPropagation();">
-                            
+                        <div id="active-menu" class="action-menu" style="display: none;">
                             <form action="/attach_energy" method="POST">
                                 <input type="hidden" name="player" value="{{ player_num }}">
                                 <input type="hidden" name="location" value="0">
-                                <button type="submit" style="background: #2ecc71;">Attach Energy</button>
+                                <button type="submit" style="background: #2ecc71;"
+                                    {% if player.energy_attached_this_turn or game.current_player != player or game.phase == 'setup' %}disabled{% endif %}>
+                                    Attach Energy
+                                </button>
                             </form>
-
-                            {% for atk in player.active.attacks %}
-                                <form action="/attack" method="POST">
+                            {% if player.active.abilities %}
+                                {% for ab in player.active.abilities %}
+                                <form action="/use_ability" method="POST">
                                     <input type="hidden" name="player" value="{{ player_num }}">
-                                    <input type="hidden" name="attack_index" value="{{ loop.index0 }}">
-                                    <button type="submit">{{ atk.name }} ({{ atk.damage }})</button>
+                                    <input type="hidden" name="location" value="0">
+                                    <button type="submit" style="background: #9b59b6;"
+                                        {% if game.current_player != player or game.phase == 'setup' %}disabled{% endif %}>
+                                        Ability: {{ ab.name }}
+                                    </button>
                                 </form>
-                            {% endfor %}
-
-                            <form action="/use_ability" method="POST">
+                                {% endfor %}
+                            {% endif %}
+                            {% for atk in player.active.attacks %}
+                            <form action="/attack" method="POST">
                                 <input type="hidden" name="player" value="{{ player_num }}">
-                                <input type="hidden" name="location" value="0">
-                                <button type="submit" style="background: #9b59b6;">Use Ability</button>
+                                <input type="hidden" name="attack_index" value="{{ loop.index0 }}">
+                                <button type="submit" style="background: #e74c3c;"
+                                    {% if game.current_player != player or game.phase == 'setup' %}disabled{% endif %}>
+                                    {{ atk.name }} ({{ atk.damage }})
+                                </button>
                             </form>
-                            
+                            {% endfor %}
                             <form action="/retreat" method="POST">
                                 <input type="hidden" name="player" value="{{ player_num }}">
-                                <div style="display: flex; gap: 4px;">
-                                    <select name="bench_index">
-                                        {% if player.bench[0] %}<option value="1">Bench 1</option>{% endif %}
-                                        {% if player.bench[1] %}<option value="2">Bench 2</option>{% endif %}
-                                        {% if player.bench[2] %}<option value="3">Bench 3</option>{% endif %}
-                                    </select>
-                                    <button type="submit" style="background: #f1c40f; color: #333; flex-shrink: 0; width: auto;">Retreat</button>
-                                </div>
+                                <select name="bench_index" style="width:100%; padding:3px; border-radius:4px; background:#0f3460; color:white; border:none; margin-bottom:4px;">
+                                    {% for i in range(3) %}
+                                        {% if player.bench[i] %}
+                                            <option value="{{ i+1 }}">{{ player.bench[i].name }}</option>
+                                        {% endif %}
+                                    {% endfor %}
+                                </select>
+                                <button type="submit" style="background: #f39c12;"
+                                    {% if game.current_player != player or game.phase == 'setup' %}disabled{% endif %}>
+                                    Retreat
+                                </button>
                             </form>
-
-                            <button type="button" onclick="toggleMenu('active-menu', event)" style="background: #7f8c8d;">Cancel</button>
+                            <button type="button" onclick="toggleMenu('active-menu', event)" style="background:#7f8c8d;">Close</button>
                         </div>
-
                     {% else %}
-                        <p style="text-align:center; margin-top:130px;">Empty</p>
+                        <p style="text-align:center; margin-top:130px;">DROP ACTIVE</p>
                     {% endif %}
                 </div>
 
-                <div class="card bench1" ondragover="allowDrop(event)" ondrop="handleDrop(event, 1)" onclick="toggleMenu('bench1-menu', event)">
-                    {% if player.bench[0] %}
-                        <img class="pokemon-img" src="/card_image/pokemon/{{ player.bench[0].id.split('-')[0] }}/{{ player.bench[0].id }}">
+                {% for i in range(3) %}
+                <div class="card bench{{ i+1 }}"
+                     draggable="true"
+                     ondragstart="benchDragStart(event, {{ i }})"
+                     ondragover="allowDrop(event)"
+                     ondrop="handleDrop(event, {{ i+1 }})"
+                     onclick="toggleMenu('bench{{ i }}-menu', event)">
+                    {% if player.bench[i] %}
+                        <img class="pokemon-img" src="/card_image/pokemon/{{ player.bench[i].id.split('-')[0] }}/{{ player.bench[i].id }}">
                         <div class="card-info">
-                            <p class="hp">HP: {{ player.bench[0].current_hp }}/{{ player.bench[0].hp }}</p>
-                            <div style="display: flex; gap: 2px;">
-                                {% for symbol in player.bench[0].attached_energy %}
-                                    <img src="{{ url_for('static', filename='icon/' ~ symbol ~ '.svg') }}" class="energy-icon" alt="{{ symbol }}">
-                                {% endfor %}
-                            </div>
+                            <p class="hp">HP: {{ player.bench[i].current_hp }}</p>
+                            {% for e in player.bench[i].attached_energy %}
+                                <img src="{{ url_for('static', filename='icon/' ~ e ~ '.svg') }}" class="energy-icon">
+                            {% endfor %}
                         </div>
-
-                        <div id="bench1-menu" class="action-menu" style="display: none;" onclick="event.stopPropagation();">
+                        <div id="bench{{ i }}-menu" class="action-menu" style="display: none;">
                             <form action="/attach_energy" method="POST">
                                 <input type="hidden" name="player" value="{{ player_num }}">
-                                <input type="hidden" name="location" value="1">
-                                <button type="submit" style="background: #2ecc71;">Attach Energy</button>
+                                <input type="hidden" name="location" value="{{ i+1 }}">
+                                <button type="submit" style="background: #2ecc71;"
+                                    {% if player.energy_attached_this_turn or game.current_player != player or game.phase == 'setup' %}disabled{% endif %}>
+                                    Attach Energy
+                                </button>
                             </form>
-                            <form action="/use_ability" method="POST">
-                                <input type="hidden" name="player" value="{{ player_num }}">
-                                <input type="hidden" name="location" value="1">
-                                <button type="submit" style="background: #9b59b6;">Use Ability</button>
-                            </form>
-                            <button type="button" onclick="toggleMenu('bench1-menu', event)" style="background: #7f8c8d;">Cancel</button>
-                        </div>
-                    {% else %}
-                        <p style="text-align:center; margin-top:130px;">Empty</p>
-                    {% endif %}
-                </div>
-
-                <div class="card bench2" ondragover="allowDrop(event)" ondrop="handleDrop(event, 2)" onclick="toggleMenu('bench2-menu', event)">
-                    {% if player.bench[1] %}
-                        <img class="pokemon-img" src="/card_image/pokemon/{{ player.bench[1].id.split('-')[0] }}/{{ player.bench[1].id }}">
-                        <div class="card-info">
-                            <p class="hp">HP: {{ player.bench[1].current_hp }}/{{ player.bench[1].hp }}</p>
-                            <div style="display: flex; gap: 2px;">
-                                {% for symbol in player.bench[1].attached_energy %}
-                                    <img src="{{ url_for('static', filename='icon/' ~ symbol ~ '.svg') }}" class="energy-icon" alt="{{ symbol }}">
+                            {% if player.bench[i].abilities %}
+                                {% for ab in player.bench[i].abilities %}
+                                <form action="/use_ability" method="POST">
+                                    <input type="hidden" name="player" value="{{ player_num }}">
+                                    <input type="hidden" name="location" value="{{ i+1 }}">
+                                    <button type="submit" style="background: #9b59b6;"
+                                        {% if game.current_player != player or game.phase == 'setup' %}disabled{% endif %}>
+                                        Ability: {{ ab.name }}
+                                    </button>
+                                </form>
                                 {% endfor %}
-                            </div>
-                        </div>
-
-                        <div id="bench2-menu" class="action-menu" style="display: none;" onclick="event.stopPropagation();">
-                            <form action="/attach_energy" method="POST">
-                                <input type="hidden" name="player" value="{{ player_num }}">
-                                <input type="hidden" name="location" value="2">
-                                <button type="submit" style="background: #2ecc71;">Attach Energy</button>
-                            </form>
-                            <form action="/use_ability" method="POST">
-                                <input type="hidden" name="player" value="{{ player_num }}">
-                                <input type="hidden" name="location" value="2">
-                                <button type="submit" style="background: #9b59b6;">Use Ability</button>
-                            </form>
-                            <button type="button" onclick="toggleMenu('bench2-menu', event)" style="background: #7f8c8d;">Cancel</button>
+                            {% endif %}
+                            <button type="button" onclick="toggleMenu('bench{{ i }}-menu', event)" style="background:#7f8c8d;">Close</button>
                         </div>
                     {% else %}
-                        <p style="text-align:center; margin-top:130px;">Empty</p>
+                        <p style="text-align:center; margin-top:130px; color:#444;">Bench {{ i+1 }}</p>
                     {% endif %}
                 </div>
+                {% endfor %}
 
-                <div class="card bench3" ondragover="allowDrop(event)" ondrop="handleDrop(event, 3)" onclick="toggleMenu('bench3-menu', event)">
-                    {% if player.bench[2] %}
-                        <img class="pokemon-img" src="/card_image/pokemon/{{ player.bench[2].id.split('-')[0] }}/{{ player.bench[2].id }}">
-                        <div class="card-info">
-                            <p class="hp">HP: {{ player.bench[2].current_hp }}/{{ player.bench[2].hp }}</p>
-                            <div style="display: flex; gap: 2px;">
-                                {% for symbol in player.bench[2].attached_energy %}
-                                    <img src="{{ url_for('static', filename='icon/' ~ symbol ~ '.svg') }}" class="energy-icon" alt="{{ symbol }}">
-                                {% endfor %}
-                            </div>
-                        </div>
-
-                        <div id="bench3-menu" class="action-menu" style="display: none;" onclick="event.stopPropagation();">
-                            <form action="/attach_energy" method="POST">
-                                <input type="hidden" name="player" value="{{ player_num }}">
-                                <input type="hidden" name="location" value="3">
-                                <button type="submit" style="background: #2ecc71;">Attach Energy</button>
-                            </form>
-                            <form action="/use_ability" method="POST">
-                                <input type="hidden" name="player" value="{{ player_num }}">
-                                <input type="hidden" name="location" value="3">
-                                <button type="submit" style="background: #9b59b6;">Use Ability</button>
-                            </form>
-                            <button type="button" onclick="toggleMenu('bench3-menu', event)" style="background: #7f8c8d;">Cancel</button>
-                        </div>
-                    {% else %}
-                        <p style="text-align:center; margin-top:130px;">Empty</p>
-                    {% endif %}
-                </div>
             </div>
 
             <div class="hand">
                 {% for card_id in player.hand %}
                     <div class="hand-card" draggable="true" ondragstart="dragStart(event, {{ loop.index0 }})">
-                        <img src="/card_image/pokemon/{{ card_id.split('-')[0] }}/{{ card_id }}" style="width:100%; height:auto;">
+                        <img src="/card_image/pokemon/{{ card_id.split('-')[0] }}/{{ card_id }}" style="width:100%; border-radius:4px;">
                     </div>
                 {% endfor %}
             </div>
@@ -446,47 +338,48 @@
 <script>
     var socket = io();
     socket.emit('register', {player: {{ player_num }}});
-    socket.on('refresh', function() {
-        location.reload();
-    });
-</script>
+    socket.on('refresh', () => location.reload());
 
-<script>
     function dragStart(event, cardIndex) {
         event.dataTransfer.setData("cardIndex", cardIndex);
+        event.dataTransfer.setData("benchIndex", "");
     }
 
-    function allowDrop(event) {
-        event.preventDefault(); 
+    function benchDragStart(event, benchIndex) {
+        event.dataTransfer.setData("benchIndex", benchIndex);
+        event.dataTransfer.setData("cardIndex", "");
     }
+
+    function allowDrop(event) { event.preventDefault(); }
 
     function handleDrop(event, locationIndex) {
         event.preventDefault();
-        
         let cardIndex = event.dataTransfer.getData("cardIndex");
+        let benchIndex = event.dataTransfer.getData("benchIndex");
 
-        if (cardIndex) {
+        if (benchIndex !== "" && locationIndex === 0) {
+            let formData = new FormData();
+            formData.append('player', '{{ player_num }}');
+            formData.append('bench_index', benchIndex);
+            fetch('/promote', { method: 'POST', body: formData })
+            .then(() => location.reload());
+        } else if (cardIndex !== "") {
             let formData = new FormData();
             formData.append('player', '{{ player_num }}');
             formData.append('card_index', cardIndex);
             formData.append('location', locationIndex);
-
-            fetch('/play_or_evolve', {
-                method: 'POST',
-                body: formData
-            });
+            fetch('/play_or_evolve', { method: 'POST', body: formData })
+            .then(() => location.reload());
         }
     }
 
     function toggleMenu(menuId, event) {
-        if (event) event.stopPropagation(); 
+        if (event) event.stopPropagation();
         let menu = document.getElementById(menuId);
-        if (menu.style.display === "none" || menu.style.display === "") {
-            document.querySelectorAll('.action-menu').forEach(m => m.style.display = 'none');
-            menu.style.display = "flex";
-        } else {
-            menu.style.display = "none";
-        }
+        if (!menu) return;
+        let isVisible = menu.style.display === "flex";
+        document.querySelectorAll('.action-menu').forEach(m => m.style.display = 'none');
+        menu.style.display = isVisible ? "none" : "flex";
     }
 </script>
 </body>

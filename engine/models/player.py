@@ -17,15 +17,17 @@ def load_deck(path):
         return deck, energy
     
 def draw_opening_hand(self):
-    
-    
     # find first basic pokemon
-    for i, card_id in enumerate(self.deck):
+    found_basic = None
+    for card_id in self.deck:
         card = load_card(card_id)
-        if card.evolves_from is None:
-            self.hand.append(card_id)
-            self.deck.pop(i)
+        if getattr(card, 'evolves_from', None) is None:
+            found_basic = card_id
             break
+    
+    if found_basic:
+        self.hand.append(found_basic)
+        self.deck.remove(found_basic) 
     
     # draw remaining 4
     for _ in range(4):
@@ -45,6 +47,7 @@ class Player:
         self.discard = []
         self.energy_pool = [random.choice(self.energy_types) for _ in range(2)]
         self.energy_attached_this_turn = False
+        self.ready = False
     
         draw_opening_hand(self)  
         

@@ -1,7 +1,7 @@
 # app.py
 from flask import Flask, render_template, request, redirect, url_for, send_file, flash
 from flask_socketio import SocketIO
-from engine.game.actions import play_pokemon, attach_energy, attack, retreat, evolve_pokemon, end_turn, check_win, ability
+from engine.game.actions import play_pokemon, attach_energy, attack, retreat, evolve_pokemon, end_turn, check_win, ability, get_location
 from engine.models.card import load_card, PokemonCard
 from engine.models.player import Player
 from engine.game.board_state import Gamestate
@@ -10,9 +10,12 @@ import os
 from consts import ENERGY_SYMBOLS
 
 
+
 p1 = Player("bulb")
 p2 = Player("ponyta")
 game = Gamestate(p1, p2)
+game.phase = 'setup' 
+
 
 
 app = Flask(__name__)
@@ -27,7 +30,6 @@ def handle_register(data):
     print(f"DEBUG: player {data['player']} registered with socket {request.sid}")
 
 def redirect_or_win(player_num):
-    # Just check for a winner, then tell BOTH browsers to refresh and stay on the game page.
     if check_win(game):
         socketio.emit('refresh', {})
         return redirect(url_for('winner'))
@@ -35,12 +37,11 @@ def redirect_or_win(player_num):
     socketio.emit('refresh', {})
     return redirect(url_for(f'player{player_num}'))
 
-# Add this new route to handle promoting a benched pokemon
+
 @app.route('/promote', methods=['POST'])
 def promote_route():
     player_num = request.form['player']
     
-    # Ensure it's the correct player's turn
     if (player_num == '1' and game.current_player != game.player1) or \
        (player_num == '2' and game.current_player != game.player2):
         flash("It's not your turn!")
@@ -49,7 +50,6 @@ def promote_route():
     bench_index = int(request.form['bench_index'])
     current_p = game.player1 if player_num == '1' else game.player2
     
-    # Move the chosen pokemon to active and clear that bench spot
     if current_p.active is None and current_p.bench[bench_index] is not None:
         current_p.active = current_p.bench[bench_index]
         current_p.bench[bench_index] = None
@@ -62,14 +62,26 @@ def promote_route():
 def index():
     return redirect(url_for('player1'))
 
+@app.route('/finish_setup', methods=['POST'])
+def finish_setup():
+    player_num = int(request.form.get('player')) # This is 1 or 2
+    player = game.player1 if player_num == 1 else game.player2
+
+    player.ready = True
+
+    if getattr(game.player1, 'ready', False) and getattr(game.player2, 'ready', False):
+        game.phase = 'playing'
+        game.current_player = game.player1 
+        socketio.emit('refresh') 
+        
+    return redirect(url_for(f'player{player_num}'))
+
 @app.route('/player1')
 def player1():
-    # ADDED ENERGY_SYMBOLS HERE
     return render_template('game.html', player=game.player1, opponent=game.player2, player_num=1, game=game, ENERGY_SYMBOLS=ENERGY_SYMBOLS)
 
 @app.route('/player2')
 def player2():
-    # ADDED ENERGY_SYMBOLS HERE
     return render_template('game.html', player=game.player2, opponent=game.player1, player_num=2, game=game, ENERGY_SYMBOLS=ENERGY_SYMBOLS)
 
 @app.route('/winner')
@@ -94,51 +106,54 @@ def attack_route():
 def use_ability_route():
     player_num = request.form['player']
     
-    # 1. Check if it's the correct player's turn
+   
     if (player_num == '1' and game.current_player != game.player1) or \
        (player_num == '2' and game.current_player != game.player2):
         flash("It's not your turn!")
         return redirect(url_for(f'player{player_num}'))
     
-    # 2. Grab the location and trigger the engine function
+
     location = int(request.form['location'])
     result = ability(game, location)
     
-    # 3. Handle failures or refresh the page
     if result == False:
         flash("Cannot use ability! (No Pokémon there, or no ability available)")
         return redirect(url_for(f'player{player_num}'))
         
     return redirect_or_win(player_num)
 
+
 @app.route('/play_or_evolve', methods=['POST'])
-def play_or_evolve_route():
-    player_num = request.form['player']
-    if (player_num == '1' and game.current_player != game.player1) or \
-       (player_num == '2' and game.current_player != game.player2):
-        flash("It's not your turn!")
-        return redirect(url_for(f'player{player_num}'))
-    card_index = int(request.form['card_index'])
-    location = int(request.form['location'])
-    card_id = game.current_player.hand[card_index]
-    card = load_card(card_id)
-    if card.evolves_from is not None:
-        result = evolve_pokemon(game, location, card_id)
-        if result == False:
-            flash("Cannot evolve that pokemon!")
+def play_or_evolve():
+    player_num = int(request.form.get('player'))
+    card_index = int(request.form.get('card_index'))
+    location_index = int(request.form.get('location'))
+    
+    player = game.player1 if player_num == 1 else game.player2
+    card_id = player.hand[card_index]
+    
+    target = get_location(player, location_index)
+    
+    if target is not None:
+        success = evolve_pokemon(game, location_index, card_id)
     else:
-        result = play_pokemon(game, card_id, location)
-        if result == False:
-            flash("Cannot play pokemon there!")
-    return redirect_or_win(player_num)
+        success = play_pokemon(game, card_id, location_index, forced_player=player)
+
+    if success:
+        socketio.emit('refresh')
+    
+    return redirect(url_for(f'player{player_num}'))
 
 @app.route('/attach_energy', methods=['POST'])
 def attach_energy_route():
     player_num = request.form['player']
-    if (player_num == '1' and game.current_player != game.player1) or \
-       (player_num == '2' and game.current_player != game.player2):
-        flash("It's not your turn!")
-        return redirect(url_for(f'player{player_num}'))
+    
+    if game.phase != 'setup':
+        if (player_num == '1' and game.current_player != game.player1) or \
+           (player_num == '2' and game.current_player != game.player2):
+            flash("It's not your turn!")
+            return redirect(url_for(f'player{player_num}'))
+    
     location = int(request.form['location'])
     result = attach_energy(game, location)
     if result == False:

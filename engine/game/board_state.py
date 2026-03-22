@@ -7,6 +7,8 @@ class Gamestate():
         self.current_player = player1
         self.opponent = player2
         self.first_turn = True
+        self.phase = 'setup'
+
         
         
     def __repr__(self):
@@ -25,13 +27,31 @@ class Gamestate():
         
         
     def pass_turn(self):
+        finished_player = self.current_player
+        
         self.first_turn = False
-        self.turn += 1
-        if self.current_player.active:
-            self.current_player.active.advance_turn()
-        for p in self.current_player.bench:
-            if p:
-                p.advance_turn()
-        self.current_player, self.opponent = self.opponent, self.current_player
-        self.current_player.energy_attached_this_turn = False
-        self.current_player.draw_card()
+        all_pokemon = [finished_player.active] + [p for p in finished_player.bench if p]
+        
+        for pkmn in all_pokemon:
+            if pkmn:
+                pkmn.turns_in_play += 1
+                pkmn.ability_used = False      # Reset for their next turn
+                pkmn.evolved_this_turn = False  # Reset evolution restriction
+                
+        finished_player.energy_attached_this_turn = False
+
+       
+        if self.current_player == self.player1:
+            self.current_player = self.player2
+            self.opponent = self.player1
+        else:
+            self.current_player = self.player1
+            self.opponent = self.player2
+            
+        if hasattr(self.current_player, 'deck') and len(self.current_player.deck) > 0:
+            new_card = self.current_player.deck.pop(0)
+            self.current_player.hand.append(new_card)
+            print(f"DEBUG: New player drew {new_card}")
+        else:
+            print("DEBUG: Deck is empty, cannot draw!")
+                

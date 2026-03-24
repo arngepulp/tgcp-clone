@@ -143,8 +143,8 @@ def damage_random_opp(state, amount, effect_data):
     pass  # TODO
 
 
-# --- Coin Flips ---
-def coin_flip(state, effect_data, source):
+# --- conditional ---
+def coin_flip_sing(state, effect_data, source):
     # wraps another effect conditionally on coin flip
     # effect_data needs: coins, heads_effect, tails_effect
     import random
